@@ -1,0 +1,22 @@
+/* Home.css */
+.HomeContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #555;
+  }
+  
+  p {
+    color: #000000;
+    line-height: 1.6;
+    align-items: center;
+  }
+  

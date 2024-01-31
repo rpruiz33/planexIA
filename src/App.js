@@ -8,7 +8,7 @@ import Product from './components/Product';
 import ServiceContainer from './components/ServiceContainer';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
+import Home from './components/Home';
 const NotFound = () => {
   return (
     <div>
@@ -30,9 +30,11 @@ const App = () => {
           <Route path="/service/:id/*" element={<ServiceDetail />} />
           <Route path="/product/:id" element={<Product productId="123" productName="Producto" />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/" element={<ServiceList />} />
-      
-        </Routes>
+          <Route path="/Home"  element={<Home />} />
+          </Routes>
+  
+   
+       
         <Footer />
       </div>
     </Router>
