@@ -9,19 +9,22 @@ import ServiceContainer from './components/ServiceContainer';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
-const NotFound = () => {
+
+function NotFound() {
   return (
     <div>
       <h2>Página no encontrada</h2>
       <p>La página que estás buscando no existe.</p>
     </div>
   );
-};
+}
 
 const App = () => {
   return (
     <Router>
       <div className="App">
+
+    
       <Navbar />
    
         <Routes>

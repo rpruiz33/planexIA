@@ -6,7 +6,7 @@ const Product = ({ productId, productName }) => {
     <div>
       <h2>{productName}</h2>
       <p>DOLIBARR 18.0.4 ERP Y CRM</p>
-      <img src="/dolibarr.png" alt="Logo de la aplicación" className="App-logo" />
+      <img src="/dolibarr.png" alt="Logo de la aplicación" className="App-logo2" />
       <p>Soluciones ERP y CRM para su empresa</p>
     </div>
   );
