@@ -12,6 +12,7 @@
   
   h2 {
     color: #555;
+    margin: 22px 4px 3px 105px;
   }
   
   p {
@@ -20,3 +21,32 @@
     align-items: center;
   }
   
+  .div {
+    margin: 62px -104px 36px -141px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  .perfil {
+    width: 200px;
+    margin: 40px 10px;
+    border-radius: 20%;
+  }
+  
+  /* Añade estilos específicos para el logo de LinkedIn */
+  .perfil.linkedin-logo {
+    /* Agrega estilos según tus preferencias para centrar el logo de LinkedIn */
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+  }
+  .linkedin-logo{
+width: 29px ;
+margin: 0px 0px -26px -125px;
+border-radius: 10px;
+  }
