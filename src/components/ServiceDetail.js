@@ -45,7 +45,6 @@ const ServiceDetail = () => {
       <h2>{service.name}</h2>
       <p>{service.description}</p>
       <p>{service.additionalDetails}</p>
-      <p>Detalles adicionales u otras informaciones relevantes del servicio...</p>
     </div>
   );
 };
