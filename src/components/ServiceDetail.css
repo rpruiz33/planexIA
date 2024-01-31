@@ -1,0 +1,21 @@
+.service-detail {
+    text-align: left;
+    max-width: 349px;
+    margin: 16px auto;
+    padding: 20px;
+    border: 1px solid #020202;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .service-detail h2 {
+    color: #333;
+    margin: 24px 55px;
+  }
+  
+  .service-detail p {
+    color: #555;
+    line-height: 1.5;
+  }

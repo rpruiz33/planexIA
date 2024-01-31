@@ -1,0 +1,31 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent; 
+    color: white;
+    width: 100%;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .scrolled {
+    background-color: #333; 
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  

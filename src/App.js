@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
+import ServiceList from './components/ServiceList';
+import ContactForm from './components/ContactForm';
+import ServiceDetail from './components/ServiceDetail';
+import Product from './components/Product';
+import ServiceContainer from './components/ServiceContainer';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
-function App() {
+const NotFound = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>Página no encontrada</h2>
+      <p>La página que estás buscando no existe.</p>
     </div>
   );
-}
+};
+
+const App = () => {
+  return (
+    <Router>
+      <div className="App">
+      <Navbar />
+   
+        <Routes>
+          <Route path="/" element={<ServiceContainer />} />
+          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/service/:id/*" element={<ServiceDetail />} />
+          <Route path="/product/:id" element={<Product productId="123" productName="Producto" />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<ServiceList />} />
+      
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
+};
 
 export default App;
