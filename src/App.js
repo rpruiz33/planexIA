@@ -23,10 +23,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-
-    
       <Navbar />
-   
         <Routes>
           <Route path="/" element={<ServiceContainer />} />
           <Route path="/contact" element={<ContactForm />} />
