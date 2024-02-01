@@ -1,11 +1,110 @@
+/* Footer.css */
 
 .footer {
-    background: linear-gradient(to right, #737373, #000); /* Gradiente de izquierda a derecha */
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.p1 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-footer {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social {
+  margin-bottom: 20px;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.address-icon {
+  margin-top: 20px;
+}
+
+.address-icon i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; /* Para distribuir los elementos a ambos lados */
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  box-shadow: 2px 2px 3px #999;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1px -20px 15px 40px;
+}
+
+.float:hover {
+  background-color: #128c7e;
+  color: white;
+}
+a{
+  color:white;
+}
+.footer1{
+   background-color: #000000;;
     color: white;
+    padding: 20px 0;
+    margin: -19px 385px 9px 0px;
     text-align: center;
-    padding: 20px;
-    margin: 258px 0px 0px 0px
-  }
-  .p1{
-    color: #ffffff;
-  }
+    width: 100%;
+}
+.left{
+  margin: -43px 22px 11px 431px;
+}
+.logo123{
+  width: 123px;
+  margin: 53px -25px -46px -699px;
+}
+@media (max-width: 885px) {
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin: -19px 385px 9px 0px;
+    text-align: center;
+    width: 100%;
+}
+}
