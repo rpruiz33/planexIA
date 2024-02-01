@@ -11,13 +11,13 @@ const Navbar = () => {
       </NavLink>
      
       <div>
-        <h1>Servicios de Consultoría Estratégica</h1>
-        <p>Bienvenido a nuestra plataforma de consultoría estratégica.</p>
+        <h1 style={{ fontFamily: 'Oswald ,sans-serif' }}>Servicios de Consultoría Estratégica</h1>
+        <p style={{ fontFamily: 'Oswald ,sans-serif' }}>Bienvenido a nuestra plataforma de consultoría estratégica.</p>
       </div>
 
-      <nav className='nav2' style={{ fontFamily: 'Ubuntu, sans-serif' }}>
+      <nav className='nav2' style={{ fontFamily: 'Oswald ,sans-serif' }} >
 
-      <NavLink to="/home">nosotros</NavLink>
+      <NavLink to="/home">Nosotros</NavLink>
         <NavLink to="/">Servicios</NavLink>
         <NavLink to="/contact">Contacto</NavLink>
         <NavLink to="/product/123">Producto</NavLink>

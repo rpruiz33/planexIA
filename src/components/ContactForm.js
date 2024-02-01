@@ -9,7 +9,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container" style={{ fontFamily: 'Oswald ,sans-serif' }} >
       <h2>Contacto</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

@@ -8,13 +8,14 @@ const FontAwesoneIcon = () => {
   return (
     <>
     
-     <FontAwesomeIcon icon={faLinkedin}size="2x" style={{ color: '#0077B5' }} />
+     <FontAwesomeIcon icon={faLinkedin}size="2x" style={{ color: 'black' ,     margin: '0px -99px 0px 100px'}}/>
     
    
-      <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: '#1877F2' }} />
+      <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black',     margin: '0px -99px 0px 0px'}}/>
+    
       
    
-    <FontAwesomeIcon icon={faSquareInstagram} size="2x" style={{ color: '#E4405F' }} />
+    <FontAwesomeIcon icon={faSquareInstagram} size="2x" style={{ color: 'black' }} />
       
   
     </>

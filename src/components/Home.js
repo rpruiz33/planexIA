@@ -22,7 +22,7 @@ const Home = () => {
         - Seguimiento e indicadores
       </p>
    
-      <div className="div">
+      <div className="div" style={{ fontfamily: 'Josefin Sans ,sans-serif'}}>
         <div>
           <h2>Lic. Luis P. Ruiz Pereira</h2>
           <h3>Socio gerente</h3>

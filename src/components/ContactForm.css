@@ -8,6 +8,7 @@
     margin: 0px 0px -258px 0px;
     background-color:cornflowerblue;
     color: #ecf0f1;
+    
   }
   
   form {
@@ -23,6 +24,7 @@
     display: block;
     margin-bottom: 5px;
     font-size: 24px;
+    color:black;
   }
   
   input,
