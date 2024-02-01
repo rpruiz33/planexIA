@@ -3,78 +3,77 @@
 /* Estilos generales */
 .HomeContainer {
   max-width: 800px;
-  max-width: 800px;
-  padding: 20px;
+  padding: 71px;
   text-align: center;
-  margin: 0px 7px 65px 106px;
-  }
-  
-  h1 {
-    color: #333;
-    margin-left: 10px;
-    font-size: 63px;
-  }
-  
+  margin: 0 auto;
+  margin: 0 auto;
+}
 
-  
-  p {
-    color: white;
-    line-height: 1.6;
-    font-size: 20px;
-    align-items: center;
-    margin-left: 28px;
+h1 {
+  color: #333;
+  margin-left: 10px;
+  font-size: 63px;
+}
 
-  }
-  
-  /* Estilos para la sección de perfiles */
+p {
+  color: white;
+  line-height: 1.6;
+  font-size: 25px;
+  align-items: center;
+  margin-left: 28px;
+}
+
+/* Estilos para la sección de perfiles */
+.div {
+  display: flex;
+  flex-direction: column; /* Cambiado a columna para dispositivos pequeños */
+  align-items: center; /* Centrar en el eje horizontal */
+  margin-top: 20px; /* Ajuste del margen superior para dispositivos pequeños */
+  margin: 12px 75px 0px 0px;
+}
+
+.perfil {
+  width: 200px;
+  margin: 10px 0px 11px 0px; /* Espaciado entre perfiles */
+  border-radius: 20%;
+  border: 3px solid #333;
+}
+
+/* Estilos específicos para el logo de LinkedIn */
+.perfil.linkedin-logo {
+  /* Agrega estilos según tus preferencias para centrar el logo de LinkedIn */
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+}
+
+.linkedin-logo {
+  width: 29px;
+  margin: 0px 0px -46px -125px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+}
+
+h3 {
+  margin: 3px -98px 0px 0px;
+}
+
+.black {
+  color: #000000;
+  font-size: 44px;
+  margin-left: 10px;
+  margin-top: -44px;
+  margin-bottom: -75px;
+}
+
+/* Añade una consulta de medios para ajustar el diseño en pantallas más pequeñas */
+@media screen and (min-width: 768px) {
   .div {
-    display: flex;
-    flex-direction: column; /* Cambiado a columna para dispositivos pequeños */
-    align-items: center; /* Centrar en el eje horizontal */
-    margin-top: 20px; /* Ajuste del margen superior para dispositivos pequeños */
-    margin: 12px 75px 0px 0px;
+    flex-direction: row; /* Vuelve a la disposición de fila para pantallas más grandes */
+    justify-content: space-evenly; /* Espaciado uniforme entre perfiles */
   }
-  
-  .perfil {
-    width: 200px;
-    margin: 10px 0px 11px 0px;/* Espaciado entre perfiles */
-    border-radius: 20%;
-    border: 3px solid #333;
-  }
-  
-  /* Estilos específicos para el logo de LinkedIn */
-  .perfil.linkedin-logo {
-    /* Agrega estilos según tus preferencias para centrar el logo de LinkedIn */
-    display: block;
-    margin: 0 auto;
-    width: 20px;
-  }
-  
-  .linkedin-logo {
-    width: 29px;
-    margin: 0px 0px -46px -125px;
-    border-radius: 10px;
-    border: 3px solid #000000;
-  }
-  h3{
-    margin: 3px -98px 0px 0px;
-    
 
+  .perfil {
+    margin: 10px 0px 0px 0px; /* Espaciado entre perfiles */
   }
-  .black{
-    color:#000000;
-    font-size: 44px;
-    margin-left: 10px;
-  }
-  /* Añade una consulta de medios para ajustar el diseño en pantallas más pequeñas */
-  @media screen and (min-width: 768px) {
-    .div {
-      flex-direction: row; /* Vuelve a la disposición de fila para pantallas más grandes */
-      justify-content: space-evenly; /* Espaciado uniforme entre perfiles */
-    }
-  
-    .perfil {
-      margin: 10px 0px 0px 0px; /* Espaciado entre perfiles */
-    }
-  }
-  
+}

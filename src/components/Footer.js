@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-      <a href="https://api.whatsapp.com/send?phone=1138833433" className="float" target="">
+      <a href="https://api.whatsapp.com/send?phone=5491138833433" className="float" target="">
         <i className="fa fa-whatsapp my-float"></i>
         
       </a>
