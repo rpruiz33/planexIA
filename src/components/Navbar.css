@@ -31,8 +31,14 @@
   display: flex;
   align-items: center;
   padding: 43px 3px 23px 0px;
-}
 
+  margin: 0px 1px 0px -57px;
+  background: linear-gradient(to left, #737373, #000);
+  
+}
+.nav2 a:hover {
+  color: #ffd700; /* Cambia el color al pasar el ratón sobre el enlace */
+}
 .nav2 a {
   margin-right: 15px;
   color: white;
@@ -126,7 +132,8 @@
 
   }
   h1{
-    width: 524px
+    width: 404px;
+
   }
 }
 @media (max-width: 498px){
@@ -135,6 +142,9 @@
   }
   .navbar{
     width: 84%;
+  }
+  .nav2 a:hover {
+    color: #ffd700; /* Cambia el color al pasar el ratón sobre el enlace */
   }
 }
 }

@@ -1,4 +1,43 @@
-.icon{
-   
-    margin: -1px 37px 0px 576px
-}
+/* FontAwesoneIcon.css */
+
+/* Estilos generales */
+.icon {
+    /* Agrega estilos comunes a todos los iconos si es necesario */
+  }
+  
+  /* Estilos específicos para cada icono */
+  .icon-linkedin {
+    color: black;
+    margin: 0px -101px 0px -99px;
+  }
+  
+  .icon-facebook {
+    color: black;
+    margin: 2px -97px 0px -14px;
+  }
+    @media (max-width: 1433px) 
+    {.icon-facebook{
+        margin: 6px -90px 5px 39px;
+    }
+    }
+      
+    
+
+    @media (max-width: 768px) {
+        .icon-facebook
+        {
+        margin: 6px -87px 5px -86px;
+    }
+        
+      }
+  
+  
+  .icon-instagram {
+    color: black;
+    margin: 0px -10px 0px 0px;
+  
+    @media (max-width: 1535px) {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  
