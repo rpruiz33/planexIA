@@ -59,3 +59,17 @@
     
 }
 
+.nav2{
+
+  background: linear-gradient(to left, #333, #000);
+ 
+  --icon-padding: 1.1em;
+  width: 100%;
+  
+}
+.icon{
+  margin:1000px 00px 0px 0px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}

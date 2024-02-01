@@ -14,7 +14,7 @@
   
   h2 {
     color: #555;
-    margin: 22px 4px 3px 105px;
+    margin: 73px 4px 3px 105px;
   }
   
   p {
@@ -29,11 +29,12 @@
     flex-direction: column; /* Cambiado a columna para dispositivos pequeños */
     align-items: center; /* Centrar en el eje horizontal */
     margin-top: 20px; /* Ajuste del margen superior para dispositivos pequeños */
+    margin: 12px 75px 0px 0px;
   }
   
   .perfil {
     width: 200px;
-    margin: 10px; /* Espaciado entre perfiles */
+    margin: 10px 0px 11px 0px;/* Espaciado entre perfiles */
     border-radius: 20%;
     border: 3px solid #333;
   }
@@ -48,11 +49,15 @@
   
   .linkedin-logo {
     width: 29px;
-    margin: 0px 0px -29px -125px;
+    margin: 0px 0px -46px -125px;
     border-radius: 10px;
     border: 3px solid #000000;
   }
-  
+  h3{
+    margin: 3px -98px 0px 0px;
+    
+
+  }
   /* Añade una consulta de medios para ajustar el diseño en pantallas más pequeñas */
   @media screen and (min-width: 768px) {
     .div {
@@ -61,7 +66,7 @@
     }
   
     .perfil {
-      margin: 10px; /* Espaciado entre perfiles */
+      margin: 10px 0px 0px 0px; /* Espaciado entre perfiles */
     }
   }
   

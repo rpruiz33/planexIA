@@ -1,6 +1,5 @@
 // Home.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -22,6 +21,7 @@ const Home = () => {
         - Software de gestión estratégica
         - Seguimiento e indicadores
       </p>
+   
       <div className="div">
         <div>
           <h2>Lic. Luis P. Ruiz Pereira</h2>
@@ -37,7 +37,7 @@ const Home = () => {
           <h2>Roberto A. Ruiz Pereira</h2>
           <h3>Socio gerente</h3>
      
-            <img src="/beto.jpeg" alt="Foto de Roberto A. Ruiz Pereira" className="perfil" />
+            <img src="/beto.png" alt="Foto de Roberto A. Ruiz Pereira" className="perfil" />
          
           <a href="https://www.linkedin.com/in/roberto-andres-ruiz-pereira-9933241a6/" target="">
             <img src="/logotipo-cuadrado-linkedin-aislado-sobre-fondo-blanco_469489-892.png" alt="Logo de LinkedIn" className="linkedin-logo" />
@@ -45,6 +45,7 @@ const Home = () => {
         
         </div>
       </div>
+    
     </div>
   );
 };
