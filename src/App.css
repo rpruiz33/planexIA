@@ -12,7 +12,7 @@
 }
 
 .App-header {
-  background-color: #1f52b9da;
+  background: linear-gradient(to left, #ddd3d3, #1f52b9da);
   padding: 28px 0px 0px 0px;
   color: white;
 }
@@ -23,6 +23,7 @@ nav {
   justify-content: space-around;
   background-color: #333;
   padding: 10px;
+  border: 1px solid #000000;
 }
 
 nav a {

@@ -22,6 +22,7 @@
   label {
     display: block;
     margin-bottom: 5px;
+    font-size: 24px;
   }
   
   input,
@@ -29,20 +30,23 @@
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #bdc3c7;
-    border-radius: 4px;
+    border: 1px solid #000000;
+    border-radius: 10px;
   }
   
   button {
-    background-color: #3498db;
+    background-color: #737373;
     color: #fff;
     padding: 10px;
-    border: none;
-    border-radius: 4px;
+    /* border: black 45px; */
+    border-radius: 10px;
     cursor: pointer;
+    border: 1px solid #000000;
+
+
+
   }
   
   button:hover {
     background-color: #2980b9;
   }
-  

@@ -5,8 +5,8 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="HomeContainer">
-      <h1>Nosotros</h1>
-      <h2>planexIA de Hnos. Ruiz Pereira</h2>
+    
+      <h2 className='black'>planexIA</h2><h2> de Hnos. Ruiz Pereira</h2>
       <p>
         Somos una empresa joven con la misión de brindar soluciones estratégicas empresariales y mejorar la
         toma de decisiones. Nuestra visión es lograr el cumplimiento y la maximización de los objetivos de nuestros clientes.
