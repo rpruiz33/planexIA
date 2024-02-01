@@ -30,6 +30,7 @@
 .nav2 {
   display: flex;
   align-items: center;
+  padding: 43px 3px 23px 0px;
 }
 
 .nav2 a {
@@ -74,7 +75,7 @@
   width: 25px;
   height: 3px;
   background-color: black;
-  margin: 5px -67px 4px 678px;
+  margin: 5px -50px 3px 695px;
 }
 
 .nav2 {
@@ -95,6 +96,9 @@
 }
 
 @media (max-width: 768px) {
+  h2{
+    margin:70px 0px 0px 0px;
+  }
   .nav2 {
     display: none;
     flex-direction: column;
@@ -109,12 +113,12 @@
     display: flex;
     margin:-47px 1px 10px 10px;
 
-    width: 58px;
+    width: 77px;
   }
 
   .menu-icon {
     display: flex;
-    margin: -12px 12px 2px -316px;
+    margin: -12px 12px 5px -339px;
   }
 
   .menu-icon.open + .nav2 {
@@ -122,8 +126,15 @@
 
   }
   h1{
-    width: 570px;
+    width: 524px
   }
 }
-
+@media (max-width: 498px){
+  h1{
+    width: 333px;
+  }
+  .navbar{
+    width: 84%;
+  }
+}
 }
