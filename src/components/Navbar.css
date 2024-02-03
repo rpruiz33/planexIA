@@ -1,18 +1,16 @@
 /* Navbar.css */
 /* ... Estilos anteriores ... */
+
 .App-logo {
   box-shadow: 16px 14px 20px #0000008c;
   object-fit: contain; 
-
-    /* border-radius:50%;
-    -webkit-border-radius:50%; */
-    box-shadow: 0px 0px 15px 15px #39d339;
-
-    
+  box-shadow: 0px 0px 15px 15px #39d339;
 }
+
 .logo-container {
   width: 100%;
 }
+
 .menu-icon {
   display: none;
   flex-direction: column;
@@ -31,80 +29,24 @@
   display: flex;
   align-items: center;
   padding: 43px 3px 23px 0px;
-
   margin: 0px 1px 0px -57px;
   background: linear-gradient(to left, #737373, #000);
-  
 }
-.nav2 a:hover {
-  color: #ffd700; /* Cambia el color al pasar el ratón sobre el enlace */
-}
+
 .nav2 a {
   margin-right: 15px;
-  color: white;
-  text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .nav2 {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    background-color: #333;
-  }
-
-  .nav2.open {
-    display: flex;
-  }
-
-  .menu-icon {
-    display: flex;
-  }
-
-  .menu-icon.open + .nav2 {
-    display: flex;
-  }
-  /* Navbar.css */
-/* ... Estilos anteriores ... */
-
-.menu-icon {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin: 5px -50px 3px 695px;
-}
-
-.nav2 {
-  display: flex;
-  align-items: center;
-}
-
-.nav2 a {
-  margin: 10px;
-  padding: 10px;
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav2 a:hover {
-  color: #ffd700; /* Cambia el color al pasar el ratón sobre el enlace */
+  color: #ffd700;
 }
 
+/* Media Queries */
+
 @media (max-width: 768px) {
-  h2{
-    margin:70px 0px 0px 0px;
-  }
   .nav2 {
     display: none;
     flex-direction: column;
@@ -116,36 +58,63 @@
   }
 
   .nav2.open {
+    height: 32%;
     display: flex;
     margin: -66px 1px 10px 10px;
-    width: 77px;
-    border-radius: 10px;
-}
+    width: 68px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
   }
 
   .menu-icon {
     display: flex;
-    margin: -12px 12px 5px -339px;
+    margin: 0 auto; /* Centrar horizontalmente */
   }
 
   .menu-icon.open + .nav2 {
     display: flex;
-
   }
-  h1{
-    width: 404px;
 
+  h2 {
+    margin: 70px 0px 0px 0px;
   }
 }
-@media (max-width: 498px){
-  h1{
-    width: 333px;
+
+@media (max-width: 340px) {
+  h1 {
+    width: 20%;
+    font-size: 23px;
+    margin:0px 0px 0px 0px;
   }
-  .navbar{
+
+  .navbar {
     width: 84%;
   }
-  .nav2 a:hover {
-    color: #ffd700; /* Cambia el color al pasar el ratón sobre el enlace */
+
+  .menu-icon {
+    display: flex;
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 10px;
+  }
+
+  .nav2.open {
+    height: 48%;
+    display: flex;
+    margin: -66px 1px 10px 10px;
+    width: 68px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .App-logo {
+    box-shadow: 16px 14px 20px #0000008c;
+    object-fit: contain; 
+    box-shadow: 0px 0px 15px 15px #39d339;
+    width: 50%;
+  }
+  .tam{
+  font-size:  0px;
   }
 }
-
