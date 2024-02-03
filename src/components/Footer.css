@@ -1,5 +1,3 @@
-/* Footer.css */
-
 .footer {
   background-color: #000000;
   color: white;
@@ -55,7 +53,7 @@
 .row {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between; /* Para distribuir los elementos a ambos lados */
+  justify-content: space-between; 
 }
 
 .float {

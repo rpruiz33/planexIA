@@ -1,6 +1,3 @@
-/* Navbar.css */
-/* ... Estilos anteriores ... */
-
 .App-logo {
   box-shadow: 16px 14px 20px #0000008c;
   object-fit: contain; 
@@ -44,7 +41,7 @@
   color: #ffd700;
 }
 
-/* Media Queries */
+
 
 @media (max-width: 768px) {
   .nav2 {
@@ -70,7 +67,7 @@
 
   .menu-icon {
     display: flex;
-    margin: 0 auto; /* Centrar horizontalmente */
+    margin: 0 auto; 
   }
 
   .menu-icon.open + .nav2 {
@@ -95,7 +92,7 @@
 
   .menu-icon {
     display: flex;
-    margin: 0 auto; /* Centrar horizontalmente */
+    margin: 0 auto; 
     padding: 10px;
   }
 

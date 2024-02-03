@@ -1,6 +1,3 @@
-/* Home.css */
-
-/* Estilos generales */
 .HomeContainer {
   max-width: 800px;
   padding: 71px;
@@ -25,25 +22,25 @@ p {
   display:none;
 }
 
-/* Estilos para la sección de perfiles */
+
 .div {
   display: flex;
-  flex-direction: column; /* Cambiado a columna para dispositivos pequeños */
-  align-items: center; /* Centrar en el eje horizontal */
-  margin-top: 20px; /* Ajuste del margen superior para dispositivos pequeños */
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 20px; 
   margin: 12px 75px 0px 0px;
 }
 
 .perfil {
   width: 200px;
-  margin: 10px 0px 11px 0px; /* Espaciado entre perfiles */
+  margin: 10px 0px 11px 0px; 
   border-radius: 20%;
   border: 3px solid #333;
 }
 
-/* Estilos específicos para el logo de LinkedIn */
+
 .perfil.linkedin-logo {
-  /* Agrega estilos según tus preferencias para centrar el logo de LinkedIn */
+ 
   display: block;
   margin: 0 auto;
   width: 20px;
@@ -68,14 +65,13 @@ h3 {
   margin-bottom: -75px;
 }
 
-/* Añade una consulta de medios para ajustar el diseño en pantallas más pequeñas */
 @media screen and (min-width: 768px) {
   .div {
-    flex-direction: row; /* Vuelve a la disposición de fila para pantallas más grandes */
-    justify-content: space-evenly; /* Espaciado uniforme entre perfiles */
+    flex-direction: row; 
+    justify-content: space-evenly; 
   }
 
   .perfil {
-    margin: 10px 0px 0px 0px; /* Espaciado entre perfiles */
+    margin: 10px 0px 0px 0px;
   }
 }

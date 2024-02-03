@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
@@ -11,7 +10,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // Agrega un efecto secundario para cerrar el menú cuando el tamaño de la pantalla cambia
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 340) {
