@@ -19,7 +19,7 @@ p {
   font-size: 25px;
   align-items: center;
   margin-left: 28px;
-  display:none;
+  
 }
 
 
@@ -74,4 +74,15 @@ h3 {
   .perfil {
     margin: 10px 0px 0px 0px;
   }
+}
+
+@media (max-width: 340px) {
+p {
+  color: white;
+  line-height: 1.6;
+  font-size: 10px;
+  align-items: center;
+  margin-left: 28px;
+  display:none;
+}
 }
