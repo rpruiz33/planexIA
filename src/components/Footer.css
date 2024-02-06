@@ -80,6 +80,7 @@
 }
 a{
   color:white;
+  margin: 0px -107px 0px 0px;
 }
 .footer1{
    background-color: #000000;;
@@ -96,7 +97,7 @@ a{
   width: 123px;
   margin: 53px -25px -46px -699px;
 }
-@media (max-width: 885px) {
+@media (min-width: 885px) {
   .footer {
     background-color: #333;
     color: white;

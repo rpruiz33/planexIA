@@ -1,70 +1,70 @@
-.App-logo {
-  box-shadow: 16px 14px 20px #0000008c;
-  object-fit: contain; 
-  box-shadow: 0px 0px 15px 15px #39d339;
-}
+@media (min-width: 1000px) {
+  .App-logo {
+    box-shadow: 16px 14px 20px #0000008c;
+    object-fit: contain; 
+    box-shadow: 0px 0px 15px 15px #39d339;
+  }
 
-.logo-container {
-  width: 100%;
-}
+  .logo-container {
+    width: 100%;
+  }
 
-.menu-icon {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 5px 0;
-}
-
-.nav2 {
-  display: flex;
-  align-items: center;
-  padding: 43px 3px 23px 0px;
-  margin: 0px 1px 0px -57px;
-  background: linear-gradient(to left, #737373, #000);
-}
-
-.nav2 a {
-  margin-right: 15px;
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.nav2 a:hover {
-  color: #ffd700;
-}
-
-p{
-  font-size: large;
-}
-
-@media (max-width: 768px) {
-  .nav2 {
+  .menu-icon {
     display: none;
     flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+
+  .nav2 {
+    display: flex;
+    align-items: center;
+    padding: 43px 3px 23px 0px;
+    margin: 0px -516px 0px -57px;
+    background: linear-gradient(to left, #737373, #000);
+  }
+
+  .nav2 a {
+    margin-right: 146px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .nav2 a:hover {
+    color: #ffd700;
+  }
+
+  p {
+    font-size: large;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav2 {
+    flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 20px;
     right: 0;
     width: 100%;
     background-color: #333;
-  }
+  } 
 
   .nav2.open {
-    height: 42%;
+    height: 44%;
     display: flex;
-    margin: -66px 1px 10px 10px;
+    margin: -60px 0px 13px 13px;
     width: 68px;
-    border-radius: 10px 10px 0px 10px;
+    border-radius: 10px 0px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
-
   }
 
   .menu-icon {
@@ -81,15 +81,19 @@ p{
   }
 }
 
-@media (max-width: 340px) {
+@media (min-width: 340px) {
   h1 {
     width: 20%;
     font-size: 23px;
-    margin:0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   .navbar {
-    width: 84%;
+    width: 52%;
+  }
+
+  .nav2 {
+    display: none;
   }
 
   .menu-icon {
@@ -101,17 +105,17 @@ p{
   .nav2.open {
     height: 43%;
     display: flex;
-    margin: -66px 1px 10px 10px;
+    margin: -236px 42px 13px 267px;
     width: 68px;
-    border-radius: 10px 10px 0px 10px;
+    border-radius: 10px 2px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 10px;
   }
+
   .App-logo {
-    box-shadow: 16px 14px 20px #0000008c;
     object-fit: contain; 
     box-shadow: 0px 0px 15px 15px #39d339;
     width: 50%;
   }
-
 }
