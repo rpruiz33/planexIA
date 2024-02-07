@@ -55,11 +55,13 @@ p{
     width: 100%;
     background-color: #333;
   }
-
+p{
+  display:none;
+}
   .nav2.open {
     height: 42%;
     display: flex;
-    margin: -66px 1px 10px 10px;
+    margin: -91px 41px 9px 11px;
     width: 68px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -80,14 +82,20 @@ p{
     margin: 70px 0px 0px 0px;
   }
 }
-
-@media (max-width: 340px) {
-  h1 {
+@media (max-width: 540px) {
+  h1 
+  {
+    color :rgb(255, 255, 255);
     width: 20%;
-    font-size: 23px;
-    margin:0px 0px 0px 0px;
+    font-size: 31px;
+    margin: 11px -4px 0px 79px;
+  
+  
+  
   }
-
+p{
+  display: none;
+}
   .navbar {
     width: 84%;
   }
@@ -99,10 +107,46 @@ p{
   }
 
   .nav2.open {
-    height: 43%;
+    height: 50%;
     display: flex;
-    margin: -66px 1px 10px 10px;
-    width: 68px;
+    margin: -68px 25px 10px 10px;
+    width: 76px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+  }
+  .App-logo {
+    box-shadow: 16px 14px 20px #0000008c;
+    object-fit: contain; 
+    box-shadow: 0px 0px 15px 15px #39d339;
+    width: 50%;
+  }
+
+}
+@media (max-width: 340px) {
+  h1 {
+    width: 20%;
+    font-size: 23px;
+    margin:0px 0px 0px 0px;
+  }
+h1{
+
+  margin-left: 87px;
+}
+  .navbar {
+    width: 84%;
+  }
+
+  .menu-icon {
+    display: flex;
+    margin: 0 auto; 
+    padding: 10px;
+  }
+
+  .nav2.open {
+    height: 39%;
+    display: flex;
+    margin: -65px 14px 10px 10px;
+    width: 74px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
