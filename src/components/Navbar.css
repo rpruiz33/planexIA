@@ -97,7 +97,7 @@ p{
     color :rgb(255, 255, 255);
     width: 20%;
     font-size: 31px;
-    margin: 11px -4px 0px 79px;
+    margin: 11px -4px 0px 140px;
   
   
   
@@ -129,6 +129,54 @@ p{
     box-shadow: 0px 0px 15px 15px #39d339;
     width: 50%;
   }
+
+}
+
+@media (max-width: 400px) {
+  h1 {
+    width: 20%;
+    font-size: 20px;
+    margin: 5px 0px 0px 0px;
+  }
+h1{
+
+  margin-left: 42px;
+}
+  .navbar {
+    width: 84%;
+  }
+
+  .menu-icon {
+    display: flex;
+    margin: 0 auto; 
+    padding: 10px;
+  }
+
+  .nav2.open {
+    height: 41%;
+    display: flex;
+    margin: -91px 2px 11px 19px;
+    width: 66px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 9px;
+    width: 72px;
+
+  }
+  .App-logo {
+    box-shadow: 16px 14px 20px #0000008c;
+    object-fit: contain; 
+    box-shadow: 0px 0px 15px 15px #39d339;
+    width: 50%;
+  }
+  .nav2 a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
 
 }
 @media (max-width: 340px) {
