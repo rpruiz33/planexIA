@@ -220,10 +220,16 @@ h1{
     width: 50%;
   }
   .nav2 a {
-    margin-right: 15px;
+    margin-right: 7px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
 }
 
 
