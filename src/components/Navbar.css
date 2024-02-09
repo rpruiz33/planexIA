@@ -35,7 +35,7 @@
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
-  margin: 0px 16px 0px -49px;
+  margin: 0px 16px 0px -4px;
 }
 
 .nav2 a:hover {
@@ -58,6 +58,7 @@ p{
   }
 p{
   display:none;
+  width: 50%;
 }
   .nav2.open {
     height: 43%;
