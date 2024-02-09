@@ -26,15 +26,16 @@
   display: flex;
   align-items: center;
   padding: 43px 3px 23px 0px;
-  margin: 0px 1px 0px -57px;
+  margin: 3px -40px 0px 0px;
   background: linear-gradient(to left, #737373, #000);
 }
 
 .nav2 a {
-  margin-right: 15px;
+ 
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
+  margin: 0px 16px 0px -49px;
 }
 
 .nav2 a:hover {
