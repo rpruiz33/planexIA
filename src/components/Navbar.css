@@ -1,4 +1,4 @@
-.App-logo {
+ .App-logo {
   box-shadow: 16px 14px 20px #0000008c;
   object-fit: contain; 
   box-shadow: 0px 0px 15px 15px #39d339;
@@ -61,10 +61,10 @@ p{
   width: 50%;
 }
   .nav2.open {
-    height: 43%;
+    height: 49%;
     display: flex;
     margin: -67px 0px 12px 10px;
-    width: 76px;
+    width: 20%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -118,10 +118,10 @@ p{
   }
 
   .nav2.open {
-    height: 44%;
+    height: 53%;
     display: flex;
     margin: -68px 0px 10px 10px;
-    width: 76px;
+    width: 23%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
   }
@@ -156,9 +156,9 @@ h1{
   }
 
   .nav2.open {
-    height: 34%;
+    height: 39%;
     display: flex;
-    margin: -81px 0px 11px 19px;
+    margin: -80px 0px 11px 19px;
     width: 66px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -208,7 +208,7 @@ h1{
   }
 
   .nav2.open {
-    height: 42%;
+    height: 50%;
     display: flex;
     margin: -90px 0px 11px 19px;
     width: 66px;
@@ -228,11 +228,11 @@ h1{
     width: 50%;
   }
   .nav2 a {
-    margin-right: -52px;
+    margin-right: -9px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -240,5 +240,23 @@ h1{
 
 }
 
-
+@media(max-width: 290px){
+  .nav2.open {
+    height: 38%;
+    display: flex;
+    margin: -88px 0px 12px 19px;
+    width: 66px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 8px;
+    width: 56px;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+h1{
+  font-size: large;
+}
 }
