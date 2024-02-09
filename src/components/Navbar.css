@@ -185,6 +185,12 @@ h1{
     width: 20%;
     font-size: 20px;
     margin: 11px 0px 0px 86px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
   }
 
   .navbar {
