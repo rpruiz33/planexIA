@@ -97,7 +97,7 @@ p{
     color :rgb(255, 255, 255);
     width: 20%;
     font-size: 31px;
-    margin: 11px -4px 0px 140px;
+    margin: 15px -4px 0px 105px;
   
   
   
@@ -116,7 +116,7 @@ p{
   }
 
   .nav2.open {
-    height: 55%;
+    height: 52%;
     display: flex;
     margin:  -66px 0px 10px 10px;
     width: 76px;
@@ -132,7 +132,7 @@ p{
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   h1 {
     width: 20%;
     font-size: 20px;
