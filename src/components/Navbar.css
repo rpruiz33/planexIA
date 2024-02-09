@@ -213,7 +213,7 @@ h1{
     flex-direction: column;
     flex-wrap: nowrap;
     font-size: 9px;
-    width: 72px;
+    width: 68px;
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
@@ -225,7 +225,7 @@ h1{
     width: 50%;
   }
   .nav2 a {
-    margin-right: 7px;
+    margin-right: -2px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
