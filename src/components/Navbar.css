@@ -211,10 +211,12 @@ h1{
     width: 66px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: 9px;
     width: 72px;
-
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
   }
   .App-logo {
     box-shadow: 16px 14px 20px #0000008c;
