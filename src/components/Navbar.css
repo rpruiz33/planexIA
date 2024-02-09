@@ -1,9 +1,8 @@
-@media (min-width: 1000px) {
-  .App-logo {
-    box-shadow: 16px 14px 20px #0000008c;
-    object-fit: contain; 
-    box-shadow: 0px 0px 15px 15px #39d339;
-  }
+.App-logo {
+  box-shadow: 16px 14px 20px #0000008c;
+  object-fit: contain; 
+  box-shadow: 0px 0px 15px 15px #39d339;
+}
 
   .logo-container {
     width: 100%;
@@ -23,20 +22,20 @@
     margin: 5px 0;
   }
 
-  .nav2 {
-    display: flex;
-    align-items: center;
-    padding: 43px 3px 23px 0px;
-    margin: 0px -516px 0px -57px;
-    background: linear-gradient(to left, #737373, #000);
-  }
+.nav2 {
+  display: flex;
+  align-items: center;
+  padding: 43px 3px 23px 0px;
+  margin: 0px 1px 0px -57px;
+  background: linear-gradient(to left, #737373, #000);
+}
 
-  .nav2 a {
-    margin-right: 146px;
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
+.nav2 a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
   .nav2 a:hover {
     color: #ffd700;
@@ -45,7 +44,7 @@
   p {
     font-size: large;
   }
-}
+
 
 @media (min-width: 768px) {
   .nav2 {
@@ -55,14 +54,14 @@
     right: 0;
     width: 100%;
     background-color: #333;
-  } 
+  }
 
   .nav2.open {
-    height: 44%;
+    height: 42%;
     display: flex;
-    margin: -60px 0px 13px 13px;
+    margin: -66px 1px 10px 10px;
     width: 68px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
   }
@@ -81,11 +80,11 @@
   }
 }
 
-@media (min-width: 340px) {
+@media (max-width: 340px) {
   h1 {
     width: 20%;
     font-size: 23px;
-    margin: 0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
   }
 
   .navbar {
@@ -103,14 +102,13 @@
   }
 
   .nav2.open {
-    height: 43%;
+    height: 53%;
     display: flex;
-    margin: -236px 42px 13px 267px;
+    margin: -66px 1px 10px 10px;
     width: 68px;
-    border-radius: 10px 2px 0px 10px;
+    border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 10px;
   }
 
   .App-logo {
@@ -118,4 +116,131 @@
     box-shadow: 0px 0px 15px 15px #39d339;
     width: 50%;
   }
+}
+
+@media (max-width: 410px) {
+  h1 {
+    width: 20%;
+    font-size: 18px;
+    margin: 15px 0px 0px 133px;
+  }
+h1{
+
+  margin-left: 126px;
+}
+  .navbar {
+    width: 84%;
+    margin: 0px 6px 3px 25px;
+  }
+
+  .menu-icon {
+    display: flex;
+    margin: 0 auto; 
+    padding: 10px;
+  }
+
+  .nav2.open {
+    height: 39%;
+    display: flex;
+    margin: -80px 0px 11px 19px;
+    width: 66px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 9px;
+    width: 78px;
+
+  }
+  .App-logo {
+    box-shadow: 16px 14px 20px #0000008c;
+    object-fit: contain; 
+    box-shadow: 0px 0px 15px 15px #39d339;
+    width: 50%;
+  }
+  .nav2 a {
+    margin-right: 3px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 17px;
+}
+
+
+}
+@media (max-width: 340px) {
+  h1 {
+    width: 20%;
+    font-size: 20px;
+    margin: 11px 0px 0px 86px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .navbar {
+    width: 84%;
+    margin: 0px 4px 2px 23px;
+  }
+
+  .menu-icon {
+    display: flex;
+    margin: 0 auto; 
+    padding: 10px;
+  }
+
+  .nav2.open {
+    height: 30%;
+    display: flex;
+    margin: -90px 0px 11px 19px;
+    width: 66px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 9px;
+    width: 68px;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .App-logo {
+    box-shadow: 16px 14px 20px #0000008c;
+    object-fit: contain; 
+    box-shadow: 0px 0px 15px 15px #39d339;
+    width: 50%;
+  }
+  .nav2 a {
+    margin-right: -9px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+@media(max-width: 290px){
+  .nav2.open {
+    height: 29%;
+    display: flex;
+    margin: -88px 0px 12px 19px;
+    width: 66px;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 8px;
+    width: 56px;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+h1{
+  font-size: large;
+}
 }

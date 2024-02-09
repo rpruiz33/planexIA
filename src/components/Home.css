@@ -7,18 +7,15 @@
 }
 
 h1 {
-
   color: #333;
-  margin-left: 97px;
-  font-size: 18px;
-  margin: 12px 0px 0px 98px
-
+  margin-left: -69px;
+  font-size: 36px
 }
 
-p {
+.p1 {
   color: white;
   line-height: 1.6;
-  font-size: 25px;
+  font-size: 10px;
   align-items: center;
   margin-left: 28px;
   
@@ -67,24 +64,42 @@ h3 {
   margin-bottom: -75px;
 }
 
-@media screen and (min-width: 768px) {
+@media  (max-width: 768px) {
   .div {
     flex-direction: row; 
     justify-content: space-evenly; 
   }
-
+  .p1 {
+    color: white;
+    line-height: 1.6;
+    font-size: 100px;
+    align-items: center;
+    margin-left: 28px;
+    height: 100%;
+    /*display:none;*/
+  }
   .perfil {
     margin: 10px 0px 0px 0px;
   }
 }
+@media (max-width: 540px) {
+  .p1 {
+    color: white;
+    line-height: 1.6;
+    font-size: 100px;
+    align-items: center;
+    margin-left: 28px;
+    /*display:none;*/
+  }
+  }
 
-@media (min-width: 340px) {
+@media (max-width: 340px) {
 p {
   color: white;
   line-height: 1.6;
-  font-size: 10px;
+  font-size: 1px;
   align-items: center;
   margin-left: 28px;
-  display:none;
+ 
 }
 }
