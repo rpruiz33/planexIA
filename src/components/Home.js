@@ -1,5 +1,3 @@
-// Home.js
-
 import React from 'react';
 import './Home.css';
 
@@ -24,7 +22,7 @@ const Home = () => {
       </p>
    
       <div className="div" style={{ fontfamily: 'Josefin Sans ,sans-serif'}}>
-        <div>
+        <div className='div1'>
           <h2>Lic. Luis P. Ruiz Pereira</h2>
           <h3>Socio gerente</h3>
           <img src="/lucho.jpeg" alt="Foto de Luis P. Ruiz Pereira" className="perfil" />

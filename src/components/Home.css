@@ -68,6 +68,13 @@ h3 {
     flex-direction: row; 
     justify-content: space-evenly; 
   }
+  .black {
+    color: #000000;
+    font-size: 44px;
+    margin-left: 10px;
+    margin-top: -22px;
+    margin-bottom: -75px;
+}
   .p1 {
     color: white;
     line-height: 1.6;
@@ -85,7 +92,7 @@ h3 {
     font-size: 128%;
   }
   h2 {
-    margin: -37px 0px 0px 131px;
+    margin: -54px 15px 10px 127px;
   }
 }
 @media (max-width: 540px) {
@@ -96,28 +103,33 @@ h3 {
     margin-left: 25%;
     display: flex;
 }
+
 h3 {
   margin: 3px -2px 0px 0px;
   font-size: 114%;
 }
 .linkedin-logo {
   width: 29px;
-  margin: 10px -84px -19px -125px ;
+  margin: 10px -105px -19px -125px;
   border-radius: 10px;
   border: 3px solid #000000;
 }
  
 h2 {
   margin: 70px 0px 0px 0px;
-  font-size:74%;
+  font-size:106%;
 }
   .div {
-    margin:10% 10% 10% 10%;
-    flex-direction: row; 
-    justify-content: space-evenly; 
+    margin: -2% 11% 35% 11%;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
   }
   .perfil {
-    margin: 12px 148px 3px 43px;
+    margin: 15px 164px 3px 101px;
 
     width: 50%;
 }
