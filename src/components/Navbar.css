@@ -246,7 +246,7 @@ h1{
 
 @media(max-width: 290px){
   .nav2.open {
-    height: 26%;
+    height: 38%;
     display: flex;
     margin: -88px 0px 12px 19px;
     width: 66px;
