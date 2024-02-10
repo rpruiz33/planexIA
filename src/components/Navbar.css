@@ -56,6 +56,10 @@ p{
     width: 100%;
     background-color: #333;
   }
+  a{
+    color:white;
+    margin: 34% -4% 0% 0%;
+  }
 p{
   display:none;
   width: 50%;
@@ -88,22 +92,22 @@ p{
     color: rgb(255, 255, 255);
     width: 20%;
     font-size: 31px;
-    margin: 11px 14px 0px 185px;
+    margin: 11px 37px 0px 241px;
   
   
   }
 }
 @media (max-width: 540px) {
-  h1 
-  {
-    color :rgb(255, 255, 255);
+  h1 {
+    color: rgb(255, 255, 255);
     width: 20%;
     font-size: 31px;
-    margin: 15px -4px 0px 105px;
+    margin: 15px 12px 0px 146px;
+}
   
   
   
-  }
+  
 p{
   display: none;
 }
@@ -156,7 +160,7 @@ h1{
   }
 
   .nav2.open {
-    height: 39%;
+    height: 34%;
     display: flex;
     margin: -80px 0px 11px 19px;
     width: 66px;
