@@ -9,7 +9,9 @@
   margin-bottom: 20px;
   font-size: 16px;
 }
-
+.social-icons{
+  margin: 2% 63% 0% 0%;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -83,7 +85,7 @@
    background-color: #000000;;
     color: white;
     padding: 20px 0;
-    margin: -19px 385px 9px 0px;
+    margin: 31px 385px 9px 0px;
     text-align: center;
     width: 100%;
 }
@@ -94,13 +96,166 @@
   width: 123px;
   margin: 53px -25px -46px -699px;
 }
-@media (max-width: 885px) {
+@media (max-width: 768px) {
   .footer {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 20px 0;
     margin: -9px 380px 14px 0px;
     text-align: center;
     width: 100%;
+}
+}
+@media (max-width: 768px) {
+  .footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    margin: -9px 380px 14px 0px;
+    text-align: center;
+    width: 100%;
+}
+.logo123{
+  width: 123px;
+  margin: 53px -25px -46px -699px;
+}
+.p1 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-footer {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social {
+  margin-bottom: 20px;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.address-icon {
+  margin-top: 20px;
+}
+
+.address-icon i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+}
+@media (max-width: 540px) {
+  .footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    margin: -39px 255px 0px -1px;
+    text-align: center;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column-reverse;
+}
+.logo123{
+  width: 123px;
+  margin: 53px -25px -46px -699px;
+}
+.p1 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-footer {
+  font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 25px; */
+    margin: 4% 68% 7% -181%;
+}
+
+
+.social {
+  margin-bottom: 20px;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.address-icon {
+  margin-top: 11px;
+    margin-left: -42%;
+    font-size: 103%;
+}
+
+
+.address-icon i {
+  font-size: 18px;
+  /* margin-right: 5px; */
+  margin: 15% 137% -5% -169%;
+  
+}
+.a1{
+
+  margin-left: -136%;
+}
+.left{
+  margin: -38px 47px 18px 420px;
+}
+a {
+  color: white;
+  margin: 34% -9% 0% 0%;
+}
+.social-icons{
+  margin: 0% 0% 0% 0%;
+}
+.icon1{
+  margin: 27% 135% 0% -247%;
+}
+.icon2{
+  margin: 13% 62% 0% -315%;
+}
+.icon3{
+  margin: -3% 125% 0% -251%;
+}
+.contact{
+  margin: -2% -9% 1% 3%;
+
 }
 }

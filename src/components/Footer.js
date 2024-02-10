@@ -10,12 +10,22 @@ const Footer = () => {
           <div className='left'>
             <img src="planexia.png" alt="" className='logo123' />
             <div className="title-footer">
-              <a>Contactos y Redes Sociales</a>
+              <a className='contact'>Contactos y Redes Sociales</a>
             </div>
          
             <div className="address-icon">
               <i className="fa fa-envelope-square"></i>
-              <a href="mailto:info@planexia.com"> : info@planexia.com</a>
+              <a className="a1" href="mailto:info@planexia.com"> : info@planexia.com</a>
+            </div>
+            <br></br>
+            <div className="social-icons">
+              <a className="icon1" href="https://www.facebook.com/tupagina" target="_blank"><i className="fa fa-facebook"></i></a>
+              <br></br>
+              <br></br>
+              <a className="icon2"href="https://www.instagram.com/tupagina" target="_blank"><i className="fa fa-instagram"></i></a>
+              <br></br>
+              <br></br>
+              <a className="icon3"href="https://www.linkedin.com/tupagina" target="_blank"><i className="fa fa-linkedin"></i></a>
             </div>
           </div>
 
@@ -48,7 +58,6 @@ const Footer = () => {
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
       <a href="https://api.whatsapp.com/send?phone=5491138833433" className="float" target="">
         <i className="fa fa-whatsapp my-float"></i>
-        
       </a>
     </footer>
   );
