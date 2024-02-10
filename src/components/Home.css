@@ -9,8 +9,8 @@
 
 .p1 {
   color: white;
-  line-height: 1.6;
-  font-size: 10px;
+  line-height: 1.4;
+  font-size: 22px;
   align-items: center;
   margin-left: 28px;
   
@@ -19,10 +19,12 @@
 
 .div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-top: 20px;
-  margin: 12px 454px 0px 0px;
+  font-size: medium;
+  margin: 99px 83px 63px -66px;
+  justify-content: space-between;
 }
 
 .perfil {
@@ -94,7 +96,7 @@ h3 {
   }
   .perfil {
     margin: 12px 141px 1px 24px ;
-    width: 74%;
+    width: 50%;
 }
 }
 @media (max-width: 340px) {
