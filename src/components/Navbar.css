@@ -65,9 +65,9 @@ p{
   width: 50%;
 }
   .nav2.open {
-    height: 33%;
+    height: 38%;
     display: flex;
-    margin: -67px 0px 12px 10px;
+    margin: -66px 0px 12px 10px;
     width: 20%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -124,7 +124,7 @@ p{
   .nav2.open {
     height: 36%;
     display: flex;
-    margin: -68px 0px 10px 10px;
+    margin: -73px 0px 10px 10px;
     width: 23%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -160,9 +160,9 @@ h1{
   }
 
   .nav2.open {
-    height: 27%;
+    height: 26%;
     display: flex;
-    margin: -80px 0px 11px 19px;
+    margin: -81px 0px 11px 19px;
     width: 66px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
