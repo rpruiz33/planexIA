@@ -120,7 +120,7 @@ h2 {
   font-size:106%;
 }
   .div {
-    margin: -2% 11% 35% 11%;
+    margin: -2% 11% 35% 7%;
     flex-direction: column;
     justify-content: flex-start;
     display: flex;
