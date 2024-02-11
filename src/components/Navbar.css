@@ -65,9 +65,9 @@ p{
   width: 50%;
 }
   .nav2.open {
-    height: 38%;
+    height: 53%;
     display: flex;
-    margin: -66px 0px 12px 10px;
+    margin: -12% -1% 0% 3%;
     width: 20%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -122,9 +122,9 @@ p{
   }
 
   .nav2.open {
-    height: 38%;
+    height: 52%;
     display: flex;
-    margin: -73px 0px 10px 10px;
+    margin: -16% -1% 0% 3%;
     width: 23%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -160,9 +160,9 @@ h1{
   }
 
   .nav2.open {
-    height: 27%;
+    height: 38%;
     display: flex;
-    margin: -86px 0px 11px 19px;
+    margin: -23% 0% 0% 2%;
     width: 66px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
@@ -212,7 +212,7 @@ h1{
   }
 
   .nav2.open {
-    height: 30%;
+    height: 39%;
     display: flex;
     margin: -90px 0px 11px 19px;
     width: 66px;
