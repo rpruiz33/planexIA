@@ -122,13 +122,12 @@ p{
   }
 
   .nav2.open {
-  
-      height: 40%;
-      display: flex;
-      margin: -16% 0% 0% 3%;
-      width: 26%;
-      border-radius: 10px 10px 0px 10px;
-      flex-direction: column;
+    height: 52%;
+    display: flex;
+    margin: -16% -1% 0% 3%;
+    width: 23%;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
   }
   .App-logo {
     box-shadow: 16px 14px 20px #0000008c;

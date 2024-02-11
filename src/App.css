@@ -13,7 +13,8 @@
 
 .App-header {
   background: linear-gradient(to left, #ddd3d3, #1f52b9da);
-  padding: 28px 0px 0px 0px;
+
+  padding: 5% 0px 0px 0px;
   color: white;
   height: 100%;
 }
@@ -25,7 +26,6 @@ nav {
   background-color: #333;
   padding: 10px;
   border: 1px solid #000000;
-  height: 150%;
 }
 
 nav a {
