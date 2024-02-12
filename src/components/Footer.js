@@ -10,12 +10,12 @@ const Footer = () => {
           <div className='left'>
             <img src="planexia.png" alt="" className='logo123' />
             <div className="title-footer">
-              <a className='contact'>Contactos y Redes Sociales</a>
+              <p className='contact'>Contactos y Redes Sociales</p>
             </div>
          
             <div className="address-icon">
               <i className="fa fa-envelope-square"></i>
-              <a className="a1" href="mailto:info@planexia.com"> : info@planexia.com</a>
+              <p > : info@planexia.com</p>
             </div>
             <br></br>
             <div className="social-icons">
@@ -33,18 +33,7 @@ const Footer = () => {
             <div className='footer1'>
               <span>
                 <small>
-                  <a href="/about">Acerca de nosotros</a>
-                  <br />
-                  <a href="/services">Servicios</a>
-                  <br />
-                  <a href="/contact">Contacto</a>
-                  <br />
-                  <a href="/faq">Preguntas Frecuentes</a>
-                  <br />
-                  <br />
-                  <a href="/privacy-policy">Política de Privacidad</a>
-                  <br />
-                  <a href="/terms-of-service">Términos de Servicio</a>
+        
                   
                 </small>{' '}
               </span>
@@ -56,9 +45,11 @@ const Footer = () => {
       </div>
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-      <a href="https://api.whatsapp.com/send?phone=5491138833433" className="float" target="">
+      <div></div>
+      <a className="color" href="https://api.whatsapp.com/send?phone=5491138833433" target="">
         <i className="fa fa-whatsapp my-float"></i>
       </a>
+      
     </footer>
   );
 };

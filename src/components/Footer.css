@@ -5,7 +5,9 @@
   padding: 20px 0;
   text-align: center;
 }
-
+.color{
+  color:blue
+}
 .p1 {
   margin-bottom: 20px;
   font-size: 16px;
@@ -81,100 +83,6 @@
 
   .logo123 {
     width: 100%; /* Haz que el logotipo ocupe todo el ancho disponible */
-    margin-bottom: 20px; /* Aumenta el espacio debajo del logotipo */
-  }
-
-  .title-footer {
-    margin-bottom: 20px; /* Aumenta el espacio debajo del título */
-  }
-
-  .social ul li {
-    margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
-  }
-}
-/* Estilos base que se aplican independientemente del tamaño de la pantalla */
-.footer {
-  background-color: #000000;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.p1 {
-  margin-bottom: 20px;
-  font-size: 16px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.title-footer {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.social {
-  margin-bottom: 20px;
-}
-
-.social ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social i {
-  font-size: 24px;
-  color: #fff;
-}
-
-.address-icon {
-  margin-top: 20px;
-}
-
-.address-icon i {
-  font-size: 18px;
-  margin-right: 5px;
-}
-
-/* Estilos para dispositivos móviles (menos de 768px) */
-@media (max-width: 768px) {
-  .footer {
-    padding: 20px 0;
-    margin: 0 auto; /* Centra el footer */
-  }
-
-  .logo123 {
-    width: 123px; /* Tamaño del logotipo */
-    margin: 10px auto; /* Centra el logotipo */
-  }
-
-  .title-footer {
-    margin-bottom: 20px; /* Aumenta el espacio debajo del título */
-  }
-
-  .social ul li {
-    margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
-  }
-}
-
-/* Estilos para dispositivos con pantallas más pequeñas (menos de 540px) */
-@media (max-width: 540px) {
-  .footer {
-    padding: 20px 0;
-    margin: 0 auto; /* Centra el footer */
-  }
-
-  .logo123 {
-    width: 52%; /* Haz que el logotipo ocupe todo el ancho disponible */
     margin-bottom: 20px; /* Aumenta el espacio debajo del logotipo */
   }
 
