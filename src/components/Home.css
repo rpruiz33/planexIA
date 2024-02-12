@@ -61,9 +61,10 @@ h3 {
 
   .p1 {
     font-size: 18px;
-    margin-left: 0; /* Eliminar el margen izquierdo */
-    margin-right: 0; /* Eliminar el margen derecho */
-  }
+    margin-left: 27%;
+    margin-right: 0;
+    display: flex;
+}
 
   .perfil {
     margin: 10px auto; /* Centrar el perfil */
@@ -83,7 +84,12 @@ h3 {
   .p1 {
     font-size: 16px;
   }
-
+  .p1 {
+    font-size: 11px;
+    margin-left: 27%;
+    margin-right: 0;
+    display: flex;
+}
   h3 {
     font-size: 1.1rem;
   }

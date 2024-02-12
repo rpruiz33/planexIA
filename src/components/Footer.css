@@ -5,8 +5,24 @@
   padding: 20px 0;
   text-align: center;
 }
-.color{
-  color:blue
+.social-icons{
+  color:white,
+}
+.icon1{
+  color:white;
+}
+.icon2{
+  color:white;
+}
+.icon3{
+  color:white;
+}
+.a1{
+
+  color:white;
+}
+.float{
+  color: WHITE
 }
 .p1 {
   margin-bottom: 20px;
@@ -47,10 +63,14 @@
 .address-icon {
   margin-top: 20px;
 }
-
+.logo123 {
+  width: 31%; /* Tamaño del logotipo */
+  margin: 10px auto; /* Centra el logotipo */
+}
 .address-icon i {
   font-size: 18px;
   margin-right: 5px;
+  
 }
 
 /* Estilos para dispositivos móviles (menos de 768px) */
@@ -61,7 +81,7 @@
   }
 
   .logo123 {
-    width: 123px; /* Tamaño del logotipo */
+    width: 55%; /* Tamaño del logotipo */
     margin: 10px auto; /* Centra el logotipo */
   }
 
@@ -82,7 +102,7 @@
   }
 
   .logo123 {
-    width: 100%; /* Haz que el logotipo ocupe todo el ancho disponible */
+    width: 50%; /* Haz que el logotipo ocupe todo el ancho disponible */
     margin-bottom: 20px; /* Aumenta el espacio debajo del logotipo */
   }
 
