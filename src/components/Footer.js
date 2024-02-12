@@ -19,9 +19,7 @@ const Footer = () => {
             </div>
             <br></br>
             <div className="social-icons">
-              <a className="icon1" href="/" target="_blank"><i className="fa fa-facebook"></i></a>
-              <br></br>
-              <br></br>
+           
               <a className="icon2"href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram"></i></a>
               <br></br>
               <br></br>
