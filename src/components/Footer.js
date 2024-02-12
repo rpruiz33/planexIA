@@ -15,17 +15,17 @@ const Footer = () => {
          
             <div className="address-icon">
               <i className="fa fa-envelope-square"></i>
-              <a className="a1" href="mailto:info@planexia.com"> : info@planexia.com</a>
+              <p className="a1" > planexia.sa@gmail.com</p>
             </div>
             <br></br>
             <div className="social-icons">
-              <a className="icon1" href="https://www.facebook.com/tupagina" target="_blank"><i className="fa fa-facebook"></i></a>
+              <a className="icon1" href="/" target="_blank"><i className="fa fa-facebook"></i></a>
               <br></br>
               <br></br>
-              <a className="icon2"href="https://www.instagram.com/tupagina" target="_blank"><i className="fa fa-instagram"></i></a>
+              <a className="icon2"href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram"></i></a>
               <br></br>
               <br></br>
-              <a className="icon3"href="https://www.linkedin.com/tupagina" target="_blank"><i className="fa fa-linkedin"></i></a>
+              <a className="icon3"href="https://www.linkedin.com/in/planexia-s-a-3571b52b4/" target="_blank"><i className="fa fa-linkedin"></i></a>
               <br></br>
               <br></br>
               <a href="https://api.whatsapp.com/send?phone=5491138833433" className="icon3"target="">
