@@ -1,3 +1,4 @@
+/* Estilos base que se aplican independientemente del tamaño de la pantalla */
 .footer {
   background-color: #000000;
   color: white;
@@ -9,120 +10,6 @@
   margin-bottom: 20px;
   font-size: 16px;
 }
-.social-icons{
-  margin: 2% 63% 0% 0%;
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.title-footer {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.social {
-  margin-bottom: 20px;
-}
-
-.social ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social i {
-  font-size: 24px;
-  color: #fff;
-}
-
-.address-icon {
-  margin-top: 20px;
-}
-
-.address-icon i {
-  font-size: 18px;
-  margin-right: 5px;
-}
-
-.row {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between; 
-}
-
-.float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 60px;
-  font-size: 24px;
-  box-shadow: 2px 2px 3px #999;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 1px -20px 15px 40px;
-}
-
-.float:hover {
-  background-color: #128c7e;
-  color: white;
-}
-
-.footer1{
-   background-color: #000000;;
-    color: white;
-    padding: 20px 0;
-    margin: 31px 385px 9px 0px;
-    text-align: center;
-    width: 100%;
-}
-.left{
-  margin: -43px 22px 11px 431px;
-}
-.logo123{
-  width: 123px;
-  margin: 53px -25px -46px -699px;
-}
-@media (max-width: 768px) {
-  .footer {
-    background-color: #000000;
-    color: white;
-    padding: 20px 0;
-    margin: -9px 380px 14px 0px;
-    text-align: center;
-    width: 100%;
-}
-}
-@media (max-width: 768px) {
-  .footer {
-    background-color: #000000;
-    color: white;
-    padding: 20px 0;
-    margin: -9px 380px 14px 0px;
-    text-align: center;
-    width: 100%;
-}
-.logo123{
-  width: 123px;
-  margin: 53px -25px -46px -699px;
-}
-.p1 {
-  margin-bottom: 20px;
-  font-size: 16px;
-}
 
 .container {
   max-width: 1200px;
@@ -163,23 +50,56 @@
   font-size: 18px;
   margin-right: 5px;
 }
+
+/* Estilos para dispositivos móviles (menos de 768px) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+    margin: 0 auto; /* Centra el footer */
+  }
+
+  .logo123 {
+    width: 123px; /* Tamaño del logotipo */
+    margin: 10px auto; /* Centra el logotipo */
+  }
+
+  .title-footer {
+    margin-bottom: 20px; /* Aumenta el espacio debajo del título */
+  }
+
+  .social ul li {
+    margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
+  }
 }
+
+/* Estilos para dispositivos con pantallas más pequeñas (menos de 540px) */
 @media (max-width: 540px) {
   .footer {
-    background-color: #000000;
-    color: white;
     padding: 20px 0;
-    margin: -39px 255px 0px -1px;
-    text-align: center;
-    width: 101%;
-   
-    display: flex;
-    flex-direction: column-reverse;
+    margin: 0 auto; /* Centra el footer */
+  }
+
+  .logo123 {
+    width: 100%; /* Haz que el logotipo ocupe todo el ancho disponible */
+    margin-bottom: 20px; /* Aumenta el espacio debajo del logotipo */
+  }
+
+  .title-footer {
+    margin-bottom: 20px; /* Aumenta el espacio debajo del título */
+  }
+
+  .social ul li {
+    margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
+  }
 }
-.logo123{
-  width: 123px;
-  margin: 52px 108px -46px -699pX;
+/* Estilos base que se aplican independientemente del tamaño de la pantalla */
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
+
 .p1 {
   margin-bottom: 20px;
   font-size: 16px;
@@ -192,11 +112,9 @@
 
 .title-footer {
   font-size: 20px;
-    font-weight: bold;
-    /* margin-bottom: 25px; */
-    margin: 4% 68% 7% -181%;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-
 
 .social {
   margin-bottom: 20px;
@@ -219,146 +137,52 @@
 }
 
 .address-icon {
-  margin-top: 11px;
-    margin-left: -42%;
-    font-size: 103%;
-}
-
-
-.address-icon i {
-  font-size: 18px;
-  /* margin-right: 5px; */
-  margin: 15% 137% -5% -169%;
-  
-}
-.a1{
-
-  margin-left: -136%;
-}
-.left{
-  margin: -38px 47px 18px 420px;
-}
-a {
-  color: white;
-  margin: 34% -9% 0% 0%;
-}
-.social-icons{
-  margin: 0% 0% 0% 0%;
-}
-.icon1{
-  margin: 27% 135% 0% -247%;
-}
-.icon2{
-  margin: 13% 62% 0% -315%;
-}
-.icon3{
-  margin: -3% 125% 0% -251%;
-}
-.contact{
-  margin: -24% 137% -16% -65%;
-
-}
-}
-@media (max-width: 375px) {
-  .footer {
-    background-color: #000000;
-    color: white;
-    padding: 20px 0;
-    margin: -39px 255px 0px -1px;
-    text-align: center;
-    width: 101%;
-   
-    display: flex;
-    flex-direction: column-reverse;
-}
-.logo123{
-  margin: 26% 39% 8% -213%;
-  width: 79%;
-}
-.p1 {
-  margin-bottom: 20px;
-  font-size: 16px;
-}
-.row {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin: 3% -25% 0% -32%;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.title-footer {
-  font-size: 20px;
-    font-weight: bold;
-    /* margin-bottom: 25px; */
-    margin: 4% 68% 7% -181%;
-}
-
-
-.social {
-  margin-bottom: 20px;
-}
-
-.social ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social i {
-  font-size: 24px;
-  color: #fff;
-}
-
-.address-icon {
-  margin-top: 19px;
-  margin-left: -20%;
-  font-size: 103%;
-}
-
 
 .address-icon i {
   font-size: 18px;
-  /* margin-right: 5px; */
-  margin: 15% 137% -5% -169%;
-  
+  margin-right: 5px;
 }
-.a1{
 
-  margin-left: -136%;
-}
-.left{
-  margin: -38px 47px 18px 420px;
-}
-a {
-  color: white;
-  margin: 34% -9% 0% 0%;
-}
-.social-icons{
-  margin: 0% 18% 0% 0%;
-}
-.icon1{
-  margin: 27% 135% 0% -247%;
-}
-.icon2{
-  margin: 13% 62% 0% -315%;
-}
-.icon3{
-  margin: -3% 125% 0% -251%;
-}
-.contact{
-  margin: -12% 48% 1% -186%;
+/* Estilos para dispositivos móviles (menos de 768px) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+    margin: 0 auto; /* Centra el footer */
+  }
 
+  .logo123 {
+    width: 123px; /* Tamaño del logotipo */
+    margin: 10px auto; /* Centra el logotipo */
+  }
+
+  .title-footer {
+    margin-bottom: 20px; /* Aumenta el espacio debajo del título */
+  }
+
+  .social ul li {
+    margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
+  }
 }
-.title-footer{
-margin: 0% 0% 0% 0%;
-}
+
+/* Estilos para dispositivos con pantallas más pequeñas (menos de 540px) */
+@media (max-width: 540px) {
+  .footer {
+    padding: 20px 0;
+    margin: 0 auto; /* Centra el footer */
+  }
+
+  .logo123 {
+    width: 52%; /* Haz que el logotipo ocupe todo el ancho disponible */
+    margin-bottom: 20px; /* Aumenta el espacio debajo del logotipo */
+  }
+
+  .title-footer {
+    margin-bottom: 20px; /* Aumenta el espacio debajo del título */
+  }
+
+  .social ul li {
+    margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
+  }
 }
