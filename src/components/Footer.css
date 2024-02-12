@@ -5,17 +5,34 @@
   padding: 20px 0;
   text-align: center;
 }
+.p1 {
+  color: white;
+  line-height: 2.4;
+  font-size: 22px;
+  margin: 3% 15% 2% 15%;
+}
 .social-icons{
-  color:white,
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3% 34% 1% 33%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .icon1{
   color:white;
+  font-size: 157%;
+
 }
 .icon2{
   color:white;
+  font-size: 157%;
+
 }
 .icon3{
   color:white;
+  font-size: 157%;
+
 }
 .a1{
 
@@ -100,7 +117,12 @@
     padding: 20px 0;
     margin: 0 auto; /* Centra el footer */
   }
-
+  .p1 {
+    color: white;
+    line-height: 2.4;
+    font-size: 22px;
+    margin: 3% 15% 2% 15%;
+  }
   .logo123 {
     width: 50%; /* Haz que el logotipo ocupe todo el ancho disponible */
     margin-bottom: 20px; /* Aumenta el espacio debajo del logotipo */
@@ -113,4 +135,13 @@
   .social ul li {
     margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
   }
+
+}
+@media (max-width: 340px) {
+  .p1 {
+    font-size: 11px;
+    margin-left: 27%;
+    margin-right: 0;
+    display: flex;
+}
 }

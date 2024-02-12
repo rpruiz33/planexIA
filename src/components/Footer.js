@@ -26,6 +26,11 @@ const Footer = () => {
               <br></br>
               <br></br>
               <a className="icon3"href="https://www.linkedin.com/tupagina" target="_blank"><i className="fa fa-linkedin"></i></a>
+              <br></br>
+              <br></br>
+              <a href="https://api.whatsapp.com/send?phone=5491138833433" className="icon3"target="">
+        <i className="fa fa-whatsapp my-float"></i>
+      </a>
             </div>
           </div>
 
@@ -48,9 +53,7 @@ const Footer = () => {
       </div>
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-      <a href="https://api.whatsapp.com/send?phone=5491138833433" className="float" target="">
-        <i className="fa fa-whatsapp my-float"></i>
-      </a>
+    
     </footer>
   );
 };

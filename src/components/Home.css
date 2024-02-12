@@ -9,7 +9,7 @@
   color: white;
   line-height: 2.4;
   font-size: 22px;
-  margin: 3% 10% 2% 15%;
+  margin: 3% 14% 2% 15%;
 }
 
 .div {
@@ -106,9 +106,7 @@ h3 {
 }
 
 @media (max-width: 340px) {
-  .p1 {
-    display: none; /* Ocultar el párrafo en pantallas muy pequeñas */
-  }
+
 
   .perfil {
     width: 80px; /* Reducir aún más el tamaño del perfil */
