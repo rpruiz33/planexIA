@@ -1,21 +1,16 @@
 .HomeContainer {
-  max-width: 10%;
-  padding: -29px;
+  max-width: 100%;
+  padding: 0 10px; /* Añadir espacio interno */
   text-align: center;
   margin: 0 auto;
-  margin: 0 auto;
-
 }
 
 .p1 {
   color: white;
-  line-height: 1.4;
+  line-height: 2.4;
   font-size: 22px;
-  align-items: center;
-  margin-left: 28px;
-  
+  margin: 3% 10% 2% 15%;
 }
-
 
 .div {
   display: flex;
@@ -23,20 +18,17 @@
   align-items: center;
   margin-top: 20px;
   font-size: medium;
-  margin: 99px 102px 63px -48px;
-  justify-content: space-between;
+  justify-content: space-around; /* Cambiar de space-between a space-around */
 }
 
 .perfil {
-  width: 200px;
-  margin: 10px 0px 11px 0px; 
+  width: 150px;
+  margin: 10px 0;
   border-radius: 20%;
-  border: 3px solid #333;
+  border: 4px solid #000000;
 }
 
-
 .perfil.linkedin-logo {
- 
   display: block;
   margin: 0 auto;
   width: 20px;
@@ -44,107 +36,73 @@
 
 .linkedin-logo {
   width: 29px;
-  margin: 0px 0px -46px -125px;
   border-radius: 10px;
   border: 3px solid #000000;
 }
 
 h3 {
-  margin: 3px -2px 0px 0px;
-  font-size: 128%;
-
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .black {
   color: #000000;
-  font-size: 44px;
-  margin-left: 10px;
-  margin-top: -44px;
-  margin-bottom: -75px;
+  font-size: 4.0rem;
+  margin: 0% 0% 0% 5%;
 }
 
 @media  (max-width: 768px) {
   .div {
-    flex-direction: row; 
-    justify-content: space-evenly; 
+    flex-direction: column; /* Cambiar a una disposición de columna */
+    align-items: center; /* Centrar los elementos */
   }
-  .black {
-    color: #000000;
-    font-size: 44px;
-    margin-left: 10px;
-    margin-top: -22px;
-    margin-bottom: -75px;
-}
+
   .p1 {
-    color: white;
-    line-height: 1.6;
     font-size: 18px;
-    align-items: center;
-    margin-left: 26%;
-    height: 100%;
-    display: flex;
+    margin-left: 0; /* Eliminar el margen izquierdo */
+    margin-right: 0; /* Eliminar el margen derecho */
   }
+
   .perfil {
-    margin: 10px 0px 0px 0px;
+    margin: 10px auto; /* Centrar el perfil */
   }
+
   h3 {
-    margin: 3px -106px 0px 0px;
-    font-size: 128%;
+    font-size: 1.2rem;
   }
+
   h2 {
-    margin: -54px 15px 10px 127px;
+    font-size: 1.3rem;
+    margin-top: 20px; /* Añadir margen superior */
   }
 }
+
 @media (max-width: 540px) {
   .p1 {
-    color: white;
-    line-height: 1.2;
     font-size: 16px;
-    margin-left: 25%;
-    display: flex;
-}
-
-h3 {
-  margin: 3px -2px 0px 0px;
-  font-size: 114%;
-}
-.linkedin-logo {
-  width: 29px;
-  margin: 10px -105px -19px -125px;
-  border-radius: 10px;
-  border: 3px solid #000000;
-}
- 
-h2 {
-  margin: 70px 0px 0px 0px;
-  font-size:106%;
-}
-  .div {
-    margin: -2% 11% 35% 7%;
-    flex-direction: column;
-    justify-content: flex-start;
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    align-items: stretch;
   }
-  .perfil {
-    margin: 15px 164px 3px 101px;
 
-    width: 50%;
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 20px; /* Añadir margen superior */
+  }
+
+  .perfil {
+    width: 100px; /* Reducir el tamaño del perfil aún más */
+    margin: 10px auto; /* Centrar el perfil */
+  }
 }
-}
+
 @media (max-width: 340px) {
-.p1 {
-  color: white;
-  line-height: 1.6;
-  font-size: 1px;
-  align-items: center;
-  margin-left: 28px;
- 
-}
-.perfil {
-  margin: 16px 150px 3px 60px;
-  width: 50%;
-}
+  .p1 {
+    display: none; /* Ocultar el párrafo en pantallas muy pequeñas */
+  }
+
+  .perfil {
+    width: 80px; /* Reducir aún más el tamaño del perfil */
+  }
 }
