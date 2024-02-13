@@ -1,4 +1,4 @@
-import { faFacebook, faLinkedin, faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faSquareWhatsapp, faLinkedin, faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './FontAwesoneIcon.css';
 
@@ -15,6 +15,11 @@ const FontAwesoneIcon = () => {
        
       <FontAwesomeIcon icon={faSquareInstagram} size="2x" className="icon icon-instagram" />
       </a>
+      <a href="https://api.whatsapp.com/send?phone=5491138833433" className="icon3"target="">
+      <FontAwesomeIcon icon={faSquareWhatsapp}  size="2x" className="icon icon-instagram"/>
+      </a>
+     
+    
     </>
   );
 };
