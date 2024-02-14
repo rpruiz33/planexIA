@@ -7,48 +7,85 @@
   margin: 0% 0% 0% 0%;
   background-color: cornflowerblue;
   color: #ecf0f1;
-    
-  }
-  
-  form {
-    width: 80%;
-    max-width: 400px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group1{
+  padding: auto;
+
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: black;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.box{
+  height: 1100%;
+  width: 83%;
+  padding:10% 10% 10% 10% ;
+}
+
+button {
+  background-color: #737373;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  margin: 4% 0% 6% 0%
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    height: 48%;
   }
   
   label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 24px;
-    color:black;
+    font-size: 18px;
   }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #000000;
-    border-radius: 10px;
-  }
-  
+}
+
+@media (max-width: 540px) {
   button {
-    background-color: #737373;
-    color: #fff;
-    padding: 10px;
-   
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid #000000;
-    margin: -1px 3px 119px 3px;
-
-
-
+    margin: -1px 3px 55px 3px;
   }
-  
-  button:hover {
-    background-color: #2980b9;
+}
+
+@media (max-width: 410px) {
+  button {
+    margin: -1px 3px 40px 3px;
   }
+}
+
+@media (max-width: 340px) {
+  button {
+    margin: -1px 3px 30px 3px;
+  }
+}
+
+@media (max-width: 290px) {
+  button {
+    margin: -1px 3px 25px 3px;
+  }
+}
