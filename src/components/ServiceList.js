@@ -15,15 +15,15 @@ const ServiceList = () => {
   return (
     <div style={{ fontFamily: 'Oswald ,sans-serif' }}>
       <h2>Nuestros Servicios</h2>
-      <ul>
+    
         {services.map(service => (
-          <li key={service.id}>
+          <nav key={service.id}>
             <Link to={`/service/${service.id}`} className="service-link">
               {service.name}
             </Link>
-          </li>
+          </nav>
         ))}
-      </ul>
+     
     </div>
   );
 };

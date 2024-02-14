@@ -1,24 +1,52 @@
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 52px -8px 29px -11px
-  }
-  
-  li {
-    margin: 50px 42% 0%;
+  list-style-type: none;
+  padding: 0;
+  margin: 52px -8px 29px -11px;
+}
+
+li {
   font-size: 25px;
-  
+  margin: 50px 42% 0%;
+}
+
+.service-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.service-link:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+h2 {
+  margin: 6% 0% 3%; /* Estilo predeterminado */
+}
+
+@media (max-width: 768px) {
+  h2 {
+    margin: 6% 0% 3%; /* Estilo para pantallas de hasta 768px de ancho */
   }
-  
-  .service-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
+}
+
+@media (max-width: 540px) {
+  h2 {
+    margin: 6% 0% 3%; /* Estilo para pantallas de hasta 540px de ancho */
   }
-  
-  .service-link:hover {
-    text-decoration:underline;
+  .nav{
+
   }
-  h2{
-    margin: 6% 0% 3% 0%;
+}
+
+@media (max-width: 410px) {
+  h2 {
+    margin: 6% 0% 3%; /* Estilo para pantallas de hasta 410px de ancho */
   }
+}
+
+@media (max-width: 290px) {
+  h2 {
+    margin: 6% 0% 3%; /* Estilo para pantallas de hasta 290px de ancho */
+  }
+}
