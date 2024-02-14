@@ -6,8 +6,12 @@
   padding: 20px;
   border: 1px solid #020202;
   border-radius: 8px;
-  background-color: #d9d9d9;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 0 10px #ffffff;
+}
+a {
+  color: white;
+  margin: -11% -4% 0% 0%;
 }
   p {
     /* display: none; */
@@ -39,30 +43,41 @@
     margin: 5% 41% 4% 39%;
 }
 @media (max-width: 768px) {
-
+  .service-link2 {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: -459% 26% 25% -91%;
+    font-size: 68%;
+    display: block;
+  }
   .service-detail {
     text-align: left;
-   
-    margin: 16px auto;
-    padding: 20px;
+    /* margin: 16px auto; */
+    padding: 93px;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #d9d9d9;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    margin: 13% 13% 12% 13%;
+
 
   }
   .service-detail h2 {
     color: #333;
-    margin: 24px 55px;
+    margin: -18px 55px;
   }
   
  .service-detail p {
   display: block;
-  font-size: 84%;
-  margin: 18% -52% 3% -66%;
-
-  width: 47%;
+  font-size: 93%;
+  margin: 16% -36% 4% -50%;
+  width: 46% ;
+}
+a {
+  color: white;
+  margin: -11% -4% 0% 0%;
 }
 }
 @media (max-width: 540px) {
@@ -70,12 +85,12 @@
     text-align: left;
     max-width: 349px;
     margin: 16px auto;
-    padding: 12px;
+    padding: 15%;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #d9d9d9;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 14% -16% 15% 11%;
+    margin: 16% -14% 17% 3%;
 
   }
   .service-detail p {
@@ -89,54 +104,95 @@
     color: #333;
     margin: 24px 55px;
   }
+  a {
+    color: white;
+    margin: -11% -4% 0% 0%;
+  }
+  .service-link2 {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: -459% 26% 25% -91%;
+    font-size: 68%;
+    display: block;
+  }
 }
 @media (max-width: 410px) {
   .service-detail {
     text-align: left;
-    max-width: 312px;
+    max-width: 332px;
     margin: 16px auto;
-    padding: 0px;
+    padding: 72px;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #d9d9d9;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 21% 0% 22% 4%;
+    margin: 23% 45% 25% 5%;
     font-size: 85%;
+    width: 55%;
 
+  }
+  .service-link2 {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: -414% 26% 25% -48;
+
+    font-size: 68%;
+    display: block;
   }
   .service-detail p {
     display: block;
     font-size: 89%;
-    margin: 18% -41% 5% -71%;
+    margin: 37% 26% -7% -22%;
     width: 42%;
   }
   .service-detail h2 {
     color: #333;
-    margin: 0% 0% 0% 0%;
+    margin: -2% -4% 3% -7%;
+  }
+  a {
+    color: white;
+    margin: -11% -4% 0% 0%;
   }
 }
 @media (max-width: 340px) {
   .service-detail {
     text-align: left;
-    max-width: 347px;
+    max-width: 360px;
     margin: 16px auto;
-    padding: 10px;
+    padding: 13% 23% 15% 6%;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #d9d9d9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 18% 5% 13% 4%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(75 120 167 / 10%);
+    margin: 19% 2% 15% 7%;
 }
+
+
 .service-detail p {
   display: flex;
   font-size: 82%;
-  margin: 21% -39% 5% -47%;
-  width: 45%;
+  margin: 26% -53% 7% -31%;
+  width: 42%;
 }
 .service-detail h2 {
   color: #333;
   margin: 6% 13% 0% -5%;
   font-size: 132%;
+}
+a {
+  color: white;
+  margin: -11% -4% 0% 0%;
+}
+
+.service-link2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: -459% 26% 25% -91%;
+  font-size: 68%;
+  display: block;
 }
   }
 
@@ -159,5 +215,17 @@
     font-size: 89%;
     margin: 18% -41% 5% -71%;
     width: 42%;
+  }
+  a {
+    color: white;
+    margin: -11% -4% 0% 0%;
+  }
+  .service-link2 {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: -459% 26% 25% -91%;
+    font-size: 68%;
+    display: block;
   }
 }

@@ -43,7 +43,7 @@ p {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin: 3% 0% 2% 0%;
+    margin: 13% 0% -26% -77
   }
 }
 p {
@@ -77,13 +77,19 @@ p {
     margin: 6% 0% 3%; /* Estilo para pantallas de hasta 410px de ancho */
   }
   .service-link {
+   
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin: 3% 0% 2% 0%;
+    margin: 8% 27% 17% 7%;
     font-size: 68%;
-  }
+    display: block;
 }
+
+
+    
+  }
+
 
 @media (max-width: 290px) {
   h2 {
