@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './ServiceDetail.css';
-
+import { NavLink } from 'react-router-dom';
+import Back from './back';
 const ServiceDetail = () => {
   const { id } = useParams();
 
@@ -42,6 +43,9 @@ const ServiceDetail = () => {
 
   return (
     <div className="service-detail">
+       <NavLink to="/">
+        <Back/>
+        </NavLink>
       <h2>{service.name}</h2>
       <p>{service.description}</p>
       <p>{service.additionalDetails}</p>

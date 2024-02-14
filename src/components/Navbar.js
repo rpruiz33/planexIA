@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <div >
           <h1 classname="tam" style={{ fontFamily: 'Oswald, sans-serif' }}>Servicios de Consultoría Estratégica</h1>
-          <p  style={{ fontFamily: 'Oswald, sans-serif' }}>Bienvenido a nuestra plataforma de consultoría estratégica.</p>
+          <p className='esty' style={{ fontFamily: 'Oswald, sans-serif' }}>Bienvenido a nuestra plataforma de consultoría estratégica.</p>
         </div>
 
         <div className="menu-icon" onClick={toggleMenu}>
