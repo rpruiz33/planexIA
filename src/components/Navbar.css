@@ -169,7 +169,7 @@ h1{
   }
 
   .nav2.open {
-    height: 31%;
+    height: 34%;
     display: flex;
     margin: -19% 0% 0% 2%;
     width: 66px;
@@ -220,9 +220,9 @@ h1{
   }
 
   .nav2.open {
-    height: 26%;
+    height: 29%;
     display: flex;
-    margin: -90px 0px 11px 19px;
+    margin: -22% 0% 0% 2%;
     width: 66px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;

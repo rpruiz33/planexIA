@@ -48,7 +48,7 @@ const ServiceDetail = () => {
         </NavLink>
       <h2>{service.name}</h2>
       <p>{service.description}</p>
-      <p>{service.additionalDetails}</p>
+   
     </div>
   );
 };
