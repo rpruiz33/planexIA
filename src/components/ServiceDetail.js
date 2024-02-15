@@ -1,11 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Service1 from './servici0-empresarial';
-import Service2 from './servici0 financier0';
-import Service3 from './servici0Agrpecuari0';
-import Service4 from './Inexp0';
+import Service1 from './servicio-empresarial';
+import Service2 from './servicio-financiero';
+import Service3 from './servicioAgrpecuario';
+import Service4 from './Impexpo';
 import Service5 from './ERP&&CRM';
-import Service6 from './Seguimeint';
+import Service6 from './Seguimeinto';
 
 const ServiceDetail = () => {
   const { id } = useParams();
