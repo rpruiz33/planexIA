@@ -41,16 +41,15 @@ const ServiceDetail = () => {
   };
 
   const service = serviceDetails[id];
-  const serviceClassName = `service-${id}`;
 
   return (
-    <div className={`service-detail ${serviceClassName}`}>
+    <div className="service-detail">
       <NavLink to="/">
-        <Back/>
+        <Back />
       </NavLink>
       <h2>{service.name}</h2>
-      <p style={{ margin: '35% -22% -8% 21%' }}>{service.description}</p>
-      <p className='description'>{service.additionalDetails}</p>
+      <p>{service.description}</p>
+      <p>{service.additionalDetails}</p>
     </div>
   );
 };
