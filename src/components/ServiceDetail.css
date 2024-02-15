@@ -85,7 +85,7 @@ a {
     text-align: left;
     max-width: 349px;
     margin: 16px auto;
-    padding: 15%;
+    padding: 5%;
     border: 1px solid #020202;
     border-radius: 8px;
     background-color: #ffffff;
@@ -112,7 +112,7 @@ a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin: -459% 26% 25% -91%;
+    margin: -408% 26% 25% -44%;
     font-size: 68%;
     display: block;
   }
