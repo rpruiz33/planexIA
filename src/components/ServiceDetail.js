@@ -1,55 +1,45 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import './ServiceDetail.css';
-import { NavLink } from 'react-router-dom';
-import Back from './back';
+import Service1 from './servici0-empresarial';
+import Service2 from './servici0 financier0';
+import Service3 from './servici0Agrpecuari0';
+import Service4 from './Inexp0';
+import Service5 from './ERP&&CRM';
+import Service6 from './Seguimeint';
 
 const ServiceDetail = () => {
   const { id } = useParams();
 
-  const serviceDetails = {
-    1: {
-      name: 'Servicio Empresarial',
-      description: 'Asesoramiento en finanzas y gestión económica.',
-      additionalDetails: 'Ofrecemos soluciones personalizadas para el crecimiento de tu empresa.'
-    },
-    2: {
-      name: 'Servicio Financiero',
-      description: 'Asesoramiento y servicios financieros para empresas y particulares.',
-      additionalDetails: 'Gestión de inversiones, planificación financiera y más.'
-    },
-    3: {
-      name: 'Servicio Agropecuario',
-      description: 'Asesoramiento integral para el sector agropecuario.',
-      additionalDetails: 'Optimización de procesos, gestión de recursos y más.'
-    },
-    4: {
-      name: 'Servicio Impexpo',
-      description: 'Asesoramiento en comercio internacional y exportaciones.',
-      additionalDetails: 'Facilitamos el proceso de importación y exportación de productos.'
-    },
-    5: {
-      name: 'ERP && CRM',
-      description: 'Soluciones integradas de planificación de recursos empresariales y gestión de relaciones con clientes.',
-      additionalDetails: 'Mejora la eficiencia operativa y la interacción con tus clientes.'
-    },
-    6: {
-      name: 'Seguimiento e Indicadores',
-      description: 'Desarrollo de sistemas de seguimiento y medición de indicadores clave.',
-      additionalDetails: 'Obtén información valiosa para la toma de decisiones estratégicas.'
-    },
-  };
+  let serviceComponent;
 
-  const service = serviceDetails[id];
+  switch (id) {
+    case '1':
+   
+      serviceComponent = <Service1 />;
+      break;
+    case '2':
+      serviceComponent = <Service2 />;
+      break;
+    case '3':
+      serviceComponent = <Service3 />;
+      break;
+    case '4':
+      serviceComponent = <Service4 />;
+      break;
+    case '5':
+      serviceComponent = <Service5 />;
+      break;
+    case '6':
+      serviceComponent = <Service6 />;
+      break;
+    default:
+      serviceComponent = <div>Servicio no encontrado</div>;
+      break;
+  }
 
   return (
-    <div className="service-detail">
-      <NavLink to="/">
-        <Back />
-      </NavLink>
-      <h2>{service.name}</h2>
-      <p>{service.description}</p>
-      <p>{service.additionalDetails}</p>
+    <div>
+      {serviceComponent}
     </div>
   );
 };

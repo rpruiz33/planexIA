@@ -47,7 +47,12 @@ p{
   font-size: 177%;
   margin: 5% 27% 1% 25%;
 }
-
+p {
+  color: #555;
+  line-height: 1.5;
+  margin: 2% 7% 3% 27%;
+  font-size: 195%;
+}
 @media (max-width: 768px) {
   .nav2 {
     display: none;
