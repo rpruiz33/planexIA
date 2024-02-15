@@ -267,7 +267,7 @@ a {
     .service-detail p {
     display: block;
     font-size: 112%;
-    margin: 36% 80% -7% -59%;
+    margin: 36% 80% -7% -64%;
 
     width: 42%;
     line-height: 1.5em;
@@ -275,7 +275,7 @@ a {
   }
   .service-detail h2 {
     color: #333;
-    margin: -11% -2% 3% 3%;
+    margin: -11% -2% 3% -1%;
     font-size: 217%;
   }
   a {
