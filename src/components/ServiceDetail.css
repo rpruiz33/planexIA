@@ -53,6 +53,50 @@ a {
   }
   .service-detail {
     text-align: left;
+    max-width: 385px;
+    font-size: 100%;
+    margin: 7% 13% 4% 36%;
+    padding: 20px;
+    border: 1px solid #020202;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff;
+  }
+  a {
+    color: white;
+    margin: -11% -4% 0% 0%;
+  }
+    p {
+      /* display: none; */
+      width: 47%;
+      font-size: 103%;
+      margin: 25% -60% 2% -33%;
+  }
+    .service-detail h2 {
+      color: #333;
+      /* margin: 33px 44px; */
+      font-size: 180%;
+      /* display: inline; */
+      margin-left: 11%;
+      text-decoration-line: underline;
+    
+    }
+    
+     p {
+      color: #555;
+      line-height: 1.5;
+    }
+    nav {
+      margin-top: 0px;
+      display: flex;
+      justify-content: space-around;
+      background-color: #333;
+      padding: 3%;
+      border-radius: 6%;
+      margin: 5% 41% 4% 39%;
+    }
+  .service-detail {
+    text-align: left;
     /* margin: 16px auto; */
     padding: 93px;
     border: 1px solid #020202;
@@ -72,8 +116,9 @@ a {
  .service-detail p {
   display: block;
   font-size: 93%;
-  margin: 16% -36% 4% -50%;
+  margin: 16% -51% 4% -37%;
   width: 46% ;
+  line-height: 1.5em;
 }
 a {
   color: white;
@@ -118,6 +163,14 @@ a {
   }
 }
 @media (max-width: 410px) {
+  p.description{
+  
+    display: block;
+    font-size: 89%;
+    margin: 36% 46% -7% -25%;
+    width: 42%;
+    line-height: 1.5em;
+}
   .service-detail {
     text-align: left;
     max-width: 332px;
@@ -131,6 +184,13 @@ a {
     font-size: 85%;
     width: 55%;
 
+  }
+
+  .service-detaillllll{
+    display: block;
+    font-size: 89%;
+    margin: 36% 63% -7% -57%;
+    width: 42%;
   }
 
   .service-detail service-1{
@@ -152,15 +212,16 @@ a {
     display: flex;
     font-size: 68%;
     font-weight: 700;
-    margin: -395% 14% 20% -58%;
+    margin: -134% 14% 20% -58%
     
   }
   .service-detail p {
     display: block;
     font-size: 89%;
-    margin: 37% 63% -7% -46%;
+    margin: 36% 63% -7% -57%;
     width: 42%;
-
+    line-height: 1.5em;
+    
   }
   .service-detail h2 {
     color: #333;

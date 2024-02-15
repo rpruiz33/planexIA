@@ -85,8 +85,14 @@ p {
     font-size: 68%;
     display: block;
 }
-
-
+.description{
+  
+    display: block;
+    font-size: 89%;
+    margin: 36% 46% -7% -25%;
+    width: 42%;
+    line-height: 1.5em;
+}
     
   }
 
