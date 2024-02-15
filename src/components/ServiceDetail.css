@@ -17,7 +17,8 @@ a {
     /* display: none; */
     width: 47%;
     font-size: 103%;
-    margin: 25% -60% 2% -33%;
+    margin: 7% -22% -3% 25%;
+
 }
   .service-detail h2 {
     color: #333;
@@ -212,13 +213,13 @@ a {
     display: flex;
     font-size: 68%;
     font-weight: 700;
-    margin: -134% 14% 20% -58%
+    margin: -434% 14% 20% -58%;
     
   }
   .service-detail p {
     display: block;
     font-size: 89%;
-    margin: 36% 63% -7% -57%;
+    margin: 36% 62% -7% -69%;
     width: 42%;
     line-height: 1.5em;
     

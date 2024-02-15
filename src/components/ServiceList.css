@@ -11,7 +11,10 @@ li {
   font-size: 25px;
   margin: 50px 42% 0%;
 }
-
+p {
+  font-size: 177%;
+  margin: 5% 27% 1% 21%;
+}
 .service-link {
   color: #ffffff;
   text-decoration: none;
@@ -34,7 +37,14 @@ p {
   margin: 25% -60% 2% -33%;
 }
 
-
+@media (max-width: 1430px) {
+  p {
+    /* display: none; */
+    width: 47%;
+    font-size: 103%;
+    margin: 25% -60% 2% -33%;
+  }
+}
 @media (max-width: 768px) {
   h2 {
     margin: 6% 0% 3%; /* Estilo para pantallas de hasta 768px de ancho */

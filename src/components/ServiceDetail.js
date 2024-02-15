@@ -49,8 +49,8 @@ const ServiceDetail = () => {
         <Back/>
       </NavLink>
       <h2>{service.name}</h2>
-      <p style={{ margin: '35% -22% -8% 6%' }}>{service.description}</p>
-      <p >{service.additionalDetails}</p>
+      <p style={{ margin: '35% -22% -8% 21%' }}>{service.description}</p>
+      <p className='description'>{service.additionalDetails}</p>
     </div>
   );
 };
