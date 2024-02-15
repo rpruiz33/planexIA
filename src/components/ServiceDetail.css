@@ -122,7 +122,7 @@ a {
     text-align: left;
     max-width: 332px;
     margin: 16px auto;
-    padding: 72px;
+    padding: 44px;
     border: 1px solid #020202;
     border-radius: 8px;
     background-color: #fff;
@@ -133,23 +133,23 @@ a {
 
   }
   .service-link2 {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    margin: -414% 26% 25% -48;
-
+    color: #fff;
+    display: flex;
     font-size: 68%;
-    display: block;
+    font-weight: 700;
+    margin: -371% 14% 20% -58%;
+    
   }
   .service-detail p {
     display: block;
     font-size: 89%;
-    margin: 37% 26% -7% -22%;
+    margin: 37% 63% -7% -46%;
     width: 42%;
+
   }
   .service-detail h2 {
     color: #333;
-    margin: -2% -4% 3% -7%;
+    margin: -10% -4% 3% -7%;
   }
   a {
     color: white;
