@@ -267,14 +267,14 @@ a {
     .service-detail p {
     display: block;
     font-size: 112%;
-    margin: 36% 83% -7% -71%;
+    margin: 36% 83% -7% -65%;
     width: 42%;
     line-height: 1.5em;
     
   }
   .service-detail h2 {
     color: #333;
-    margin: -11% -2% 3% 15%;
+    margin: -11% -2% 3% 3%;
     font-size: 217%;
   }
   a {
