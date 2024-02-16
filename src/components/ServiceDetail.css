@@ -341,8 +341,8 @@ p {
 .service-detail p {
   display: flex;
   font-size: 82%;
-  margin: 26% -53% 7% -31%;
-  width: 42%;
+  margin: 26% -53% 7% -33%;
+  width: 39%;
 }
 .service-detail h2 {
   color: #333;
