@@ -28,8 +28,10 @@
   
   
   .icon-instagram {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 0px -4px 0px 0px;
+    border: double;
+    border-radius: 10%;
   }
     @media (max-width: 410px) {
       .icon icon-facebook{

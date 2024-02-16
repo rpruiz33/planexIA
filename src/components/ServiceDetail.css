@@ -59,10 +59,12 @@ a {
     margin-top: 0px;
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background: linear-gradient(to left, #ddd3d3, #1f52b9da);
+    color: black;
     padding: 3%;
     border-radius: 6%;
     margin: 5% 41% 4% 39%;
+    border: double;
 }
 
 @media (max-width: 768px) {
@@ -117,10 +119,12 @@ color: #ffffff;
       margin-top: 0px;
       display: flex;
       justify-content: space-around;
-      background-color: #333;
+      /* background-color: #333; */
       padding: 3%;
       border-radius: 6%;
       margin: 5% 41% 4% 39%;
+      background: linear-gradient(to left, #ddd3d3, #1f52b9da);
+      color: black;
     }
   .service-detail {
     text-align: left;
