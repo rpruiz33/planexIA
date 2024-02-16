@@ -302,7 +302,14 @@ a {
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
     margin: 19% 2% 15% 7%;
 }
-
+.text2{
+  display: flex;
+  /* font-size: 112%; */
+  margin: 0% 70% 0% -195%;
+  width: -16%;
+  /* line-height: 1.0em; */
+  flex-direction: row-reverse;
+}
 p {
   color: #555;
   line-height: 1.5;
