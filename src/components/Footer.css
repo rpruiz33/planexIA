@@ -35,8 +35,10 @@
 
 }
 .a1{
-font-size: 128%;
-  color:white;
+  
+  color: white;
+  font-size: 193%;
+
 }
 .float{
   color: WHITE
@@ -85,7 +87,7 @@ font-size: 128%;
   margin: 10px auto; /* Centra el logotipo */
 }
 .address-icon i {
-  font-size: 18px;
+  font-size: 172%;
   margin-right: 5px;
   
 }
