@@ -300,7 +300,8 @@ a {
     border-radius: 8px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
-    margin: 19% 2% 15% 7%;
+    margin: 19% 2% 15% 6%;
+  }
 }
 .text2{
   display: flex;
