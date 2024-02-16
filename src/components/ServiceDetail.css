@@ -154,13 +154,19 @@ a {
   .service-detail p {
     display: block;
     font-size: 84%;
-    margin: 18% -43% 3% -51%;
-  
-    width: 47%;
+    margin: 24% -64% 3% -25%;
+    width: 45%;
+  }
+  .text2{
+    margin: 10% -109% -9% 15%;
+    width: -39%;
+    display: flex;
+
   }
   .service-detail h2 {
     color: #333;
-    margin: 24px 55px;
+    margin: -6% 12% 0% 130%;
+    width: 26%;
   }
   a {
     color: black;
@@ -176,6 +182,7 @@ a {
   }
   .service-link2{
     display: flex;
+    margin: 0% -103% 0% 1%
   }
 }
 @media (max-width: 410px) {
