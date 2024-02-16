@@ -7,7 +7,11 @@
 .logo-container {
   width: 100%;
 }
-
+a {
+  
+  color: black;
+  margin: 24% 13% 21% 15%;
+}
 .menu-icon {
   display: none;
   flex-direction: column;

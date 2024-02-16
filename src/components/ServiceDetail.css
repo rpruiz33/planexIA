@@ -1,3 +1,4 @@
+
 .service-detail {
   text-align: left;
   max-width: 385px;
@@ -9,9 +10,24 @@
   background-color: #fff;
   box-shadow: 0 0 10px #ffffff;
 }
+.service-link2{
+  margin:0% 0% 0% 0%;
+}
+.service-detail h2 {
+  color: #333;
+  margin: -12% 88% -16% 130%;
+  font-size: 212%;
+  display: flex;
+}
+.service-detail p {
+  display: flex;
+  font-size: 175%;
+  margin: 26% -53% 7% 15%;
+  width: 42%;
+}
 a {
   color: black;
-  margin: -11% -4% 0% 0%;
+  margin: 24% 13% 21% -4%;
 }
   p {
     /* display: none; */
@@ -25,7 +41,7 @@ a {
     /* margin: 33px 44px; */
    
     /* display: inline; */
-    margin-left: 11%;
+    margin-left: 15%;
     text-decoration-line: underline;
   
   }
@@ -37,6 +53,7 @@ a {
    p {
     color: #555;
     line-height: 1.5;
+    margin:8% 0% 0% 0%
   }
   nav {
     margin-top: 0px;
@@ -47,13 +64,14 @@ a {
     border-radius: 6%;
     margin: 5% 41% 4% 39%;
 }
+
 @media (max-width: 768px) {
   .service-link2 {
-    color: #ffffff;
+color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin: -459% 26% 25% -91%;
-    font-size: 68%;
+    margin: -12% -44% 0% -19%;
+    font-size: 76%;
     display: block;
   }
   a {
@@ -119,15 +137,17 @@ a {
   }
   .service-detail h2 {
     color: #333;
-    margin: 0% 0% 0% 102%;
+    margin: -13% 25% 0% 67%;
+    font-size: 190%;
   }
   
  .service-detail p {
   display: block;
-  font-size: 93%;
+  font-size: 133%;
   margin: 16% -49% 4% -57%;
-  width: 46% ;
+  width: 49%;
   line-height: 1.5em;
+
 }
 a {
   color: black;
@@ -302,7 +322,7 @@ a {
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
     margin: 19% 2% 15% 6%;
   }
-}
+
 .text2{
   display: flex;
   /* font-size: 112%; */
@@ -342,7 +362,7 @@ a {
   display: block;
 }
   
-
+}
 
 @media (max-width: 290px) {
 
