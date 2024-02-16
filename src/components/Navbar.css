@@ -140,7 +140,7 @@ p{
   }
 
   .nav2.open {
-    height: 43%;
+    height: 56%;
     display: flex;
     margin: -16% -1% 0% 3%;
     width: 23%;
@@ -178,7 +178,7 @@ h1{
   }
 
   .nav2.open {
-    height: 34%;
+    height: 42%;
     display: flex;
     margin: -19% 0% 0% 2%;
     width: 66px;
@@ -229,7 +229,7 @@ h1{
   }
 
   .nav2.open {
-    height: 29%;
+    height: 33%;
     display: flex;
     margin: -22% 0% 0% 2%;
     width: 66px;
@@ -263,7 +263,7 @@ h1{
 
 @media(max-width: 290px){
   .nav2.open {
-    height: 24%;
+    height: 33%;
     display: flex;
     margin: -88px 0px 12px 19px;
     width: 66px;
