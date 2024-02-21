@@ -15,7 +15,7 @@ display: flex;
 line-height: 2.4;
 font-size: 118%;
 margin: 1% auto; /* Ajusta los márgenes para centrar horizontalmente */
-padding: 3% 12% 1% 11%;
+padding: 3% 15% 1% 11%;
 flex-direction: row-reverse;
 align-items: center;
 width: 30%;

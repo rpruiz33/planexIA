@@ -6,10 +6,17 @@
   text-align: center;
 }
 .p1 {
-  color: white;
-  line-height: 2.4;
-  font-size: 22px;
-  margin: 1% 16% -1% -31%;
+
+    color: white;
+    display: flex;
+    line-height: 2.4;
+    font-size: 118%;
+    margin: 1% 0% 0% 23%;
+    padding: 3% 12% 1% 11%;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 30%;
+
 }
 .social-icons{
   color: white;
@@ -80,7 +87,7 @@
 }
 
 .address-icon {
-  margin-top: 20px;
+  margin: 8% 2% 0% 0%;
 }
 .logo123 {
   width: 31%; /* Tamaño del logotipo */
