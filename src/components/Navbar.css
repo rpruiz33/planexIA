@@ -95,7 +95,7 @@ p{
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
-    background: #6b6b6b;
+    background: #333;
   }
 
   .menu-icon {
@@ -151,7 +151,7 @@ p{
     width: 23%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
-    background: #6b6b6b;
+    background: #333;
   }
   .App-logo {
     
@@ -195,7 +195,7 @@ h1{
     flex-wrap: wrap;
     font-size: 9px;
     width: 78px;
-    background: #6b6b6b;
+    background: #333;
   }
   .App-logo {
     box-shadow: 16px 14px 20px #6b6b6b;
@@ -251,7 +251,7 @@ h1{
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
-    background: #6b6b6b;
+    background: #333;
   }
   .App-logo {
     box-shadow: 16px 14px 20px #0000008c;
@@ -286,7 +286,7 @@ h1{
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
-    background: #6b6b6b;
+    background: #333;
   }
 }
 h1{
