@@ -13,7 +13,7 @@ const ServiceList = () => {
   ];
 
   return (
-    <div style={{ fontFamily: 'Oswald ,sans-serif' }}>
+    <div style={{ fontFamily: 'Oswald ,sans-serif' ,background:" #6b6b6b"}}>
       <h2>Nuestros Servicios</h2>
     
         {services.map(service => (

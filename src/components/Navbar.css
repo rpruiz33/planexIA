@@ -1,7 +1,7 @@
  .App-logo {
   box-shadow: 16px 14px 20px #0000008c;
   object-fit: contain; 
-  box-shadow: 0px 0px 15px 15px #39d339;
+  box-shadow: 0px 0px 7px 6px #6b6b6b;
 }
 
 .logo-container {
@@ -32,7 +32,12 @@ a {
   padding: 24px 3px 23px 0px;
   margin: 0% 0% 0% 0%;
   border-radius: 0%;
-  background: linear-gradient(to left, #737373, #000);
+  display: flex;
+  align-items: center;
+  padding: 24px 3px 23px 0px;
+  margin: 0% 0% 0% 0%;
+  border-radius: 0%;
+  background: #020202;
 }
 
 .nav2 a {
@@ -54,7 +59,7 @@ p{
 p {
   color: #555;
   line-height: 1.5;
-  margin: 2% 7% 3% 27%;
+  margin: 2% 7% 3% -32%;
   font-size: 195%;
 }
 @media (max-width: 768px) {
@@ -90,7 +95,7 @@ p{
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
-
+    background: #6b6b6b;
   }
 
   .menu-icon {
@@ -146,11 +151,12 @@ p{
     width: 23%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
+    background: #6b6b6b;
   }
   .App-logo {
-    box-shadow: 16px 14px 20px #0000008c;
+    
     object-fit: contain; 
-    box-shadow: 0px 0px 15px 15px #39d339;
+    box-shadow: 0px 0px 7px 6px #6b6b6b;
     width: 50%;
   }
 
@@ -159,8 +165,10 @@ p{
 @media (max-width: 410px) {
   h1 {
     width: 20%;
-    font-size: 18px;
-    margin: 15px 0px 0px 133px;
+    font-size: 17px;
+    margin: 6% -4% 0% 3%;
+    width: 27%;
+
   }
 h1{
 
@@ -187,11 +195,12 @@ h1{
     flex-wrap: wrap;
     font-size: 9px;
     width: 78px;
+    background: #6b6b6b;
   }
   .App-logo {
-    box-shadow: 16px 14px 20px #0000008c;
+    box-shadow: 16px 14px 20px #6b6b6b;
     object-fit: contain; 
-    box-shadow: 0px 0px 15px 15px #39d339;
+    box-shadow: 0px 0px 7px 6px #6b6b6b;
     width: 50%;
   }
   .nav2 a {
@@ -215,6 +224,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+    width: 37%;
   }
 
   .navbar {
@@ -241,11 +251,12 @@ h1{
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
+    background: #6b6b6b;
   }
   .App-logo {
     box-shadow: 16px 14px 20px #0000008c;
     object-fit: contain; 
-    box-shadow: 0px 0px 15px 15px #39d339;
+    box-shadow: 0px 0px 7px 6px #6b6b6b;
     width: 50%;
   }
   .nav2 a {
@@ -275,6 +286,7 @@ h1{
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
+    background: #6b6b6b;
   }
 }
 h1{
