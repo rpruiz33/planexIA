@@ -8,13 +8,13 @@
   border: 1px solid #020202;
   border-radius: 8px;
   background-color: #fff;
-  box-shadow: 0 0 10px #ffffff;
+  background-color: #fff0;
 }
 .service-link2{
   margin:0% 0% 0% 0%;
 }
 .service-detail h2 {
-  color: #333;
+  color: #ffffffcc;
   margin: -12% 88% -16% 130%;
   font-size: 212%;
   display: flex;
@@ -24,6 +24,7 @@
   font-size: 175%;
   margin: 26% -53% 7% 15%;
   width: 42%;
+  color: #ffffffcc;
 }
 a {
   color: black;
@@ -37,7 +38,7 @@ a {
 
 }
   .service-detail h2 {
-    color: #333;
+    color: #ffffffcc;
     /* margin: 33px 44px; */
    
     /* display: inline; */
@@ -59,7 +60,7 @@ a {
     margin-top: 0px;
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to left, #ddd3d3, #1f52b9da);
+    background: #000000;
     color: black;
     padding: 3%;
     border-radius: 6%;
@@ -88,7 +89,7 @@ color: #ffffff;
     padding: 20px;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #fff0;
     box-shadow: 0 0 10px #ffffff;
   }
   a {
@@ -102,7 +103,7 @@ color: #ffffff;
       margin: 25% -60% 2% -33%;
   }
     .service-detail h2 {
-      color: #333;
+      color: #ffffffcc;
       /* margin: 33px 44px; */
       font-size: 180%;
       /* display: inline; */
@@ -123,7 +124,7 @@ color: #ffffff;
       padding: 3%;
       border-radius: 6%;
       margin: 5% 41% 4% 39%;
-      background: linear-gradient(to left, #ddd3d3, #1f52b9da);
+      background: #000000;
       color: black;
     }
   .service-detail {
@@ -132,7 +133,7 @@ color: #ffffff;
     padding: 93px;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #fff0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     margin: 13% 13% 12% 13%;
@@ -140,7 +141,7 @@ color: #ffffff;
 
   }
   .service-detail h2 {
-    color: #333;
+    color: #ffffffcc;
     margin: -13% 25% 0% 67%;
     font-size: 190%;
   }
@@ -151,7 +152,7 @@ color: #ffffff;
   margin: 16% -49% 4% -57%;
   width: 49%;
   line-height: 1.5em;
-
+  color: #ffffffcc;
 }
 a {
   color: black;
@@ -166,7 +167,7 @@ a {
     padding: 5%;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #fff0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 16% -14% 17% 3%;
 
@@ -180,6 +181,7 @@ a {
     font-size: 84%;
     margin: 24% -64% 3% -25%;
     width: 45%;
+    color: #ffffffcc;
   }
   .text2{
     margin: 10% -109% -9% 15%;
@@ -188,7 +190,7 @@ a {
 
   }
   .service-detail h2 {
-    color: #333;
+    color: #ffffffcc;
     margin: -6% 12% 0% 130%;
     width: 26%;
   }
@@ -236,7 +238,7 @@ a {
     padding: 65px;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #fff0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 23% 45% 25% 5%;
     font-size: 85%;
@@ -293,19 +295,19 @@ a {
     margin: 36% 83% -7% -71%;
     width: 42%;
     line-height: 1.5em;
-    
+    color: #ffffffcc;
   }
     .service-detail p {
     display: block;
     font-size: 112%;
     margin: 43% 45% -7% -18%;
-
+    color: #ffffffcc;
     width: 42%;
     line-height: 1.5em;
     
   }
   .service-detail h2 {
-    color: #333;
+    color: #ffffffcc;
     margin: -11% -2% 3% -1%;
     font-size: 217%;
   }
@@ -322,7 +324,7 @@ a {
     padding: 13% 23% 15% 6%;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #fff0;
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
     margin: 19% 2% 15% 6%;
   }
@@ -349,7 +351,7 @@ p {
   width: 39%;
 }
 .service-detail h2 {
-  color: #333;
+  color: #ffffffcc;
   margin: -14% 35% 0% 114%;
   font-size: 132%;
 }
@@ -377,7 +379,7 @@ a {
     padding: 20px;
     border: 1px solid #020202;
     border-radius: 8px;
-    background-color: #d9d9d9;
+    background-color: #fff0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   }
@@ -386,6 +388,7 @@ a {
     font-size: 89%;
     margin: 18% -41% 5% -71%;
     width: 42%;
+    color: #ffffffcc;
   }
   a {
     color: black;

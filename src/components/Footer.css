@@ -9,13 +9,13 @@
   color: white;
   line-height: 2.4;
   font-size: 22px;
-  margin: 3% 15% 2% 15%;
+  margin: 1% 16% -1% -31%;
 }
 .social-icons{
   color: white;
   display: flex;
   flex-direction: row-reverse;
-  margin: 3% 34% 1% 33%;
+  margin: -3% 37% -3% 35%;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
@@ -56,7 +56,7 @@
 .title-footer {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: -97px;
 }
 
 .social {
@@ -85,6 +85,7 @@
 .logo123 {
   width: 31%; /* Tamaño del logotipo */
   margin: 10px auto; /* Centra el logotipo */
+  display: none;
 }
 .address-icon i {
   font-size: 172%;

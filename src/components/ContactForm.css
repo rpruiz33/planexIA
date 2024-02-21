@@ -5,13 +5,14 @@
   justify-content: center;
   height: auto;
   margin: 0% 0% 0% 0%;
-  background-color: cornflowerblue;
+  background-color:#333;
   color: #ecf0f1;
 }
 
 form {
   width: 80%;
   max-width: 400px;
+  background: #333;
 }
 
 .form-group {
@@ -63,6 +64,8 @@ button:hover {
   
   label {
     font-size: 18px;
+    margin: 16% 0% 0% 0%;
+    color: white;
   }
 }
 
