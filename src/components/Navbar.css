@@ -190,7 +190,7 @@ h1{
   .nav2.open {
     height: 42%;
     display: flex;
-    margin: -21% 5% 0% -5%;
+    margin: -21% 2% 0% -5%;
     width: 66px;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
