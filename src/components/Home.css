@@ -4,12 +4,21 @@
   text-align: center;
   margin: 0 auto;
 }
-
+form {
+  width: 80%;
+  background: #333;
+  margin: 0% 20% 0% 0%;
+}
 .p1 {
   color: white;
-  line-height: 2.4;
-  font-size: 22px;
-  margin: 1% 16% 7% -31%;
+display: flex;
+line-height: 2.4;
+font-size: 118%;
+margin: 1% auto; /* Ajusta los márgenes para centrar horizontalmente */
+padding: 3% 12% 1% 11%;
+flex-direction: row-reverse;
+align-items: center;
+width: 30%;
 }
 
 .div {
@@ -49,9 +58,15 @@ h3 {
 .black {
   color: #000000;
   font-size: 3.0rem;
-  margin: 0% 0% 0% 5%;
+  margin: 0% 0% 0% 0%;
   text-decoration: underline;
   
+}
+h2 {
+  margin: 6% 0% 3% 0%;
+  font-size: 122%;
+  color: white;
+  text-decoration: underline;
 }
 
 @media  (max-width: 768px) {
@@ -79,6 +94,13 @@ h3 {
     font-size: 1.3rem;
     margin-top: 20px; /* Añadir margen superior */
   }
+  form {
+    width: 80%;
+    background: #333;
+    margin: 0% 11% 0% 0%;
+}
+  
+  
 }
 
 @media (max-width: 540px) {

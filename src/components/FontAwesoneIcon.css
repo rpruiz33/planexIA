@@ -29,7 +29,7 @@
   
   .icon-instagram {
     color: #fff;
-    margin: 0px -4px 0px 0px;
+    margin: 0px -4px -12px 0px;
     border: double;
     border-radius: 10%;
     font-size: 1em;
@@ -41,4 +41,15 @@
       margin: 0px 0px 0px 0px;
     }
     }
-  
+
+    
+    @media (max-width: 320px) {
+
+    .icon-instagram {
+      color: #fff;
+      margin: 7px -4px -12px 0px;
+      border: double;
+      border-radius: 10%;
+      font-size: 1em;
+  }
+}

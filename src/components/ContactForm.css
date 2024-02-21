@@ -1,18 +1,20 @@
-.contact-form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  margin: 0% 0% 0% 0%;
-  background-color:#333;
-  color: #ecf0f1;
-}
+
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0% 0% 0% 17%; /* Evita duplicados de esta regla */
+    background-color: #333;
+    color: #ecf0f1;
+  }
 
 form {
   width: 80%;
-  max-width: 400px;
+  
   background: #333;
+  margin: 0% 11% 0% 0%
 }
 
 .form-group {
@@ -26,21 +28,23 @@ label {
   display: block;
   margin-bottom: 5px;
   font-size: 24px;
-  color: black;
+  
 }
 
 input,
 textarea {
-  width: 100%;
-  padding: 8px;
+  width: 45%;
+  padding: 13px;
   margin-top: 5px;
   border: 1px solid #000000;
   border-radius: 10px;
+  margin: 0% -1% 0% 0%; /* Evita duplicados de esta regla */
 }
+
 .box{
-  height: 1100%;
-  width: 83%;
-  padding:10% 10% 10% 10% ;
+  height: 66%;
+  width: 27%;
+  padding: 0% 10% 10% 10%;
 }
 
 button {
@@ -75,15 +79,27 @@ button:hover {
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 375px) {
   button {
     margin: -1px 3px 40px 3px;
   }
+  form {
+    width: 80%;
+    
+    background: #333;
+    margin: 0% 11% 0% 5%
+  }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 320px) {
   button {
     margin: -1px 3px 30px 3px;
+  }
+  form {
+    width: 80%;
+    
+    background: #333;
+    margin: 0% 11% 0% 0%
   }
 }
 
