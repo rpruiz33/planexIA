@@ -28,7 +28,7 @@
   
   
   .icon-instagram {
-    color: #fff;
+    color: black;
     margin: 0px -4px -12px 0px;
     border: double;
     border-radius: 10%;
@@ -46,7 +46,7 @@
     @media (max-width: 320px) {
 
     .icon-instagram {
-      color: #fff;
+      color:  black;
       margin: 7px -4px -12px 0px;
       border: double;
       border-radius: 10%;
