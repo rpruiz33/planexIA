@@ -6,14 +6,13 @@
     justify-content: center;
     height: auto;
     margin: 0% 0% 0% 17%; /* Evita duplicados de esta regla */
-    background-color: #333;
-    color: #ecf0f1;
+      color: #ecf0f1;
   }
 
 form {
   width: 80%;
   
-  background: #333;
+  
   margin: 0% 11% 0% 0%
 }
 
@@ -98,7 +97,6 @@ button:hover {
   form {
     width: 80%;
     
-    background: #333;
     margin: 0% 11% 0% 0%
   }
 }
