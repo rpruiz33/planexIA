@@ -28,18 +28,39 @@
   
   
   .icon-instagram {
-    color: black;
+    color:white;
     margin: 0px -4px -12px 0px;
     border: double;
     border-radius: 10%;
     font-size: 1em;
 }
 
-  
-    @media (max-width: 410px) {
+@media (max-width: 425px) {
+
+  .icon-instagram {
+    color:  black;
+    margin: 7px -4px -12px 0px;
+    border: double;
+    border-radius: 10%;
+    font-size: 1em;
+}
+
+
+}
+
+
+
+    @media (max-width: 375px) {
       .icon icon-facebook{
       margin: 0px 0px 0px 0px;
     }
+    .icon-instagram {
+      color:  black;
+      margin: 7px -4px -12px 0px;
+      border: double;
+      border-radius: 10%;
+      font-size: 1em;
+  }
     }
 
     
