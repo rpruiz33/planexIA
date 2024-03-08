@@ -10,6 +10,13 @@
   background-color: #fff;
   background-color: #fff0;
 }
+.contenedor {
+  /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
+  background-image: url('../../public/2.png');
+  background-size: cover; /* Cubre todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  /* Otros estilos si es necesario */
+}
 .service-link2{
   margin:0% 0% 0% 0%;
 }
@@ -142,7 +149,7 @@ color: #ffffff;
   }
   .service-detail h2 {
     color: #ffffffcc;
-    margin: -13% 25% 0% 67%;
+ 
     font-size: 190%;
   }
   
@@ -159,18 +166,26 @@ a {
   margin: -11% -4% 0% 0%;
 }
 }
-@media (max-width: 540px) {
+@media (max-width: 425px) {
   .service-detail {
     text-align: left;
     max-width: 349px;
     margin: 16px auto;
     padding: 5%;
-    border: 1px solid #020202;
+    border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #fff0;
+    background-color: chartreuse;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 16% -14% 17% 3%;
 
+  }
+  .contenedor {
+    background-image: url("../../public/2.png");
+    background-size: cover;
+    background-position: center;
+    margin: 20% -6% -5% 87%;
+    padding: 31% 2% 5% 22%;
+  
   }
   a {
     color: black;
@@ -178,10 +193,12 @@ a {
 }
   .service-detail p {
     display: block;
-    font-size: 84%;
-    margin: 24% -64% 3% -25%;
-    width: 45%;
-    color: #ffffffcc;
+    font-size: 156%;
+    margin: -38% -74% 40% -20%;
+    width: 37%;
+    color: black;
+    text-decoration: underline;
+
   }
   .text2{
     margin: 10% -109% -9% 15%;
@@ -190,10 +207,10 @@ a {
 
   }
   .service-detail h2 {
-    color: #ffffffcc;
-    margin: -6% 12% 0% 130%;
+    color: black;
+    margin: -64% 28% 50% 11%;
     width: 26%;
-  }
+}
   a {
     color: black;
     margin: -11% -4% 0% 0%;
@@ -211,7 +228,7 @@ a {
     margin: 0% -103% 0% 1%
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 375px) {
   p.description{
   
     display: block;
@@ -219,6 +236,14 @@ a {
     margin: 36% 46% -7% -25%;
     width: 42%;
     line-height: 1.5em;
+}
+.contenedor {
+  background-image: url("../../public/2.png");
+
+  background-size: cover;
+  background-position: center;
+  margin: 8% -31% -31% -16%;
+
 }
 .text2{
   display: flex;
@@ -236,9 +261,9 @@ a {
     max-width: 332px;
     margin: 16px auto;
     padding: 65px;
-    border: 1px solid #020202;
+    border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #fff0;
+    background-color: chartreuse;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 23% 45% 25% 5%;
     font-size: 85%;
@@ -298,37 +323,45 @@ a {
     color: #ffffffcc;
   }
     .service-detail p {
-    display: block;
-    font-size: 112%;
-    margin: 43% 45% -7% -18%;
-    color: #ffffffcc;
-    width: 42%;
-    line-height: 1.5em;
+      display: block;
+      font-size: 198%;
+      margin: 1% 14% 12% 8%;
+      color: black;
+      line-height: 1.5em;
+      text-decoration: underline;
     
   }
   .service-detail h2 {
-    color: #ffffffcc;
-    margin: -11% -2% 3% -1%;
-    font-size: 217%;
+    color: black;
+    margin: -48% 0% 5% 29%;
+    font-size: 220%;
   }
   a {
     color: black;
     margin: 0% 0% 0% 0%;
 }
 }
-@media (max-width: 340px) {
+@media (max-width: 320px) {
   .service-detail {
     text-align: left;
     max-width: 360px;
     margin: 16px auto;
     padding: 13% 23% 15% 6%;
-    border: 1px solid #020202;
+    border: 4px solid #020202;
     border-radius: 8px;
     background-color: #fff0;
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
-    margin: 19% 2% 15% 6%;
+    margin: 16% -129% 57% 6%;
+    padding: -7% 7% 9% -16%;
+    background-color: chartreuse;
   }
-
+  .contenedor {
+    background-image: url("../../public/2.png");
+  
+    background-size: cover;
+    background-position: center;
+    margin: 22% -41% -26% 54%;
+  }
 .text2{
   display: flex;
   /* font-size: 112%; */
@@ -346,14 +379,19 @@ p {
 
 .service-detail p {
   display: flex;
-  font-size: 82%;
-  margin: 26% -53% 7% -33%;
-  width: 39%;
+  font-size: 177%;
+  margin: 2% -42% 12% 4%;
+  width: 31%;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+
 }
 .service-detail h2 {
-  color: #ffffffcc;
-  margin: -14% 35% 0% 114%;
-  font-size: 132%;
+  color: black;
+  margin: -22% -13% 0% 25%;
+  font-size: 167%;
+
 }
 a {
   color: black;
