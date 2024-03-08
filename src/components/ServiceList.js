@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ServiceList.css';
-
+import { NavLink } from 'react-router-dom';
 const ServiceList = () => {
   const services = [
     { id: 1, name: 'Empresarial' },
@@ -13,17 +13,20 @@ const ServiceList = () => {
   ];
 
   return (
-    <div style={{ fontFamily: 'Oswald ,sans-serif' }}>
-      <h2>Nuestros Servicios</h2>
-    
-        {services.map(service => (
-          <nav key={service.id}>
-            <Link to={`/service/${service.id}`} className="service-link">
-              {service.name}
-            </Link>
-          </nav>
-        ))}
-     
+    <div style={{ fontFamily: 'Oswald, sans-serif' }}>
+
+
+      
+      <NavLink to="" className='Home'>
+      <img src="/desde2023.png" alt=""  className='servicios'/>
+        </NavLink>
+      {services.map(service => (
+        <nav key={service.id}>
+          <Link to={`/service/${service.id}`} className="service-link" >
+            {service.name}
+          </Link>
+        </nav>
+      ))}
     </div>
   );
 };

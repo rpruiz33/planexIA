@@ -2,15 +2,27 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 52px -8px 29px -11px;
+  display: flex; /* Usamos Flexbox */
+  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan a la siguiente línea */
+  justify-content: space-between; /* Distribuimos los elementos horizontalmente */
 }
+
+li {
+  font-size: 25px;
+  margin: 0; /* Eliminamos el margen para que los elementos no tengan espacio entre ellos */
+  width: calc(33.33% - 8px); /* Calculamos el ancho para que haya tres elementos por fila */
+}
+
 .nav{
   width: auto;
 
 }
-li {
-  font-size: 25px;
-  margin: 50px 42% 0%;
+.servicios{
+
+  width: 50%;
+
 }
+
 p {
   font-size: 177%;
   margin: 5% 27% 1% 21%;
