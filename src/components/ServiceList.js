@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ServiceList.css';
 import { NavLink } from 'react-router-dom';
+
 const ServiceList = () => {
   const services = [
     { id: 1, name: 'Empresarial' },
@@ -12,22 +13,38 @@ const ServiceList = () => {
     { id: 6, name: 'Seguimiento e indicadores' },
   ];
 
+  // Dividir los servicios en dos grupos
+  const firstGroup = services.slice(0, 3);
+  const secondGroup = services.slice(3);
+
   return (
-    <div style={{ fontFamily: 'Oswald, sans-serif' }}>
-
-
-      
+    <>
       <NavLink to="" className='Home'>
-      <img src="/desde2023.png" alt=""  className='servicios'/>
-        </NavLink>
-      {services.map(service => (
-        <nav key={service.id}>
-          <Link to={`/service/${service.id}`} className="service-link" >
-            {service.name}
-          </Link>
-        </nav>
-      ))}
-    </div>
+        <img src="/desde2023.png" alt=""  className='servicios'/>
+      </NavLink>
+      
+      {/* Mostrar el primer grupo de servicios */}
+      <div className="service-group">
+        {firstGroup.map(service => (
+          <nav key={service.id}>
+            <Link to={`/service/${service.id}`} className="service-link">
+              {service.name}
+            </Link>
+          </nav>
+        ))}
+      </div>
+      
+      {/* Mostrar el segundo grupo de servicios */}
+      <div className="service-group">
+        {secondGroup.map(service => (
+          <nav key={service.id}>
+            <Link to={`/service/${service.id}`} className="service-link">
+              {service.name}
+            </Link>
+          </nav>
+        ))}
+      </div>
+    </>
   );
 };
 

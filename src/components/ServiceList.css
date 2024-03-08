@@ -19,7 +19,7 @@ li {
 }
 .servicios{
 
-  width: 50%;
+  width: 77%;
 
 }
 
@@ -32,6 +32,24 @@ p {
   text-decoration: none;
   font-weight: bold;
   margin: 3% 0% 2% 0%;
+  width: 100%;
+  padding: 24% 17% 24% 0%;
+}
+.service-group {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 16% 0% 13% 0%;
+}
+
+.service-group nav {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.33% - 20px);
+  margin: 0px 9px 10px 6px;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .service-link:hover {
@@ -68,6 +86,10 @@ p {
     font-weight: bold;
     margin: 13% 0% -26% -77
   }
+  .servicios {
+    width: 90%;
+    margin: 0% 3% 0% 0%;
+  }
 }
 p {
   /* display: none; */
@@ -85,17 +107,23 @@ p {
     width: auto;
 
   }
-  .service-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 3% 0% 2% 0%;
-    width: -2% -3% -2% 0%;
-    font-size: 81%;
+  .servicios {
+    width: 90%;
+    margin: 0% 3% 0% 0%;
+  }
+
+    .service-link {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 3% 0% 2% 0%;
+        width: 99%;
+        font-size: 114%;
+        padding: 22% 61% 21% 1%;
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 320px) {
   h2 {
     margin: 6% 0% 3%; /* Estilo para pantallas de hasta 410px de ancho */
   }
@@ -104,8 +132,8 @@ p {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin: 8% 24% 17% 20%;
-    font-size: 68%;
+    margin: 8% 28% 17% -1%;
+    font-size: 71%;
     display: block;
 }
 .description{
@@ -116,18 +144,19 @@ p {
     width: 42%;
     line-height: 1.5em;
 }
-    
-  }
-
-
-@media (max-width: 290px) {
-  h2 {
-    margin: 6% 0% 3%; /* Estilo para pantallas de hasta 290px de ancho */
-  }
-  .service-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 3% 0% 2% 0%;
-  }
+.servicios {
+  width: 90%;
+  margin: 0% 3% 0% 0%;
 }
+.service-group nav {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.33% - 20px);
+  margin: -7px 0px -8px 11px;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+}
+  }
+
+

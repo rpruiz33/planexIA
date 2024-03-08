@@ -79,7 +79,7 @@ h2 {
     font-size: 18px;
     margin-left: 27%;
     margin-right: 0;
-    display: flex;
+    display: contents; /*
 }
 
   .perfil {
@@ -93,6 +93,8 @@ h2 {
   h2 {
     font-size: 1.3rem;
     margin-top: 20px; /* Añadir margen superior */
+    color: black;
+
   }
   form {
     width: 80%;
@@ -111,7 +113,7 @@ h2 {
     font-size: 14px;
     margin-left: 27%;
     margin-right: 0;
-    display: flex;
+    display: contents;
 }
   h3 {
     font-size: 1.1rem;
@@ -131,9 +133,13 @@ h2 {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 320px) {
 
-
+.p1 {
+  font-size: 12px;
+  letter-spacing: 0px;
+  display: table-cell;
+}
   .perfil {
     width: 80px; /* Reducir aún más el tamaño del perfil */
   }
