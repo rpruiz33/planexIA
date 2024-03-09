@@ -7,7 +7,7 @@
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: chartreuse;
+    background-color: #adf;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 9% -30% 28% 8%;
   }
@@ -89,6 +89,26 @@ color: #ffffff;
     margin: -12% -44% 0% -19%;
     font-size: 76%;
     display: block;
+  }
+  .contenedor {
+    /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
+    background-image: url('../../public/2.png');
+  
+       background-size: cover;
+    background-position: center;
+    margin: -58% 47% -61% 79%;
+  
+      /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
+      background-image: url('../../public/2.png');
+    
+         background-size: cover;
+      background-position: center;
+      margin: -58% 47% -61% 79%;
+      width: 104%;
+
+      height: 127%;
+
+  
   }
   a {
     color: black;
@@ -181,7 +201,7 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: chartreuse;
+    background-color: #adf;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 16% -14% 17% 3%;
 
@@ -271,7 +291,7 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: chartreuse;
+    background-color: #adf;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 23% 45% 25% 5%;
     font-size: 85%;
@@ -362,7 +382,7 @@ a {
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
     margin: 16% -129% 57% 6%;
     padding: -7% 7% 9% -16%;
-    background-color: chartreuse;
+    background-color:#adf;
   }
   .contenedor {
     background-image: url("../../public/2.png");
