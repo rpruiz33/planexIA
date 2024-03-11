@@ -1,14 +1,13 @@
 import React from 'react';
 import './Home.css';
 
-import ServiceList from './ServiceList.js'
+
 
 
 const Home = () => {
   return (
-    <>
-    <ServiceList />
-    <div className="HomeContainer" style={{ marginTop: '0', marginBottom:'0' }}>
+    
+    <div className="HomeContainer1" >
      
       <h2 className='black' style={{ padding: '10%'}}>PLANEXIA</h2>
       <h2> de Hnos. Ruiz Pereira</h2>
@@ -47,7 +46,7 @@ const Home = () => {
       </div>
      
     </div>
-    </>
+    
   );
 };
 

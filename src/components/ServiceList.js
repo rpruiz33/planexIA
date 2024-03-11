@@ -18,13 +18,15 @@ const ServiceList = () => {
   const secondGroup = services.slice(3);
 
   return (
-    <>
+<>
       <NavLink to="" className='Home'>
         <img src="/desde2023.png" alt=""  className='servicios'/>
       </NavLink>
       
       {/* Mostrar el primer grupo de servicios */}
+      <div className="HomeContainer" style={{ marginTop: '10%', marginBottom:'10%' }}>
       <div className="service-group">
+         
         {firstGroup.map(service => (
           <nav key={service.id}>
             <Link to={`/service/${service.id}`} className="service-link">
@@ -44,6 +46,7 @@ const ServiceList = () => {
           </nav>
         ))}
       </div>
+    </div>
     </>
   );
 };

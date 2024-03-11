@@ -1,10 +1,10 @@
 .HomeContainer {
   max-width: 100%;
-  padding: 0 10px; /* Añadir espacio interno */
+ 
   text-align: center;
   margin: 0 auto;
 }
-.HomeContainer {
+.HomeContainer1 {
   background-image: url('../../public/pattern-7077094_1280.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
