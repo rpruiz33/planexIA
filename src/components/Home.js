@@ -1,10 +1,16 @@
 import React from 'react';
 import './Home.css';
 
+import ServiceList from './ServiceList.js'
+
+
 const Home = () => {
   return (
-    <div className="HomeContainer" style={{ marginTop: '80px' }}>
-      <h2 className='black'>PLANEXIA</h2>
+    <>
+    <ServiceList />
+    <div className="HomeContainer" style={{ marginTop: '0', marginBottom:'0' }}>
+     
+      <h2 className='black' style={{ padding: '10%'}}>PLANEXIA</h2>
       <h2> de Hnos. Ruiz Pereira</h2>
       <p className='p1'>
         Somos una empresa joven con la misión de brindar soluciones estratégicas empresariales y mejorar la
@@ -21,7 +27,7 @@ const Home = () => {
         - Seguimiento e indicadores
       </p>
    
-      <div className="div" style={{ fontfamily: 'Josefin Sans ,sans-serif'}}>
+      <div className="div" style={{ fontFamily: 'Josefin Sans ,sans-serif', paddingBottom:'19%'}}>
         <div className='div1'>
           <h2>Lic. Luis P. Ruiz Pereira</h2>
           <h3>Socio gerente</h3>
@@ -39,7 +45,9 @@ const Home = () => {
           </a>
         </div>
       </div>
+     
     </div>
+    </>
   );
 };
 
