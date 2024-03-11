@@ -269,8 +269,8 @@ a {
 
   background-size: cover;
   background-position: center;
-  margin: 8% -31% -31% -16%;
-
+  margin: 38% -31% -31% -16%;
+  padding:0% 58% 0% 0%;
 }
 .text2{
   display: flex;
@@ -374,15 +374,15 @@ a {
     text-align: left;
     max-width: 360px;
     margin: 16px auto;
-    padding: 13% 23% 15% 6%;
+    padding: 13% 10% 15% 6%;
     border: 4px solid #020202;
     border-radius: 8px;
     font-weight: bold;
     background-color: #fff0;
     box-shadow: 0 0 10px rgb(75 120 167 / 10%);
-    margin: 16% -129% 57% 6%;
+    margin: 16% -131% 59% 13%;
     padding: -7% 7% 9% -16%;
-    background-color:#adf;
+    background-color: #adf;
   }
   .contenedor {
     background-image: url("../../public/2.png");

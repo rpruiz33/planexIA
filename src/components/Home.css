@@ -1,8 +1,7 @@
 .HomeContainer {
-  max-width: 100%;
- 
+  max-width: 95%;
   text-align: center;
-  margin: 0 auto;
+  margin: 9% -23% 75% 3%;
 }
 .HomeContainer1 {
   background-image: url('../../public/pattern-7077094_1280.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
