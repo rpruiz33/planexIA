@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeftLong} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-
+import './ServiceDetail.css';
 const FontAwesoneIcon = () => {
   return (
     <>
