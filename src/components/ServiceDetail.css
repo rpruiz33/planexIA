@@ -515,7 +515,9 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 22% -41% -26% 54%;
+    margin: 22% -54% -26% 54%;
+    padding: 0% 0% 0% 0%;
+    width: 128%;
   }
 .text2{
   display: flex;
@@ -544,7 +546,7 @@ p {
 }
 .service-detail h2 {
   color: black;
-  margin: -51% -13% 0% 25%;
+  margin: -26% -13% 0% 28%;
   font-size: 167%;
 }
 a {
