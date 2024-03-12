@@ -7,7 +7,7 @@
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #adf;
+    background-color: #ad9;;
 
   }
   .contenedor {
@@ -87,7 +87,7 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #adf;
+    background-color: #ad9;;
 
   }
   a {
@@ -139,7 +139,7 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #adf;
+    background-color: #ad9;;
 
   }
   .contenedor {
@@ -154,7 +154,7 @@ a {
   }
 .service-link2{
   display: flex;
-  margin: 5% 10% 62% -139%;
+  margin: 5% 10% 62% -120%
 }
 .service-detail h2 {
   color: black;
@@ -223,12 +223,10 @@ color: #ffffff;
   .contenedor {
     /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
     background-image: url('../../public/2.png');
-  
-
     background-size: cover;
     background-position: center;
-    margin: 2% 62% -21% 30%;
-    padding: 21% 50% 31% 50%;
+    margin: 10% 62% -20% 30%;
+    padding: 6% 50% 35% 50%;
     width: 132%;
     height: 127%;
 
@@ -288,10 +286,10 @@ color: #ffffff;
    
     text-align: left;
     /* margin: 16px auto; */
-    padding: 9% 12% 11% 12%;
+    padding: 9% 12% 10% 12%;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #adf;
+    background-color: #ad9;;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     margin: 13% 8% 12% 13%;
@@ -301,7 +299,7 @@ color: #ffffff;
   .service-detail h2 {
     color: black;
     font-size: 193%;
-    margin: -88% 0% 0% -46%;
+    margin: -59% 0% 0% -46%;
 }
   
   
@@ -417,7 +415,7 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #adf;
+    background-color: #ad9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 23% 45% 25% 5%;
     font-size: 85%;
