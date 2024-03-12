@@ -1,4 +1,4 @@
-@media (max-width: 1366px) {
+@media (max-width: 1440px) {
   .service-detail {
     text-align: left;
     max-width: 349px;
@@ -7,16 +7,61 @@
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #ad9;;
+    background-color: #ffffff69;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   }
   .contenedor {
-    /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
     background-image: url('../../public/2.png');
     background-size: cover;
     background-position: center;
-    margin: -36% 47% -61% -145%;
-    padding: 38% 121% 43% 9%;
+    margin: -26% 49% -66% -157%;
+    padding: 37% 125% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor1 {
+    background-image: url('../../public/empresarial.png');
+    background-size: cover;
+    background-position: center;
+    margin: 13% 49% -66% -157%;
+    padding: 37% 125% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor2 {
+    background-image: url('../../public/finanzas.png');
+    background-size: cover;
+    background-position: center;
+    margin: 13% 49% -66% -157%;
+    padding: 37% 125% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor3 {
+    background-image: url('../../public/impexpo.png');
+    background-size: cover;
+    background-position: center;
+    margin: 13% 49% -66% -157%;
+    padding: 37% 125% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor4 {
+    background-image: url('../../public/erp.png');
+    background-size: cover;
+    background-position: center;
+    margin: 13% 49% -66% -157%;
+    padding: 37% 125% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor5 {
+    background-image: url('../../public/seguimiento.png');
+    background-size: cover;
+    background-position: center;
+    margin: 13% 49% -66% -157%;
+    padding: 37% 125% 43% 9%;
     width: 123%;
     height: 127%;
   }
@@ -87,7 +132,8 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #ad9;;
+    background-color: #ffffff69;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   }
   a {
@@ -100,8 +146,14 @@ a {
   color: black;
   margin: -38% 31% 41% -139%;
 }
+.empre h2 {
+  margin: -61% 2% 30% 75%;
+  font-size: 346%;
+  color: black;
+  text-decoration: underline;
+}
   .service-detail h2 {
-    margin: -80% 2% 30% 75%;
+    margin: -79% 2% 30% 75%;
     font-size: 346%;
     color: black;
     text-decoration: underline;
@@ -123,8 +175,8 @@ a {
 
     background-size: cover;
     background-position: center;
-    margin: -20% 44% -62% -147%;
-    padding: 62% 115% 31% 9%;
+    margin: -8% 44% -66% -156%;
+    padding: 60% 124% 31% 9%;
     width: 123%;
     height: 127%;
   }
@@ -139,15 +191,62 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #ad9;;
+    background-color: #ad9;
+    box-shadow: 0 0 10px #fff;
+    
+    background-color: #ffffff69;
 
   }
   .contenedor {
-    /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
     background-image: url('../../public/2.png');
     background-size: cover;
     background-position: center;
-    margin: -36% 49% -59% -132%;
+    margin: -36% 49% -62% -132%;
+    padding: 38% 109% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor1 {
+    background-image: url('../../public/empresarial.png');
+    background-size: cover;
+    background-position: center;
+    margin: -36% 49% -62% -132%;
+    padding: 38% 109% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor2 {
+    background-image: url('../../public/finanzas.png');
+    background-size: cover;
+    background-position: center;
+    margin: -36% 49% -62% -132%;
+    padding: 38% 109% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor3 {
+    background-image: url('../../public/impexpo.png');
+    background-size: cover;
+    background-position: center;
+    margin: -36% 49% -62% -132%;
+    padding: 38% 109% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor4 {
+    background-image: url('../../public/erp.png');
+    background-size: cover;
+    background-position: center;
+    margin: -36% 49% -62% -132%;
+    padding: 38% 109% 43% 9%;
+    width: 123%;
+    height: 127%;
+  }
+  .contenedor5 {
+    background-image: url('../../public/seguimiento.png');
+    background-size: cover;
+    background-position: center;
+    margin: -36% 49% -62% -132%;
     padding: 38% 109% 43% 9%;
     width: 123%;
     height: 127%;
@@ -221,13 +320,73 @@ color: #ffffff;
     display: block;
   }
   .contenedor {
-    /* Ajusta el tamaño y la posición de la imagen de fondo según tus necesidades */
+   
     background-image: url('../../public/2.png');
     background-size: cover;
     background-position: center;
     margin: 10% 62% -20% 30%;
     padding: 6% 50% 35% 50%;
     width: 132%;
+    height: 127%;
+
+  
+  }
+  .contenedor1 {
+   
+    background-image: url('../../public/empresarial.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10% 62% -20% 30%;
+    padding: 6% 53% 35% 50%;
+    width: 135%;
+    height: 127%;
+
+  
+  }
+  .contenedor2 {
+   
+    background-image: url('../../public/finanzas.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10% 62% -20% 30%;
+    padding: 6% 53% 35% 50%;
+    width: 135%;
+    height: 127%;
+
+  
+  }
+  .contenedor3 {
+   
+    background-image: url('../../public/impexpo.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10% 62% -20% 30%;
+    padding: 6% 53% 35% 50%;
+    width: 135%;
+    height: 127%;
+
+  
+  }
+  .contenedor4 {
+   
+    background-image: url('../../public/erp.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10% 62% -20% 30%;
+    padding: 6% 53% 35% 53%;
+    width: 135%;
+    height: 127%;
+
+  
+  }
+  .contenedor5 {
+   
+    background-image: url('../../public/seguimiento.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10% 62% -20% 30%;
+    padding: 6% 53% 35% 52%;
+    width: 135%;
     height: 127%;
 
   
@@ -293,7 +452,10 @@ color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     margin: 13% 8% 12% 13%;
-
+    box-shadow: 0 0 10px #fff;
+    margin: 16% -131% 59% 13%;
+    padding: -7% 7% 9% -16%;
+    background-color: #ffffff69;
 
   }
   .service-detail h2 {
@@ -306,7 +468,7 @@ color: #ffffff;
  .service-detail p {
   display: block;
     font-size: 167%;
-    margin: 16% -49% 4% -57%;
+    margin: 22% -49% 4% -57%;
     width: 49%;
     line-height: 1.5em;
     color: black;
@@ -325,7 +487,7 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #adf;
+    background-color: #ffffff69;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 16% -14% 17% 3%;
 
@@ -334,8 +496,48 @@ a {
     background-image: url("../../public/2.png");
     background-size: cover;
     background-position: center;
-    margin: 20% -6% -5% 87%;
-    padding: 31% 2% 5% 22%;
+    margin: 23% -6% -6% 87%;
+    padding: 31% 2% 3% 22%;
+  
+  }
+  .contenedor1 {
+    background-image: url("../../public/empresarial.png");
+    background-size: cover;
+    background-position: center;
+    margin: 23% -6% -6% 87%;
+    padding: 31% 2% 3% 22%;
+  
+  }
+  .contenedor2 {
+    background-image: url("../../public/finanzas.png");
+    background-size: cover;
+    background-position: center;
+    margin: 23% -6% -6% 87%;
+    padding: 31% 2% 3% 22%;
+  
+  }
+  .contenedor3 {
+    background-image: url("../../public/impexpo.png");
+    background-size: cover;
+    background-position: center;
+    margin: 23% -6% -6% 87%;
+    padding: 31% 2% 3% 22%;
+  
+  }
+  .contenedor4 {
+    background-image: url("../../public/erp.png");
+    background-size: cover;
+    background-position: center;
+    margin: 23% -6% -6% 87%;
+    padding: 31% 2% 3% 22%;
+  
+  }
+  .contenedor5 {
+    background-image: url("../../public/seguimiento.png");
+    background-size: cover;
+    background-position: center;
+    margin: 23% -6% -6% 87%;
+    padding: 31% 2% 3% 22%;
   
   }
   a {
@@ -359,7 +561,7 @@ a {
   }
   .service-detail h2 {
     color: black;
-    margin: -64% 28% 50% 11%;
+    margin: -70% 28% 50% 11%;
     width: 26%;
 }
   a {
@@ -396,6 +598,46 @@ a {
   margin: 38% -31% -31% -16%;
   padding:0% 58% 0% 0%;
 }
+.contenedor1 {
+  background-image: url("../../public/empresarial.png");
+
+  background-size: cover;
+  background-position: center;
+  margin: 38% -31% -31% -16%;
+  padding:0% 58% 0% 0%;
+}
+.contenedor2 {
+  background-image: url("../../public/finanzas.png");
+
+  background-size: cover;
+  background-position: center;
+  margin: 38% -31% -31% -16%;
+  padding:0% 58% 0% 0%;
+}
+.contenedor3 {
+  background-image: url("../../public/impexpo.png");
+
+  background-size: cover;
+  background-position: center;
+  margin: 38% -31% -31% -16%;
+  padding:0% 58% 0% 0%;
+}
+.contenedor4 {
+  background-image: url("../../public/erp.png");
+
+  background-size: cover;
+  background-position: center;
+  margin: 38% -31% -31% -16%;
+  padding:0% 58% 0% 0%;
+}
+.contenedor5 {
+  background-image: url("../../public/seguimiento.png");
+
+  background-size: cover;
+  background-position: center;
+  margin: 38% -31% -31% -16%;
+  padding:0% 58% 0% 0%;
+}
 .text2{
   display: flex;
   /* font-size: 112%; */
@@ -415,12 +657,13 @@ a {
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
-    background-color: #ad9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
     margin: 23% 45% 25% 5%;
     font-size: 85%;
     width: 55%;
-
+    box-shadow: 0 0 10px #fff;
+    
+    background-color: #ffffff69;
   }
   .service-detail2 {
     text-align: left;
@@ -477,7 +720,7 @@ a {
     .service-detail p {
       display: block;
       font-size: 198%;
-      margin: 1% 14% 12% 8%;
+      margin: 15% 14% 12% 8%;
       color: black;
       line-height: 1.5em;
       text-decoration: underline;
@@ -503,17 +746,64 @@ a {
     border-radius: 8px;
     font-weight: bold;
     background-color: #fff0;
-    box-shadow: 0 0 10px rgb(75 120 167 / 10%);
+    box-shadow: 0 0 10px #fff;
     margin: 16% -131% 59% 13%;
     padding: -7% 7% 9% -16%;
-    background-color: #adf;
+    background-color: #ffffff69;
   }
+
   .contenedor {
     background-image: url("../../public/2.png");
   
     background-size: cover;
     background-position: center;
     margin: 22% -54% -26% 54%;
+    padding: 0% 0% 0% 0%;
+    width: 128%;
+  }
+  .contenedor1 {
+    background-image: url("../../public/empresarial.png");
+  
+    background-size: cover;
+    background-position: center;
+    margin: 22% -54% -26% 54%;
+    padding: 0% 0% 0% 0%;
+    width: 128%;
+  }
+  .contenedor2 {
+    background-image: url("../../public/finanzas.png");
+  
+    background-size: cover;
+    background-position: center;
+    margin: 22% -54% -26% 54%;
+    padding: 0% 0% 0% 0%;
+    width: 128%;
+  }
+  .contenedor3 {
+    background-image: url("../../public/impexpo.png");
+  
+    background-size: cover;
+    background-position: center;
+    margin: 22% -54% -26% 54%;
+    padding: 0% 0% 0% 0%;
+    width: 128%;
+  }
+
+  .contenedor4 {
+    background-image: url("../../public/erp.png");
+  
+    background-size: cover;
+    background-position: center;
+    margin: 18% -54% -26% 54%;
+    padding: 0% 0% 0% 0%;
+    width: 128%;
+  }
+  .contenedor5 {
+    background-image: url("../../public/seguimiento.png");
+  
+    background-size: cover;
+    background-position: center;
+    margin: 18% -54% -26% 54%;
     padding: 0% 0% 0% 0%;
     width: 128%;
   }
@@ -535,7 +825,7 @@ p {
 .service-detail p {
   display: flex;
   font-size: 177%;
-  margin: 2% -42% 12% 4%;
+  margin: 8% -42% 12% 4%;
   width: 31%;
   color: black;
   font-weight: bold;
@@ -544,8 +834,8 @@ p {
 }
 .service-detail h2 {
   color: black;
-  margin: -26% -13% 0% 28%;
-  font-size: 167%;
+  margin: -34% -13% 0% 28%;
+  font-size: 158%;
 }
 a {
   color: black;

@@ -10,7 +10,7 @@ const Home = () => {
     <div className="HomeContainer1" >
      
       <h2 className='black' style={{ padding: '10%'}}>PLANEXIA</h2>
-      <h2> de Hnos. Ruiz Pereira</h2>
+      <h3> de Hnos. Ruiz Pereira</h3>
       <p className='p1'>
         Somos una empresa joven con la misión de brindar soluciones estratégicas empresariales y mejorar la
         toma de decisiones. Nuestra visión es lograr el cumplimiento y la maximización de los objetivos de nuestros clientes.
