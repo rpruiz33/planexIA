@@ -145,6 +145,9 @@ a {
   display: flex;
   color: black;
   margin: -38% 31% 41% -139%;
+  display: flex;
+  color: black;
+  margin: 16% 1% 52% -160%;
 }
 .empre h2 {
   margin: -61% 2% 30% 75%;
@@ -157,7 +160,10 @@ a {
     font-size: 346%;
     color: black;
     text-decoration: underline;
-  
+    margin: -98% 4% 26% 77%;
+    font-size: 547%;
+    color: black;
+    text-decoration: underline;
   }
  
   h2{
@@ -181,6 +187,89 @@ a {
     height: 127%;
   }
 
+}
+@media (max-width: 1366px) {
+  .service-detail h2 {
+   
+    margin: -98% 4% 26% 77%;
+    font-size: 547%;
+    color: black;
+    text-decoration: underline;
+  }
+  .service-link2{
+
+    display: flex;
+    color: black;
+    margin: 16% 1% 52% -160%;
+  }
+  .service-detail {
+    text-align: left;
+    max-width: 349px;
+    margin: 26px auto;
+    padding: 1% 3% 21% 45%;
+    font-weight: bold;
+    border: 5px solid #020202;
+    border-radius: 8px;
+    background-color: #ad9;
+    box-shadow: 0 0 10px #fff;
+    
+    background-color: #ffffff69;
+
+  }
+  .contenedor {
+    background-image: url('../../public/2.png');
+    background-size: cover;
+    background-position: center;
+    margin: 77% 49% -82% -176%;
+    padding: 49% 163% 41% 0%;
+    width: 124%;
+    height: 127%;
+  }
+  .contenedor1 {
+    background-image: url('../../public/empresarial.png');
+    background-size: cover;
+    background-position: center;
+    margin: 77% 49% -82% -176%;
+    padding: 49% 163% 41% 0%;
+    width: 124%;
+    height: 127%;
+  }
+  .contenedor2 {
+    background-image: url('../../public/finanzas.png');
+    background-size: cover;
+    background-position: center;
+    margin: 77% 49% -82% -176%;
+    padding: 49% 163% 41% 0%;
+    width: 124%;
+    height: 127%;
+  }
+  .contenedor3 {
+    background-image: url('../../public/impexpo.png');
+    background-size: cover;
+    background-position: center;
+    margin: 77% 49% -82% -176%;
+    padding: 49% 163% 41% 0%;
+    width: 124%;
+    height: 127%;
+  }
+  .contenedor4 {
+    background-image: url('../../public/erp.png');
+    background-size: cover;
+    background-position: center;
+    margin: 77% 49% -82% -176%;
+    padding: 49% 163% 41% 0%;
+    width: 124%;
+    height: 127%;
+  }
+  .contenedor5 {
+    background-image: url('../../public/seguimiento.png');
+    background-size: cover;
+    background-position: center;
+    margin: 77% 49% -82% -176%;
+    padding: 49% 163% 41% 0%;
+    width: 124%;
+    height: 127%;
+  }
 }
 @media (max-width: 1024px) {
   .service-detail {
