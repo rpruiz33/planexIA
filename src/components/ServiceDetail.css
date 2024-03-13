@@ -1,4 +1,7 @@
-
+* {
+  margin: 0px;
+  padding: 0px;
+}
 @media (max-width: 1440px) {
   .service-detail {
     text-align: left;
