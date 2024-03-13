@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .burger-menu {
     display: flex;
     flex-direction: column;

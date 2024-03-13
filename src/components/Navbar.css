@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ 
  .App-logo {
   box-shadow: 16px 14px 20px #0000008c;
   object-fit: contain; 

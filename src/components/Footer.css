@@ -1,4 +1,7 @@
-/* Estilos base que se aplican independientemente del tamaño de la pantalla */
+* {
+  margin: 0px;
+  padding: 0px;
+}/* Estilos base que se aplican independientemente del tamaño de la pantalla */
 .footer {
   background-color: #909d8f;
   color: white;
