@@ -72,6 +72,12 @@ p {
     width: 100%;
     background-color: #333;
   }
+  .nav2 a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 0px 16px 0px -4px;
+  }
   .esty{
     display:none;
   }
@@ -120,57 +126,7 @@ p{
   
   }
 }
-@media (max-width: 540px) {
-  h1 {
-    color: rgb(255, 255, 255);
-    width: 43%;
-    font-size: 128%;
-    margin: 4% 6% 0% 31%;
-}
-  
-  
-  
-  
-p{
-  display: none;
-}
-  .navbar {
-    width: 84%;
-    margin: 1% 4% 1% 5%;
-  }
-
-  .menu-icon {
-    display: flex;
-    margin: 0 auto; 
-    padding: 10px;
-  }
-
-  .nav2.open {
-    height: 39%;
-    display: flex;
-    margin: -20% -1% 0% 3%;
-    width: 19%;
-    border-radius: 10px 10px 0px 10px;
-    flex-direction: column;
-    background: #a9b6a8;
-    font-size: 63%;
-  }
-  .App-logo {
-    
-    object-fit: contain; 
-    box-shadow: 0px 0px 7px 6px #6b6b6b;
-    width: 50%;
-  }
-  .nav2 a {
-    margin-right: -6px;
-    color: black;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    font-size: 17px;
-}
-}
-
-@media (max-width: 410px) {
+@media (max-width: 425px) {
   h1 {
     width: 20%;
     font-size: 129%;
@@ -184,7 +140,7 @@ h1{
 }
   .navbar {
     width: 84%;
-    margin: 0px 6px 3px 25px;
+    margin: 50px 6px 3px 25px;
   }
 
   .menu-icon {
@@ -221,7 +177,58 @@ h1{
 
 
 }
-@media (max-width: 340px) {
+@media (max-width: 375px) {
+  h1 {
+    color: rgb(255, 255, 255);
+    width: 43%;
+    font-size: 128%;
+    margin: 4% 6% 0% 31%;
+}
+  
+  
+  
+  
+p{
+  display: none;
+}
+  .navbar {
+    width: 84%;
+    margin: 15% 4% 1% 5%;
+  }
+
+  .menu-icon {
+    display: flex;
+    margin: 0 auto; 
+    padding: 10px;
+  }
+
+  .nav2.open {
+    height: 39%;
+    display: flex;
+    margin: -20% -1% 0% 3%;
+    width: 19%;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    background: #a9b6a8;
+    font-size: 63%;
+  }
+  .App-logo {
+    
+    object-fit: contain; 
+    box-shadow: 0px 0px 7px 6px #6b6b6b;
+    width: 50%;
+  }
+  .nav2 a {
+    margin-right: -6px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 17px;
+}
+}
+
+
+@media (max-width: 320px) {
   h1 {
     width: 20%;
     font-size: 20px;
@@ -237,7 +244,7 @@ h1{
 
   .navbar {
     width: 84%;
-    margin: 0px 4px 2px 23px;
+    margin: 12% -2% 2% 7%;
   }
 
   .menu-icon {

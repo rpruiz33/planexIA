@@ -1,3 +1,4 @@
+
 @media (max-width: 1440px) {
   .service-detail {
     text-align: left;
@@ -11,6 +12,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   }
+  .servicios {
+    width: 77%;
+    margin: 0% 0% 0% -4%;
+}
   .contenedor {
     background-image: url('../../public/2.png');
     background-size: cover;
@@ -144,10 +149,7 @@ a {
 .service-link2{
   display: flex;
   color: black;
-  margin: -38% 31% 41% -139%;
-  display: flex;
-  color: black;
-  margin: 16% 1% 52% -160%;
+  margin: 16% 1% 52% -130%;
 }
 .empre h2 {
   margin: -61% 2% 30% 75%;
@@ -156,11 +158,11 @@ a {
   text-decoration: underline;
 }
   .service-detail h2 {
-    margin: -79% 2% 30% 75%;
+  
     font-size: 346%;
     color: black;
     text-decoration: underline;
-    margin: -98% 4% 26% 77%;
+    margin: -111% 4% 26% 67%;
     font-size: 547%;
     color: black;
     text-decoration: underline;
@@ -190,7 +192,7 @@ a {
 }
 @media (max-width: 1366px) {
   .service-detail h2 {
-    margin: -110% 4% 26% 77%;
+    margin: -124% 4% 26% 77%;
     font-size: 486%;
     color: black;
     text-decoration: underline;
@@ -199,13 +201,13 @@ a {
 
     display: flex;
     color: black;
-    margin: 16% 1% 52% -160%;
+    margin: 16% 1% 52% -134%;
   }
   .service-detail {
     text-align: left;
     max-width: 349px;
-    margin: 1% 2% 3% 18%;
-    padding: 2% 4% 22% 46%;
+    margin: 3% 2% 2% 19%;
+    padding: 2% 3% 22% 45%;
     font-weight: bold;
     border: 5px solid #020202;
     border-radius: 8px;
@@ -213,50 +215,57 @@ a {
     box-shadow: 0 0 10px #fff;
     background-color: #ffffff69;
 
+
   }
   .contenedor {
     background-image: url('../../public/2.png');
     background-size: cover;
+
     background-position: center;
-    margin: 77% 49% -82% -176%;
-    padding: 49% 163% 41% 0%;
-    width: 124%;
+    margin: -10% 48% -85% -174%;
+    padding: 74% 154% 43% 9%;
+    width: 123%;
     height: 127%;
   }
   .contenedor1 {
     background-image: url('../../public/empresarial.png');
     background-size: cover;
+
     background-position: center;
-    margin: 77% 49% -82% -176%;
-    padding: 49% 163% 41% 0%;
-    width: 124%;
+    margin: -10% 48% -85% -174%;
+    padding: 74% 154% 43% 9%;
+    width: 123%;
     height: 127%;
   }
   .contenedor2 {
     background-image: url('../../public/finanzas.png');
     background-size: cover;
+
     background-position: center;
-    margin: 77% 49% -82% -176%;
-    padding: 49% 163% 41% 0%;
-    width: 124%;
+    margin: -10% 48% -85% -174%;
+    padding: 74% 154% 43% 9%;
+    width: 123%;
     height: 127%;
+  
   }
   .contenedor3 {
     background-image: url('../../public/impexpo.png');
     background-size: cover;
+
     background-position: center;
-    margin: 77% 49% -82% -176%;
-    padding: 49% 163% 41% 0%;
-    width: 124%;
+    margin: -10% 48% -85% -174%;
+    padding: 74% 154% 43% 9%;
+    width: 123%;
     height: 127%;
   }
   .contenedor4 {
     background-image: url('../../public/erp.png');
     background-size: cover;
+
     background-position: center;
-    margin: 77% 49% -82% -176%;
-    padding: 49% 163% 41% 0%;
-    width: 124%;
+    margin: -10% 48% -85% -174%;
+    padding: 74% 154% 43% 9%;
+    width: 123%;
     height: 127%;
   }
   .contenedor5 {
@@ -264,8 +273,8 @@ a {
     background-size: cover;
 
     background-position: center;
-    margin: -11% 49% -82% -176%;
-    padding: 74% 155% 43% 9%;
+    margin: -10% 48% -85% -174%;
+    padding: 74% 154% 43% 9%;
     width: 123%;
     height: 127%;
   }
@@ -425,7 +434,7 @@ color: #ffffff;
     background-size: cover;
     background-position: center;
     margin: 10% 62% -20% 30%;
-    padding: 6% 53% 35% 50%;
+    padding: 6% 50% 35% 50%;
     width: 135%;
     height: 127%;
 
@@ -437,7 +446,7 @@ color: #ffffff;
     background-size: cover;
     background-position: center;
     margin: 10% 62% -20% 30%;
-    padding: 6% 53% 35% 50%;
+    padding: 6% 50% 35% 50%;
     width: 135%;
     height: 127%;
 
@@ -449,7 +458,7 @@ color: #ffffff;
     background-size: cover;
     background-position: center;
     margin: 10% 62% -20% 30%;
-    padding: 6% 53% 35% 50%;
+    padding: 6% 50% 35% 50%;
     width: 135%;
     height: 127%;
 
@@ -461,7 +470,7 @@ color: #ffffff;
     background-size: cover;
     background-position: center;
     margin: 10% 62% -20% 30%;
-    padding: 6% 53% 35% 53%;
+    padding: 6% 50% 35% 50%;
     width: 135%;
     height: 127%;
 
@@ -473,7 +482,7 @@ color: #ffffff;
     background-size: cover;
     background-position: center;
     margin: 10% 62% -20% 30%;
-    padding: 6% 53% 35% 52%;
+    padding: 6% 50% 35% 50%;
     width: 135%;
     height: 127%;
 
@@ -556,7 +565,7 @@ color: #ffffff;
  .service-detail p {
   display: block;
     font-size: 167%;
-    margin: 22% -49% 4% -57%;
+    margin: 21% -49% 4% -101%;
     width: 49%;
     line-height: 1.5em;
     color: black;
@@ -845,8 +854,9 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 22% -54% -26% 54%;
-    padding: 0% 0% 0% 0%;
+    margin: 22% -54% -27% 53%;
+
+    padding: 0% 2% 0% 0%;
     width: 128%;
   }
   .contenedor1 {
@@ -854,8 +864,8 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 22% -54% -26% 54%;
-    padding: 0% 0% 0% 0%;
+    margin: 22% -54% -27% 53%;
+    padding: 0% 2% 0% 0%;
     width: 128%;
   }
   .contenedor2 {
@@ -863,8 +873,8 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 22% -54% -26% 54%;
-    padding: 0% 0% 0% 0%;
+    margin: 22% -54% -27% 53%;
+    padding: 0% 2% 0% 0%;
     width: 128%;
   }
   .contenedor3 {
@@ -872,8 +882,8 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 22% -54% -26% 54%;
-    padding: 0% 0% 0% 0%;
+    margin: 22% -54% -27% 53%;
+    padding: 0% 2% 0% 0%;
     width: 128%;
   }
 
@@ -882,8 +892,8 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 18% -54% -26% 54%;
-    padding: 0% 0% 0% 0%;
+    margin: 22% -54% -27% 53%;
+    padding: 0% 2% 0% 0%;
     width: 128%;
   }
   .contenedor5 {
@@ -891,8 +901,8 @@ a {
   
     background-size: cover;
     background-position: center;
-    margin: 18% -54% -26% 54%;
-    padding: 0% 0% 0% 0%;
+    margin: 22% -54% -27% 53%;
+    padding: 0% 2% 0% 0%;
     width: 128%;
   }
 .text2{

@@ -58,6 +58,12 @@ li {
   text-decoration: underline;
 }
 @media (max-width: 768px) {
-
+  .App-header {
+    background: black;
+    padding: 15% 0px 1% 0px;
+    color: white;
+    height: 100%;
+    margin: -22% 0% 0% 0%;
+}
   
 }
