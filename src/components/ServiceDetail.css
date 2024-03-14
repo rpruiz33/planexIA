@@ -1,17 +1,6 @@
 
 @media (max-width: 1440px) {
-  .service-detail {
-    text-align: left;
-    max-width: 349px;
-    margin: 26px auto;
-    padding: 1% 3% 21% 50%;
-    font-weight: bold;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    background-color: #ffffff69;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  }
   .servicios {
     width: 77%;
     margin: 0% 0% 0% -4%;
@@ -135,18 +124,8 @@ a {
     margin: 5% 41% 4% 39%;
     border: double;
 }
-  .service-detail {
-    text-align: left;
-    max-width: 349px;
-    margin: 4% 6% 2% 22%;
-    padding: 11% 0% 16% 38%;
-    font-weight: bold;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    background-color: #ffffff69;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  }
+
   a {
     color: black;
     margin: -50% 27% 16% -163%;
@@ -199,20 +178,7 @@ a {
     color: black;
     margin: 16% 1% 52% -134%;
   }
-  .service-detail {
-    text-align: left;
-    max-width: 349px;
-    margin: 3% 2% 2% 19%;
-    padding: 2% 3% 22% 45%;
-    font-weight: bold;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    background-color: #ad9;
-    box-shadow: 0 0 10px #fff;
-    background-color: #ffffff69;
-
-
-  }
+  
   .contenedor {
     background-image: url('../../public/2.png');
     background-size: cover;
@@ -275,7 +241,8 @@ a {
     height: 127%;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
   .service-detail {
     text-align: left;
     max-width: 349px;
@@ -409,8 +376,8 @@ a {
     border: double;
 }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-@media (min-width: 768px) {
   .service-link2 {
     color: black;
     text-decoration: none;
@@ -500,17 +467,7 @@ a {
     color: black;
     margin: -11% -4% 0% 0%;
 }
-  .service-detail {
-    text-align: left;
-    max-width: 385px;
-    font-size: 100%;
-    margin: 7% 13% 4% 36%;
-    padding: 0% 0% 0% 0%;
-    border: 1px solid #020202;
-    border-radius: 8px;
-    background-color: #fff0;
-    box-shadow: 0 0 10px #ffffff;
-  }
+  
   a {
     color: white;
     margin: -11% -4% 0% 0%;
@@ -546,23 +503,7 @@ a {
       background: #000000;
       color: black;
     }
-  .service-detail {
-   
-    text-align: left;
-    /* margin: 16px auto; */
-    padding: 9% 12% 10% 12%;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    background-color: #ad9;;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    margin: 13% 8% 12% 13%;
-    box-shadow: 0 0 10px #fff;
-    margin: 16% -131% 59% 13%;
-    padding: -7% 7% 9% -16%;
-    background-color: #ffffff69;
-
-  }
+  
   .service-detail h2 {
     color: black;
     font-size: 193%;
@@ -582,28 +523,16 @@ a {
   color: black;
   margin: -11% -4% 0% 0%;
 }
-}
-@media (max-width: 425px) {
-  .service-detail {
-    text-align: left;
-    max-width: 349px;
-    margin: 16px auto;
-    padding: 5%;
-    font-weight: bold;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    background-color: #ffffff69;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 16% -14% 17% 3%;
+}@media screen and (min-width: 425px) and (max-width: 768px) {
 
-  }
+ 
   .contenedor {
     background-image: url("../../public/2.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -16% -4% -6% -6%;
-    padding: 32% 2% 3% 78%;
+    margin: -2% -4% 14% 22%;
+    padding: 66% 17% 3% 15%;
     width: 32%;
   }
   .contenedor1 {
@@ -611,8 +540,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -16% -4% -6% -6%;
-    padding: 32% 2% 3% 78%;
+    margin: -2% -4% 14% 22%;
+    padding: 66% 17% 3% 15%;
     width: 32%;
   
   }
@@ -621,8 +550,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -16% -4% -6% -6%;
-    padding: 32% 2% 3% 78%;
+    margin: -2% -4% 14% 22%;
+    padding: 66% 17% 3% 15%;
     width: 32%;
   
   }
@@ -631,8 +560,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -16% -4% -6% -6%;
-    padding: 32% 2% 3% 78%;
+    margin: -2% -4% 14% 22%;
+    padding: 66% 17% 3% 15%;
     width: 32%;
   
   }
@@ -641,8 +570,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -16% -4% -6% -6%;
-    padding: 32% 2% 3% 78%;
+    margin: -2% -4% 14% 22%;
+    padding: 66% 17% 3% 15%;
     width: 32%;
   
   }
@@ -651,8 +580,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -16% -4% -6% -6%;
-    padding: 32% 2% 3% 78%;
+    margin: -2% -4% 14% 22%;
+    padding: 66% 17% 3% 15%;
     width: 32%;
   
   }
@@ -662,13 +591,31 @@ a {
 }
   .service-detail p {
     display: block;
-    font-size: 156%;
-    margin: -38% -74% 40% -238%;
+    font-size: 168%;
+    margin:-40% 169% 74% -41%;
     width: 37%;
     color: black;
     text-decoration: underline;
 
   }
+  .service-detail p.empre{
+    display: block;
+    font-size: 168%;
+    margin: -152% 169% 74% -109%;
+    width: 37%;
+    color: black;
+    text-decoration: underline;
+}
+
+.service-detail p.empre1{
+  display: block;
+  font-size: 168%;
+  margin: -38% 169% 74% -209%;
+  width: 37%;
+  color: black;
+  text-decoration: underline;
+}
+  
   .text2{
     margin: 10% -109% -9% 15%;
     width: -39%;
@@ -677,7 +624,7 @@ a {
   }
   .service-detail h2 {
     color: black;
-    margin: -68% 35% 53% -187%;
+    margin: -200% 35% 53% 22%;
     width: 26%;
     font-size: 191%;
 }
@@ -695,10 +642,11 @@ a {
   }
   .service-link2{
     display: flex;
-    margin: 0% -103% 0% 1%
+    margin: 2% -103% 0% 93%;
   }
 }
-@media (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 425px) {
+
   p.description{
   
     display: block;
@@ -712,7 +660,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 80% -19% -32% -32%;
+  margin: 50% -4% 19% 13%;
   padding: 0% 40% 6% 0%;
 }
 .contenedor1 {
@@ -720,7 +668,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 80% -19% -32% -32%;
+  margin: 50% -4% 19% 13%;
   padding: 0% 40% 6% 0%;
 }
 .contenedor2 {
@@ -728,7 +676,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 80% -19% -32% -32%;
+  margin: 50% -4% 19% 13%;
   padding: 0% 40% 6% 0%;
 
 
@@ -738,7 +686,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 80% -19% -32% -32%;
+  margin: 50% -4% 19% 13%;
   padding: 0% 40% 6% 0%;
 }
 .contenedor4 {
@@ -746,7 +694,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 80% -19% -32% -32%;
+  margin: 50% -4% 19% 13%;
   padding: 0% 40% 6% 0%;
 }
 .contenedor5 {
@@ -754,7 +702,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 80% -19% -32% -32%;
+  margin: 50% -4% 19% 13%;
   padding: 0% 40% 6% 0%;
 }
 .text2{
@@ -768,64 +716,17 @@ a {
 .service-link2{
   display: flex;
 }
-  .service-detail {
-    text-align: left;
-    max-width: 332px;
-    margin: 16px auto;
-    padding: 65px;
-    font-weight: bold;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    
-    margin: 23% 45% 25% 5%;
-    font-size: 85%;
-    width: 55%;
-    box-shadow: 0 0 10px #fff;
-    
-    background-color: #ffffff69;
-  }
-  .service-detail2 {
-    text-align: left;
-    max-width: 332px;
-    margin: 16px auto;
-    padding: 65px;
-    border: 1px solid #020202;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 23% 45% 25% 5%;
-    font-size: 85%;
-    width: 55%;
-    display: flex;
 
-  }
-  .service-detaillllll{
-    display: block;
-    font-size: 89%;
-    margin: 36% 63% -7% -57%;
-    width: 42%;
-  }
 
-  .service-detail service-1{
-    text-align: left;
-    max-width: 332px;
-    margin: 16px auto;
-    padding: 65px;
-    border: 1px solid #020202;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 23% 45% 25% 5%;
-    font-size: 85%;
-    width: 55%;
 
-  }
+
+
   .service-link2 {
-    color: #fff;
+    color: black;
     display: flex;
     font-size: 68%;
     font-weight: 700;
-    margin: -25% -16% 0% -12%;
+    margin: 10% -16% -48% 87%;
     
   }
   .service-detail p {
@@ -855,57 +756,48 @@ a {
     margin: 0% 0% 0% 0%;
 }
 }
-@media (max-width: 320px) {
-  .service-detail {
-    text-align: left;
-    max-width: 360px;
-    margin: 16px auto;
-    padding: 13% 10% 15% 6%;
-    border: 4px solid #020202;
-    border-radius: 8px;
-    font-weight: bold;
-    background-color: #fff0;
-    box-shadow: 0 0 10px #fff;
-    margin: 16% -131% 59% 13%;
-    padding: -7% 7% 9% -16%;
-    background-color: #ffffff69;
-  }
-
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  
   .contenedor {
     background-image: url("../../public/2.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -39% -47% -28% -11%;
-    padding: 1% 30% 4% 0%;
-    width: 100%;
+   
+    margin: 0% -116% 34% 7%;
+    padding: 1% 30% 6% 9%;
+    width: 44%;
+  
   }
   .contenedor1 {
     background-image: url("../../public/empresarial.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -39% -47% -28% -11%;
-    padding: 1% 30% 4% 0%;
-    width: 100%;
+   
+    margin: 0% -116% 34% 7%;
+    padding: 1% 30% 6% 9%;
+    width: 44%;
   }
   .contenedor2 {
     background-image: url("../../public/finanzas.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -39% -47% -28% -11%;
-    padding: 1% 30% 4% 0%;
-    width: 100%;
+   
+    margin: 0% -116% 34% 7%;
+    padding: 1% 30% 6% 9%;
+    width: 44%;
   }
   .contenedor3 {
     background-image: url("../../public/impexpo.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -39% -47% -28% -11%;
-    padding: 1% 30% 4% 0%;
-    width: 100%;
+   
+    margin: 0% -116% 34% 7%;
+    padding: 1% 30% 6% 9%;
+    width: 44%;
   }
 
   .contenedor4 {
@@ -913,18 +805,20 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -39% -47% -28% -11%;
-    padding: 1% 30% 4% 0%;
-    width: 100%;
+   
+    margin: 0% -116% 34% 7%;
+    padding: 1% 30% 6% 9%;
+    width: 44%;
   }
   .contenedor5 {
     background-image: url("../../public/seguimiento.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -39% -47% -28% -11%;
-    padding: 1% 30% 4% 0%;
-    width: 100%;
+   
+    margin: 0% -116% 34% 7%;
+    padding: 1% 30% 6% 9%;
+    width: 44%;
   }
 .text2{
   display: flex;
@@ -953,7 +847,7 @@ p {
 }
 .service-detail h2 {
   color: black;
-  margin: 14% -13% 0% 49%;
+  margin: 14% -13% 0% 27%;
   font-size: 158%;
 }
 a {

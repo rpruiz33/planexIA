@@ -64,7 +64,7 @@ p{
 p {
   color: #555;
   line-height: 1.5;
-  margin: 2% 7% 3% -32%;
+  margin: 2% 7% 3% 26%;
   font-size: 195%;
 }
 @media (max-width: 768px) {

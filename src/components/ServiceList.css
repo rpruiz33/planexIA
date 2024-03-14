@@ -114,12 +114,7 @@ p {
   h2 {
     margin: 6% 0% 3%; /* Estilo para pantallas de hasta 768px de ancho */
   }
-  .service-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 13% 0% -26% -77
-  }
+
   .servicios {
     width: 90%;
     margin: 0% 3% 0% 0%;
@@ -210,6 +205,6 @@ p {
   display: flex;
   flex-direction: column;
 }
-  }
 
 
+}
