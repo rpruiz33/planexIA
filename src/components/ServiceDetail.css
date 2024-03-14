@@ -243,20 +243,6 @@ a {
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
 
-  .service-detail {
-    text-align: left;
-    max-width: 349px;
-    margin: 26px auto;
-    padding: 1% 3% 21% 45%;
-    font-weight: bold;
-    border: 5px solid #020202;
-    border-radius: 8px;
-    background-color: #ad9;
-    box-shadow: 0 0 10px #fff;
-    
-    background-color: #ffffff69;
-
-  }
   .contenedor {
     background-image: url('../../public/2.png');
     background-size: cover;
@@ -406,10 +392,10 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -18% 62% -20% 30%;
-    padding: 6% 50% 35% 50%;
-    width: 135%;
-    height: 127%;
+    margin: 17% 62% -20% 10%;
+    padding: 31% 78% 0% 4%;
+    width: 0%;
+    height: 41%;
 
   
   }
@@ -509,16 +495,27 @@ a {
     font-size: 193%;
     margin: 9% 0% 0% -41%;
 }
-  
-  
- .service-detail p {
-  display: block;
+.service-detail p.empre{
+    margin: 21% -49% 4% -101%;
+    display: block;
     font-size: 167%;
     margin: 21% -49% 4% -101%;
     width: 49%;
     line-height: 1.5em;
     color: black;
-}
+  
+  }
+  .service-detail p.empre1{
+    
+    display: block;
+    font-size: 167%;
+    margin: 21% -49% 4% -101%;
+    width: 49%;
+    line-height: 1.5em;
+    color: black;
+  }
+  
+
 a {
   color: black;
   margin: -11% -4% 0% 0%;
