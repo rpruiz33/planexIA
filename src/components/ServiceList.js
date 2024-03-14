@@ -24,7 +24,7 @@ const ServiceList = () => {
       </NavLink>
       
       {/* Mostrar el primer grupo de servicios */}
-      <div className="HomeContainer" style={{ marginTop: '10%', marginBottom:'10%',margin: '8% 4% 26% 3%' }}>
+      <div className="HomeContainer" style={{ marginTop: '10%', marginBottom:'10%',}}>
       <div className="service-group">
          
         {firstGroup.map(service => (
