@@ -393,7 +393,7 @@ a {
   .service-detail p {
     display: flex;
     font-size: 270%;
-    margin: 5% -57% 9% 0%;
+    margin: 5% -57% 9% 14%;
     width: 45%;
     color: black;
   
@@ -550,7 +550,7 @@ a {
  
     display: flex;
     font-size: 270%;
-    margin: 5% -57% 9% -53%;
+    margin:5% -57% 9% -35%;
     width: 45%;
     color: black;
   
@@ -578,7 +578,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% -2% 0% 0%;
+    margin: -7% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   }
@@ -587,7 +587,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% -2% 0% 0%;
+    margin: -7% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -597,7 +597,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% -2% 0% 0%;
+    margin: -7% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -607,7 +607,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% -2% 0% 0%;
+    margin: -7% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -617,7 +617,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% -2% 0% 0%;
+    margin: -7% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -627,7 +627,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% -2% 0% 0%;
+    margin: -7% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -637,9 +637,9 @@ a {
     margin: -11% -4% 0% 0%;
 }
   .service-detail p {
-    display: block;
+    display: flex;
     font-size: 284%;
-    margin: -40% 169% 74% -102%;
+    margin: -191% 169% 209% -2%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -670,8 +670,9 @@ a {
 
   }
   .service-detail h2 {
+    display: flex;
     color: black;
-    margin: -200% 35% 53% 0%;
+    margin: -207% -160% 211% 3%;
     width: 26%;
     font-size: 270%;
 }
@@ -707,7 +708,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -5% 0%;
+  margin: 30% -4% -23% 0%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor1 {
@@ -715,7 +716,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -5% 0%;
+  margin: 30% -4% -23% 0%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor2 {
@@ -723,7 +724,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -5% 0%;
+  margin: 30% -4% -23% 0%;
   padding: 0% 40% 6% 28%;
 
 
@@ -733,7 +734,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -5% 0%;
+  margin: 30% -4% -23% 0%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor4 {
@@ -741,7 +742,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -5% 0%;
+  margin: 30% -4% -23% 0%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor5 {
@@ -749,7 +750,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -5% 0%;
+  margin: 30% -4% -23% 0%;
   padding: 0% 40% 6% 28%;
 }
 .text2{
@@ -810,8 +811,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% 9% 1%;
-    padding: 1% 30% 6% 25%;
+    margin: -10% -116% -23% 0%;
+    padding: 1% 30% 6% 26%;
     width: 44%
   
   }
@@ -820,8 +821,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% 9% 1%;
-    padding: 1% 30% 6% 25%;
+    margin: -10% -116% -23% 0%;
+    padding: 1% 30% 6% 26%;
     width: 44%
   }
   .contenedor2 {
@@ -829,8 +830,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% 9% 1%;
-    padding: 1% 30% 6% 25%;
+    margin: -10% -116% -23% 0%;
+    padding: 1% 30% 6% 26%;
     width: 44%
   }
   .contenedor3 {
@@ -838,8 +839,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% 9% 1%;
-    padding: 1% 30% 6% 25%;
+    margin: -10% -116% -23% 0%;
+    padding: 1% 30% 6% 26%;
     width: 44%
   }
 
@@ -848,8 +849,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% 9% 1%;
-    padding: 1% 30% 6% 25%;
+    margin: -10% -116% -23% 0%;
+    padding: 1% 30% 6% 26%;
     width: 44%
   }
   .contenedor5 {
@@ -857,8 +858,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% 9% 1%;
-    padding: 1% 30% 6% 25%;
+    margin: -10% -116% -23% 0%;
+    padding: 1% 30% 6% 26%;
     width: 44%
   }
 .text2{
@@ -879,7 +880,8 @@ p {
 .service-detail p {
   display: flex;
   font-size: 177%;
-  margin: 19% -38% 12% -50%;
+  margin: 19% -38% 12% 6%;
+
   width: 31%;
   color: black;
   font-weight: bold;
@@ -888,7 +890,7 @@ p {
 }
 .service-detail h2 {
   color: black;
-  margin: 14% -13% 0% 27%;
+  margin: 14% -13% 0% 14%;
   font-size: 158%;
 }
 a {

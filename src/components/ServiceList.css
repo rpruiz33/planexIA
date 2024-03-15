@@ -96,7 +96,7 @@ p {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(33.33% - 20px);
-    margin: 0% 6% 2% 0%;
+    margin: 0% 7% 2% -1%;
     padding: 0%;
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@ p {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: calc(33.33% - 20px);
-  margin: -1% 5% 2% 0%;
+  margin: -1% 6% 2% 1%;
   padding: -1% -1% -3% -3%;
   display: flex;
   flex-direction: column;
@@ -200,7 +200,7 @@ p {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: calc(33.33% - 20px);
-  margin: -7px 0px -8px 11px;
+  margin: -7px 0px -8px 15px;
   padding: 0%;
   display: flex;
   flex-direction: column;

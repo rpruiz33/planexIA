@@ -193,10 +193,10 @@ h2 {
     margin: 12% -13% -3% -33%;
   }
   .p1 {
-    font-size:177%;
-    margin-left: 27%;
+    font-size: 121%;
+    margin-left: 25%;
     margin-right: 0;
-    display: contents;
+    display: flex;
 }
 .black {
   color: #000000;
@@ -241,10 +241,11 @@ h2 {
     margin: 14% -13% -2% -37%;
   }
   .p1 {
-    font-size:117%;
-    margin-left: 27%;
+    font-size: 107%;
+    margin-left: 24%;
     margin-right: 0;
-    display: contents;
+    display: flex;
+
 }
 .black {
   color: #000000;
@@ -296,7 +297,8 @@ h2 {
   display: table-cell;
 }
 .footer {
-  padding: 27px 0;
-  margin: 23% -45% -3% -50%;
+  padding: 0% 0% 0% 0%;
+  margin: 23% -55% 0% -47%;
+  font-size: 84%;
 }
 }
