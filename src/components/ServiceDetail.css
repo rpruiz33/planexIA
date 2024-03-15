@@ -320,8 +320,8 @@ a {
 }
 .service-detail p {
   display: flex;
-  font-size: 407%;
-  margin: 5% -57% 30% -76%;
+  font-size: 270%;
+  margin: 5% -57% 9% 0%;
   width: 45%;
   color: black;
 
@@ -369,15 +369,32 @@ a {
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
+  .service-detail p {
+    display: flex;
+    font-size: 270%;
+    margin: 5% -57% 9% 0%;
+    width: 45%;
+    color: black;
+  
+  }
+  .service-detail h2 {
+    color: black;
+    font-size: 430%;
+    /* margin: 33px 44px; */
+     display: inline; 
+    margin-left: 15%;
+    margin: -70% 2% 4% 26%;
+  
+  }
   .service-link2 {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin: -14% -44% 0% -19%;
+    margin: 1% 0% -15% 95%;
     font-size: 76%;
     display: flex;
     position: relative;
+
   }
   .contenedor {
    
@@ -385,9 +402,10 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: 29% 62% -20% -3%;
-    padding: 4% -6% 19% 50%;
-    width: 0%;
+    margin: 10% 65% -40% 0%;
+    padding: 3% 0% 3% 2%;
+    width: 135%;
+    height: 127%;
 
   
   }
@@ -397,21 +415,21 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: 17% 62% -20% 10%;
-    padding: 31% 78% 0% 4%;
-    width: 0%;
-    height: 41%;
+    margin: 10% 65% -40% 0%;
+    padding: 3% 0% 3% 2%;
+    width: 135%;
+    height: 127%;
 
   
   }
   .contenedor2 {
    
     background-image: url('../../public/finanzas.png');
-    background-size: cover;
+        background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -18% 62% -20% 30%;
-    padding: 6% 50% 35% 50%;
+    margin: 10% 65% -40% 0%;
+    padding: 3% 0% 3% 2%;
     width: 135%;
     height: 127%;
 
@@ -423,8 +441,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -18% 62% -20% 30%;
-    padding: 6% 50% 35% 50%;
+    margin: 10% 65% -40% 0%;
+    padding: 3% 0% 3% 2%;
     width: 135%;
     height: 127%;
 
@@ -436,8 +454,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -18% 62% -20% 30%;
-    padding: 6% 50% 35% 50%;
+    margin: 10% 65% -40% 0%;
+    padding: 3% 0% 3% 2%;
     width: 135%;
     height: 127%;
   
@@ -448,8 +466,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -18% 62% -20% 30%;
-    padding: 6% 50% 35% 50%;
+    margin: 10% 65% -40% 0%;
+    padding: 3% 0% 3% 2%;
     width: 135%;
     height: 127%;
   
@@ -497,26 +515,32 @@ a {
   
   .service-detail h2 {
     color: black;
-    font-size: 193%;
-    margin: 20% 0% 2% -41%
+    font-size: 278%;
+    margin: -2% 0% 2% -24%;
+
+}
+.service-detail h2.empre3 {
+  color: black;
+  font-size: 278%;
+  margin: -2% 0% 2% 20%;
+
 }
 .service-detail p.empre{
-    margin: 21% -49% 4% -101%;
-    display: block;
-    font-size: 167%;
-    margin: 21% -49% 4% -101%;
-    width: 49%;
-    line-height: 1.5em;
+ 
+    display: flex;
+    font-size: 270%;
+    margin: 5% -57% 9% -53%;
+    width: 45%;
     color: black;
   
   }
+  
+  
   .service-detail p.empre1{
-    
-    display: block;
-    font-size: 167%;
-    margin: 21% -49% 4% -101%;
-    width: 49%;
-    line-height: 1.5em;
+    display: flex;
+    font-size: 270%;
+    margin: 23% -57% 9% 16%;
+    width: 33%;
     color: black;
   }
   
@@ -533,8 +557,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -2% -4% 14% 22%;
-    padding: 66% 17% 3% 15%;
+    margin: -7% -2% 0% 0%;
+    padding: 67% 31% 12% 37%;
     width: 32%;
   }
   .contenedor1 {
@@ -542,8 +566,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -2% -4% 14% 22%;
-    padding: 66% 17% 3% 15%;
+    margin: -7% -2% 0% 0%;
+    padding: 67% 31% 12% 37%;
     width: 32%;
   
   }
@@ -552,8 +576,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -2% -4% 14% 22%;
-    padding: 66% 17% 3% 15%;
+    margin: -7% -2% 0% 0%;
+    padding: 67% 31% 12% 37%;
     width: 32%;
   
   }
@@ -562,8 +586,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -2% -4% 14% 22%;
-    padding: 66% 17% 3% 15%;
+    margin: -7% -2% 0% 0%;
+    padding: 67% 31% 12% 37%;
     width: 32%;
   
   }
@@ -572,8 +596,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -2% -4% 14% 22%;
-    padding: 66% 17% 3% 15%;
+    margin: -7% -2% 0% 0%;
+    padding: 67% 31% 12% 37%;
     width: 32%;
   
   }
@@ -582,8 +606,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -2% -4% 14% 22%;
-    padding: 66% 17% 3% 15%;
+    margin: -7% -2% 0% 0%;
+    padding: 67% 31% 12% 37%;
     width: 32%;
   
   }
@@ -593,8 +617,8 @@ a {
 }
   .service-detail p {
     display: block;
-    font-size: 168%;
-    margin:-40% 169% 74% -41%;
+    font-size: 284%;
+    margin: -40% 169% 74% -102%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -603,7 +627,7 @@ a {
   .service-detail p.empre{
     display: block;
     font-size: 168%;
-    margin: -152% 169% 74% -109%;
+    margin: 28% 169% 74% -30%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -612,7 +636,7 @@ a {
 .service-detail p.empre1{
   display: block;
   font-size: 168%;
-  margin: -38% 169% 74% -209%;
+  margin: 28% 169% 74% -30%;
   width: 37%;
   color: black;
   text-decoration: underline;
@@ -626,9 +650,9 @@ a {
   }
   .service-detail h2 {
     color: black;
-    margin: -200% 35% 53% 22%;
+    margin: -200% 35% 53% 0%;
     width: 26%;
-    font-size: 191%;
+    font-size: 270%;
 }
   a {
     color: black;
@@ -662,24 +686,24 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 50% -4% 19% 13%;
-  padding: 0% 40% 6% 0%;
+  margin: 30% -4% -5% 0%;
+  padding: 0% 40% 6% 28%;
 }
 .contenedor1 {
   background-image: url("../../public/empresarial.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 50% -4% 19% 13%;
-  padding: 0% 40% 6% 0%;
+  margin: 30% -4% -5% 0%;
+  padding: 0% 40% 6% 28%;
 }
 .contenedor2 {
   background-image: url("../../public/finanzas.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 50% -4% 19% 13%;
-  padding: 0% 40% 6% 0%;
+  margin: 30% -4% -5% 0%;
+  padding: 0% 40% 6% 28%;
 
 
 }
@@ -688,24 +712,24 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 50% -4% 19% 13%;
-  padding: 0% 40% 6% 0%;
+  margin: 30% -4% -5% 0%;
+  padding: 0% 40% 6% 28%;
 }
 .contenedor4 {
   background-image: url("../../public/erp.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 50% -4% 19% 13%;
-  padding: 0% 40% 6% 0%;
+  margin: 30% -4% -5% 0%;
+  padding: 0% 40% 6% 28%;
 }
 .contenedor5 {
   background-image: url("../../public/seguimiento.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 50% -4% 19% 13%;
-  padding: 0% 40% 6% 0%;
+  margin: 30% -4% -5% 0%;
+  padding: 0% 40% 6% 28%;
 }
 .text2{
   display: flex;
@@ -750,7 +774,7 @@ a {
   }
   .service-detail h2 {
     color: black;
-    margin: -82% 0% -16% 29%;
+    margin: 94% 3% -2% -2%;
     font-size: 220%;
   }
   a {
@@ -765,10 +789,9 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   
-    margin: 0% -116% 34% 7%;
-    padding: 1% 30% 6% 9%;
-    width: 44%;
+    margin: -10% -116% 9% 1%;
+    padding: 1% 30% 6% 25%;
+    width: 44%
   
   }
   .contenedor1 {
@@ -776,30 +799,27 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   
-    margin: 0% -116% 34% 7%;
-    padding: 1% 30% 6% 9%;
-    width: 44%;
+    margin: -10% -116% 9% 1%;
+    padding: 1% 30% 6% 25%;
+    width: 44%
   }
   .contenedor2 {
     background-image: url("../../public/finanzas.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   
-    margin: 0% -116% 34% 7%;
-    padding: 1% 30% 6% 9%;
-    width: 44%;
+    margin: -10% -116% 9% 1%;
+    padding: 1% 30% 6% 25%;
+    width: 44%
   }
   .contenedor3 {
     background-image: url("../../public/impexpo.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   
-    margin: 0% -116% 34% 7%;
-    padding: 1% 30% 6% 9%;
-    width: 44%;
+    margin: -10% -116% 9% 1%;
+    padding: 1% 30% 6% 25%;
+    width: 44%
   }
 
   .contenedor4 {
@@ -807,20 +827,18 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   
-    margin: 0% -116% 34% 7%;
-    padding: 1% 30% 6% 9%;
-    width: 44%;
+    margin: -10% -116% 9% 1%;
+    padding: 1% 30% 6% 25%;
+    width: 44%
   }
   .contenedor5 {
     background-image: url("../../public/seguimiento.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   
-    margin: 0% -116% 34% 7%;
-    padding: 1% 30% 6% 9%;
-    width: 44%;
+    margin: -10% -116% 9% 1%;
+    padding: 1% 30% 6% 25%;
+    width: 44%
   }
 .text2{
   display: flex;
@@ -840,7 +858,7 @@ p {
 .service-detail p {
   display: flex;
   font-size: 177%;
-  margin:19% -37% 12% 4%;
+  margin: 19% -38% 12% -50%;
   width: 31%;
   color: black;
   font-weight: bold;
