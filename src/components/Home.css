@@ -105,7 +105,7 @@ h2 {
     color: white;
     display: contents;
     line-height: 2.4;
-    font-size: 265%;
+    font-size: 352%;
     margin: 11% 5% 6% -3%;
     padding: 7% 18% 4% 14%;
     flex-direction: row-reverse;
@@ -140,7 +140,7 @@ h2 {
     width: 29px;
     border-radius: 10px;
     border: 3px solid #000000;
-    margin: 13% -11% -14% -32%;
+    margin: 19% -11% 23% -32%;
 }
   .p1 {
   
@@ -155,17 +155,17 @@ h2 {
 }
 
   .perfil {
-    margin: 0% 0% 0% -16%;
+    margin: -2% 0% 49% -35%;
   }
 
   h3 {
     font-size: 203%;
-    margin: -1% -21% 9% -22%;
+    margin: 26% -21% 9% -22%
   }
 
   h2 {
     font-size: 164%;
-    margin: 33% -26% 0% 0%; /* Añadir margen superior */
+    margin: 24% 0% -23% 0%;
     color: black;
 
   }
