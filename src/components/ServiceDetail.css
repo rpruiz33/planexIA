@@ -79,7 +79,7 @@
 .service-detail p {
   display: flex;
   font-size: 437%;
-  margin: 4% -71% 11% 0%;
+  margin: 4% -71% 11% 12%;
   width: 45%;
   color: black;
 }
@@ -165,18 +165,34 @@ a {
 
 
 }
-@media (max-width: 1366px) {
+
+@media (max-width: 1440px) {
+
+  .contenedor {
+    background-image: url('../../public/2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: -78% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
+    width: 123%;
+    height: 127%;
+  }
+
+}
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+
   .service-detail h2 {
-    margin: -124% 4% 26% 77%;
+    margin: -27% 0% 0% 14% ;
     font-size: 486%;
     color: black;
     text-decoration: underline;
   }
   .service-link2{
-
     display: flex;
     color: black;
-    margin: 16% 1% 52% -134%;
+    margin: 5% 1% 63% 93%;
+    font-size: 123%;
   }
   
   .contenedor {
@@ -184,8 +200,8 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: -10% 48% -85% -174%;
-    padding: 74% 154% 43% 9%;
+    margin: -73% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
     width: 123%;
     height: 127%;
   }
@@ -194,8 +210,8 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: -10% 48% -85% -174%;
-    padding: 74% 154% 43% 9%;
+    margin: -73% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
     width: 123%;
     height: 127%;
   }
@@ -204,19 +220,18 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: -10% 48% -85% -174%;
-    padding: 74% 154% 43% 9%;
+    margin: -73% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
     width: 123%;
     height: 127%;
-  
   }
   .contenedor3 {
     background-image: url('../../public/impexpo.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: -10% 48% -85% -174%;
-    padding: 74% 154% 43% 9%;
+    margin: -73% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
     width: 123%;
     height: 127%;
   }
@@ -225,8 +240,8 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: -10% 48% -85% -174%;
-    padding: 74% 154% 43% 9%;
+    margin: -73% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
     width: 123%;
     height: 127%;
   }
@@ -235,8 +250,8 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: -10% 48% -85% -174%;
-    padding: 74% 154% 43% 9%;
+    margin: -73% 94% -84% 0%;
+    padding: 74% 154% 43% -17%;
     width: 123%;
     height: 127%;
   }
@@ -253,7 +268,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -72% 49% -62% 0%;
+    margin: -72% 49% -40% 0%;
+
     padding: 5% 57% 14% 29%;
     width: 33%;
     height: 127%;
@@ -263,7 +279,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -72% 49% -62% 0%;
+    margin: -72% 49% -40% 0%;
+
     padding: 5% 57% 14% 29%;
     width: 33%;
     height: 127%;
@@ -273,7 +290,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -72% 49% -62% 0%;
+    margin: -72% 49% -40% 0%;
+
     padding: 5% 57% 14% 29%;
     width: 33%;
     height: 127%;
@@ -283,7 +301,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -72% 49% -62% 0%;
+    margin: -72% 49% -40% 0%;
+
     padding: 5% 57% 14% 29%;
     width: 33%;
     height: 127%;
@@ -293,7 +312,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -72% 49% -62% 0%;
+    margin: -72% 49% -40% 0%;
+
     padding: 5% 57% 14% 29%;
     width: 33%;
     height: 127%;
@@ -303,7 +323,8 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -72% 49% -62% 0%;
+    margin: -72% 49% -40% 0%;
+
     padding: 5% 57% 14% 29%;
     width: 33%;
     height: 127%;
@@ -321,8 +342,8 @@ a {
 .service-detail p {
   display: flex;
   font-size: 270%;
-  margin: 5% -57% 9% 0%;
-  width: 45%;
+  margin: 8% -57% 9% -25%;
+  width: 165%;
   color: black;
 
 }
@@ -343,7 +364,7 @@ a {
     /* margin: 33px 44px; */
      display: inline; 
     margin-left: 15%;
-    margin: -70% 2% 4% 26%;
+    margin: -70% -27% 4% 28%;
   
   }
  .init p{
