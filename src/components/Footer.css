@@ -83,7 +83,7 @@
 }
 
 .address-icon {
-  margin: 8% 2% 0% 0%;
+  margin: 16% 2% 14% 0%;
 }
 .logo123 {
   width: 31%; /* Tamaño del logotipo */
@@ -93,7 +93,7 @@
 .address-icon i {
   font-size: 172%;
   margin-right: 5px;
-  margin: 4% 0% 0% 1%;
+  margin: 8% 0% -1% 1%;
 
   
 }
@@ -145,7 +145,7 @@
     margin: 3% 15% 2% 15%;
   }
   .address-icon {
-    margin: 0% 0% 10% 0%;
+    margin: 0% 0% 15% 0%;
 }
   .logo123 {
     width: 50%; /* Haz que el logotipo ocupe todo el ancho disponible */
@@ -167,7 +167,7 @@
   .p2 {
     font-size: 115%;
     letter-spacing: 0px;
-    display: table-cell;
+    display: flex;
 
 }
 }
@@ -185,7 +185,7 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
     align-content: center;
-    margin: 5% -11% 0% 26%;
+    margin: 6% -11% 13% 26%;
   }
 .address-icon {
   margin: 0% 0% 0% -8%;

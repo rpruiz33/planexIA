@@ -84,7 +84,7 @@ form {
   padding-bottom: 10%;
 }
 h2 {
-  margin: 35% 0% 8% -2%;
+  margin: 14% 0% 8% -19%;
   font-size: 311%;
   color: black;
   text-decoration: underline;
@@ -165,9 +165,10 @@ h2 {
 
   h2 {
     
-    font-size: 108%;
-    margin: 92% 0% -22% -15%;
+    font-size: 246%;
+    margin: 6% 0% 0% -11%;
     color: black;
+    display: flex;
 
 
   }
