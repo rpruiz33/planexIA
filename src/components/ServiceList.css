@@ -107,7 +107,7 @@ p {
   .service-group {
     display: flex;
     flex-wrap: nowrap;
-    margin: 16% 8% 10% 2%;
+    margin: 11% 8% 10% 2%;
 }
 }
 @media (max-width: 768px) {
