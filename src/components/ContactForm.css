@@ -40,14 +40,14 @@ textarea {
   margin-top: 5px;
   border: 1px solid #000000;
   border-radius: 10px;
-  margin: 3% 13% 0% 0%;
+  margin: 3% 13% 0% 13%;
 }
 
 .box{
   height: 66%;
   width: 27%;
-  padding: 48% 60% 10% 10%;
-  margin: 0% 0% 0% -12%;
+  padding: 23% 60% 10% 10%;
+  margin: 1% 0% 0% -1%;
 }
 
 button {
@@ -57,7 +57,7 @@ button {
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #000000;
-  margin: 6% 0% 6% -13%;
+  margin: auto;
 }
 
 button:hover {
@@ -66,20 +66,21 @@ button:hover {
 
 @media (max-width: 768px) {
   .contact-form-container {
-    height: 48%;
+    height: 69%;
+    margin: 0% 0% 18% 9%;
   }
   
   label {
     font-size: 118%;
-    margin: 16% 14% 0% 0%;
+    margin: 16% 5% 0% 0%;
     color: white;
   }
 }
 
 @media (max-width: 540px) {
   button {
-    margin: -1px 3px 55px 3px;
-  }
+   
+    }
 }
 
 @media (max-width: 375px) {
@@ -96,7 +97,7 @@ button:hover {
 
 @media (max-width: 320px) {
   button {
-    margin: 0% 0% 0% -18%;
+    margin: auto;
   }
   form {
     width: 80%;

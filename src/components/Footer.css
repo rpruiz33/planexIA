@@ -126,8 +126,12 @@
   .social ul li {
     margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
   }
+  .p2 {
+    font-size: 115%;
+    letter-spacing: 0px;
+    display: table-cell;
 }
-
+}
 /* Estilos para dispositivos con pantallas más pequeñas (menos de 540px) */
 @media (max-width: 540px) {
   .footer {
@@ -160,7 +164,12 @@
   .social ul li {
     margin-right: 5px; /* Reduce el espacio entre los íconos sociales */
   }
+  .p2 {
+    font-size: 115%;
+    letter-spacing: 0px;
+    display: table-cell;
 
+}
 }
 @media (max-width: 320px) {
   .p1 {
