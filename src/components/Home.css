@@ -164,8 +164,9 @@ h2 {
   }
 
   h2 {
-    font-size: 164%;
-    margin: 24% 0% -23% 0%;
+    
+    font-size: 223%;
+    margin: 10% 0% 0% -23%;
     color: black;
 
   }
@@ -209,11 +210,10 @@ h2 {
     margin: -2% 0% 7% 0%;
   }
   h2 {
-    font-size: 157%;
-    margin-top: 20px;
+    margin: 6% 0% 0% -24%;
+    font-size: 164%;
+   
     color: black;
-    margin-left: -16%;
-
   }
 
   .perfil {
@@ -260,9 +260,11 @@ h2 {
 
   h2 {
     font-size: 144%;
-    margin-top: 18%;
+    /* margin-top: 0; */
     color: black;
-    margin-left: -6%;
+    /* margin-left: 0; */
+    margin: 6% 0% 0% -24%;
+
 
   }
 
