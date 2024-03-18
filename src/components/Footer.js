@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p className='p1'>© 2024 PlanexIA. Todos los derechos reservados.</p>
+      <p className='p2'>© 2024 PlanexIA. Todos los derechos reservados.</p>
       <div className="container">
         <div className="row">
           <div className='left'>

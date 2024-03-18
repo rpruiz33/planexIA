@@ -238,7 +238,7 @@ h2 {
     width: 29px;
     border-radius: 10px;
     border: 3px solid #000000;
-    margin: 14% -13% -2% -37%;
+    margin: 17% -29% 4% -22%;
   }
   .p1 {
     font-size: 107%;
@@ -255,19 +255,19 @@ h2 {
 }
   h3 {
     font-size: 119%;
-    margin: 0%;
+    margin: 3%;
   }
 
   h2 {
     font-size: 144%;
-    margin-top: 12%;
+    margin-top: 18%;
     color: black;
-    margin-left: -23%;
+    margin-left: -6%;
 
   }
 
   .perfil {
-    margin: 5% 0% 13% -30%;
+    margin: 31% 0% 37% -30%;
   }
   
 }
@@ -281,7 +281,7 @@ h2 {
 }
 .perfil {
   width: 80px;
-  margin: 12% 0% 27% -27%;
+  margin: 12% 0% 27% -45%;
 }
 
     .black {
@@ -292,7 +292,7 @@ h2 {
   
 }
 .p1 {
-  font-size: 112%;
+  font-size: 152%;
   letter-spacing: 0px;
   display: table-cell;
 }

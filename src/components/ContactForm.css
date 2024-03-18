@@ -36,17 +36,18 @@ label {
 input,
 textarea {
   width: 45%;
-  padding: 13px;
+  padding: 17px;
   margin-top: 5px;
   border: 1px solid #000000;
   border-radius: 10px;
-  margin: 0% -1% 0% 0%; /* Evita duplicados de esta regla */
+  margin: 3% 13% 0% 0%;
 }
 
 .box{
   height: 66%;
   width: 27%;
-  padding: 0% 10% 10% 10%;
+  padding: 48% 60% 10% 10%;
+  margin: 0% 0% 0% -12%;
 }
 
 button {
@@ -69,8 +70,8 @@ button:hover {
   }
   
   label {
-    font-size: 18px;
-    margin: 16% 0% 0% 0%;
+    font-size: 118%;
+    margin: 16% 14% 0% 0%;
     color: white;
   }
 }
@@ -95,7 +96,7 @@ button:hover {
 
 @media (max-width: 320px) {
   button {
-    margin: -1px 3px 30px 3px;
+    margin: 0% 0% 0% -18%;
   }
   form {
     width: 80%;
