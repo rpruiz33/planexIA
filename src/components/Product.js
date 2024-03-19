@@ -4,8 +4,8 @@ const Product = ({ productId, productName }) => {
   return (
     <div>
       <h2>{productName}</h2>
-      <p>DOLIBARR 18.0.4 ERP Y CRM</p>
-      <img src="/dolibarr.png" alt="Logo de la aplicación" className="App-logo2" />
+      <p>ODOO 17 ERP Y CRM</p>
+      <img src="/oddo-erp-crm-600x315-1.png" alt="Logo de la aplicación" className="App-logo2" />
       <p>Soluciones ERP y CRM para su empresa</p>
     </div>
   );
