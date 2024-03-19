@@ -209,7 +209,7 @@ p {
 }
 .servicios {
   width: 100%;
-    margin: 0% 6% 0% 8%;
+  margin: 0% 6% 0% 3%;
 }
 .service-group nav {
   flex-grow: 0;
