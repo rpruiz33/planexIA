@@ -578,7 +578,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% 169% -59% 0%;
+    margin: -10% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   }
@@ -587,7 +587,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% 169% -59% 0%;
+    margin: -10% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -597,7 +597,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% 169% -59% 0%;
+    margin: -10% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -607,7 +607,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% 169% -59% 0%;
+    margin: -10% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -617,7 +617,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% 169% -59% 0%;
+    margin: -10% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -627,7 +627,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: -7% 169% -59% 0%;
+    margin: -10% 169% -59% 0%;
     padding: 67% 31% 12% 37%;
     width: 32%;
   
@@ -639,7 +639,7 @@ a {
   .service-detail p {
     display: flex;
     font-size: 284%;
-    margin: -191% 169% 209% -2%;
+    margin: -191% 169% 209% -9%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -672,7 +672,8 @@ a {
   .service-detail h2 {
     display: flex;
     color: black;
-    margin: -207% -160% 211% 3%;
+    margin: -207% -160% 211% -10%;
+
     width: 26%;
     font-size: 270%;
 }
@@ -690,7 +691,7 @@ a {
   }
   .service-link2{
     display: flex;
-    margin: 2% -103% 0% 93%;
+    margin: 2% -103% 0% 87%;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
@@ -708,7 +709,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -23% 0%;
+  margin: 0% -7% -29% -79%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor1 {
@@ -716,7 +717,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -23% 0%;
+  margin: 0% -7% -29% -79%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor2 {
@@ -724,7 +725,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -23% 0%;
+  margin: 0% -7% -29% -79%;
   padding: 0% 40% 6% 28%;
 
 
@@ -734,7 +735,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -23% 0%;
+  margin: 0% -7% -29% -79%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor4 {
@@ -742,7 +743,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -23% 0%;
+  margin: 0% -7% -29% -79%;
   padding: 0% 40% 6% 28%;
 }
 .contenedor5 {
@@ -750,7 +751,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  margin: 30% -4% -23% 0%;
+  margin: 0% -7% -29% -79%;
   padding: 0% 40% 6% 28%;
 }
 .text2{
@@ -771,10 +772,11 @@ a {
 
   .service-link2 {
     color: black;
-    display: flex;
-    font-size: 68%;
+    position: relative;
+    display: block;
+    font-size: 91%;
     font-weight: 700;
-    margin: 10% -16% -48% 87%;
+    margin: 8% -16% -48% 83%
     
   }
   .service-detail p {
@@ -786,32 +788,45 @@ a {
     color: #ffffffcc;
   }
     .service-detail p {
-      display: block;
+      display: flex;
       font-size: 198%;
-      margin: 24% 14% 12% 8%;
+      margin: 24% 11% 10% -3%;
       color: black;
       line-height: 1.5em;
       text-decoration: underline;
-    
   }
+  
+  
+    
+  
   .service-detail h2 {
     color: black;
-    margin: 94% 3% -2% -2%;
+    color: black;
+    margin: 6% 32% -2% -2%;
+    font-size: 220%;
     font-size: 220%;
   }
   a {
     color: black;
     margin: 0% 0% 0% 0%;
+
 }
 }
 @media screen and (min-width: 320px) and (max-width: 375px) {
-  
+  div .service-detail{
+    margin:0%
+  }
+  .service-link2{
+    display: flex;
+    margin: 2% -103% 0% 87%;
+  }
+
   .contenedor {
     background-image: url("../../public/2.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% -23% 0%;
+    margin: 0% -116% -23% 70%;
     padding: 1% 30% 6% 26%;
     width: 44%
   
@@ -821,7 +836,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% -23% 0%;
+    margin: 0% -116% -23% 70%;
     padding: 1% 30% 6% 26%;
     width: 44%
   }
@@ -830,7 +845,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% -23% 0%;
+    margin: 0% -116% -23% 70%;
     padding: 1% 30% 6% 26%;
     width: 44%
   }
@@ -839,7 +854,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% -23% 0%;
+    margin: 0% -116% -23% 70%;
     padding: 1% 30% 6% 26%;
     width: 44%
   }
@@ -849,7 +864,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% -23% 0%;
+    margin: 0% -116% -23% 70%;
     padding: 1% 30% 6% 26%;
     width: 44%
   }
@@ -858,7 +873,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: -10% -116% -23% 0%;
+    margin: 0% -116% -23% 70%;
     padding: 1% 30% 6% 26%;
     width: 44%
   }
@@ -880,7 +895,7 @@ p {
 .service-detail p {
   display: flex;
   font-size: 177%;
-  margin: 19% -38% 12% 6%;
+  margin: 19% -38% 12% -11%;
 
   width: 31%;
   color: black;
@@ -890,7 +905,7 @@ p {
 }
 .service-detail h2 {
   color: black;
-  margin: 14% -13% 0% 14%;
+  margin: 14% -13% 0 -1%;
   font-size: 158%;
 }
 a {
