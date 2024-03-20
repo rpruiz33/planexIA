@@ -107,7 +107,7 @@ p {
   .service-group {
     display: flex;
     flex-wrap: nowrap;
-    margin: 11% 8% 10% 2%;
+    margin: 11% 7% 10% 2%;
 }
 }
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ p {
   .service-group {
     display: flex;
     flex-wrap: nowrap;
-    margin: 16% 5% 10% 9%;
+    margin: 13% 6% 10% 3%;
 }
 } 
 @media (max-width: 425px) {
@@ -145,9 +145,9 @@ p {
 .service-group {
   display: flex;
   flex-wrap: nowrap;
-  margin: 16% 9% 10% 9%;
-  font-size: 69%
-  }
+  margin: 10% 11% 10% 9%;
+  font-size: 98%;
+}
 .service-link {
   color: #ffffff;
   text-decoration: none;
@@ -184,7 +184,7 @@ p {
   .service-group {
     display: flex;
     flex-wrap: nowrap;
-    margin: 16% 5% 10% 9%;
+    margin: 15% 5% 16% 3%;
     }
 }
 
@@ -198,13 +198,13 @@ p {
     text-decoration: none;
     font-weight: bold;
     margin: 8% 28% 17% -1%;
-    font-size: 100%;
+    font-size: 86%;
     display: block;
 }
 .service-group {
   display: flex;
   flex-wrap: nowrap;
-  margin: 11% 1% 10% 2%;
+  margin: 9% 1% 10% 2%;
   }
 .description{
   
