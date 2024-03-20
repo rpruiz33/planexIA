@@ -137,6 +137,11 @@ p {
   flex-direction: column;
   border-radius: 5%;
 }
+.servicios {
+  width: 100%;
+  margin: 0 4% -10% 3%;
+
+}
 .service-group {
   display: flex;
   flex-wrap: nowrap;
@@ -163,7 +168,8 @@ p {
   }
   .servicios {
     width: 100%;
-  
+    margin: 0 4% -10% 3%;
+
   }
 
     .service-link {
@@ -210,7 +216,7 @@ p {
 }
 .servicios {
   width: 100%;
-  margin: 0% 6% -11% 3%;
+  margin: 0 4% -10% 3%;
 
 }
 .service-group nav {
