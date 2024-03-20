@@ -2,6 +2,15 @@
   margin: 0px;
   padding: 0px;
 }
+h2 {
+  margin: 14% 0% 8% -5%;
+  font-size: 203%;
+  color: black;
+  text-decoration: underline;
+}
+.con{
+  margin: 4% 19% 6% 0%
+}
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -11,7 +20,7 @@
     margin: 0% 0% 0% 17%; /* Evita duplicados de esta regla */
       color: #ecf0f1;
   }
-  
+
 
 form {
   width: 80%;
@@ -76,9 +85,15 @@ button:hover {
     margin: 16% 5% 0% 0%;
     color: white;
   }
+  .con{
+    margin: 13% 12% 6% 0%;
+  }
 }
 
-@media (max-width: 540px) {
+@media (max-width:425px) {
+  .con{
+    margin: 13% 12% 6% 0%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -91,6 +106,9 @@ button:hover {
     background: #333;
     margin: 0% 11% 0% 5%
   }
+  .con{
+    margin: 13% 12% 6% 0%
+  }
 }
 
 @media (max-width: 320px) {
@@ -101,6 +119,9 @@ button:hover {
     width: 80%;
     
     margin: 0% 11% 0% 0%
+  }
+  .con{
+    margin: 10% 13% 6% 0%;
   }
 }
 
