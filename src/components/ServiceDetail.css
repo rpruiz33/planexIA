@@ -639,7 +639,7 @@ a {
   .service-detail p {
     display: flex;
     font-size: 284%;
-    margin: -191% 169% 209% -9%;
+    margin: -191% 169% 209% -54%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -648,7 +648,7 @@ a {
   .service-detail p.empre{
     display: block;
     font-size: 168%;
-    margin: 28% 169% 74% -30%;
+    margin: -190% 169% -23% -30%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -672,7 +672,7 @@ a {
   .service-detail h2 {
     display: flex;
     color: black;
-    margin: -207% -160% 211% -10%;
+    margin: -207% -160% 211% -41%;
 
     width: 26%;
     font-size: 270%;
@@ -826,9 +826,9 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 0% -116% -23% 70%;
+    margin: 0% -116% -23% 0%;
     padding: 1% 30% 6% 26%;
-    width: 44%
+    width: 44%;
   
   }
   .contenedor1 {
@@ -836,27 +836,27 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 0% -116% -23% 70%;
+    margin: 0% -116% -23% 0%;
     padding: 1% 30% 6% 26%;
-    width: 44%
+    width: 44%;
   }
   .contenedor2 {
     background-image: url("../../public/finanzas.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 0% -116% -23% 70%;
+    margin: 0% -116% -23% 0%;
     padding: 1% 30% 6% 26%;
-    width: 44%
+    width: 44%;
   }
   .contenedor3 {
     background-image: url("../../public/impexpo.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 0% -116% -23% 70%;
+    margin: 0% -116% -23% 0%;
     padding: 1% 30% 6% 26%;
-    width: 44%
+    width: 44%;
   }
 
   .contenedor4 {
@@ -864,18 +864,18 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 0% -116% -23% 70%;
+    margin: 0% -116% -23% 0%;
     padding: 1% 30% 6% 26%;
-    width: 44%
+    width: 44%;
   }
   .contenedor5 {
     background-image: url("../../public/seguimiento.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 0% -116% -23% 70%;
+    margin: 0% -116% -23% 0%;
     padding: 1% 30% 6% 26%;
-    width: 44%
+    width: 44%;
   }
 .text2{
   display: flex;
@@ -913,11 +913,12 @@ a {
   margin: -11% -4% 0% 0%;
 }
 .service-link2 {
-  color: #ffffff;
+  color: black;
   text-decoration: none;
-  font-weight: bold;
-  margin: 0% -83% 0% 3%;
-  font-size: 68%;
+  position: absolute;
+  /* font-weight: bold; */
+  margin: 6% -56% 0% 89%;
+  font-size: 40%;
   display: block;
 }
   
