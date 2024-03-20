@@ -32,7 +32,7 @@ const Navbar = () => {
         </NavLink>
 
         <div >
-          <h1 classname="tam" style={{ fontFamily: 'Oswald, sans-serif' }}>Servicios de Consultoría Estratégica</h1>
+          <h1 classname="tam" style={{ fontFamily: 'Oswald, sans-serif' }}>Consultoría Estratégica</h1>
           <p className='esty' style={{ fontFamily: 'Oswald, sans-serif' }}>Bienvenido a nuestra plataforma de consultoría estratégica.</p>
         </div>
 
