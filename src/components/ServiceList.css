@@ -34,7 +34,7 @@ li {
 }
 .servicios{
   width: 100%;
-  margin: 0% 0% 0% -15%;
+  margin: 0% 0% -10% -15%;
 
 }
 
@@ -117,7 +117,7 @@ p {
 
   .servicios {
     width: 100%;
-    margin: 0% 3% 0% 2%;
+    margin: 0% 3% -10% 2%;
   }
   .service-group {
     display: flex;
@@ -161,8 +161,8 @@ p {
 
   }
   .servicios {
-    width: 90%;
-    margin: 0% 3% 0% 0%;
+    width: 100%;
+    margin: 0% 0% 0% 0%;
   }
 
     .service-link {
@@ -197,7 +197,7 @@ p {
 .service-group {
   display: flex;
   flex-wrap: nowrap;
-  margin: 16% 5% 10% 9%;
+  margin: 11% 1% 10% 2%;
   }
 .description{
   
@@ -209,7 +209,8 @@ p {
 }
 .servicios {
   width: 100%;
-  margin: 0% 6% 0% 3%;
+  margin: 0% 6% -11% 3%;
+
 }
 .service-group nav {
   flex-grow: 0;
