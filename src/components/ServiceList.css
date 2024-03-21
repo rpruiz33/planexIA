@@ -47,7 +47,7 @@ p {
   text-decoration: none;
   font-weight: bold;
   margin: 3% 0% 2% 0%;
-  font-size: 112%;
+  font-size: 209%;
   width: 100%;
   padding: 24% 17% 24% 0%;
 }
@@ -107,7 +107,7 @@ p {
   .service-group {
     display: flex;
     flex-wrap: nowrap;
-    margin: 11% 7% 10% 2%;
+    margin: 11% 11% 10% 6%;
 }
 }
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ p {
   .service-group {
     display: flex;
     flex-wrap: nowrap;
-    margin: 13% 6% 10% 3%;
+    margin: 13% 7% 10% 5%;;
 }
 } 
 @media (max-width: 425px) {
@@ -145,7 +145,7 @@ p {
 .service-group {
   display: flex;
   flex-wrap: nowrap;
-  margin: 10% 11% 10% 9%;
+  margin: 10% 3% 10% 1%;
   font-size: 98%;
 }
 .service-link {
@@ -156,6 +156,11 @@ p {
   font-size: 100%;
   width: 100%;
   padding: 23% 19% 24% 0%;
+}
+.service-group {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 13% 2% 10% 5%;
 }
 }
 @media (max-width: 375px) {
