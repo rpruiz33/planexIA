@@ -13,12 +13,7 @@
   font-size: 199%;
 
   }
-  p .App-logo2 {
-    /* display: none; */
-    display: flex;
-    font-size: 100%;
-    margin: 0% 0% 0% 0%;
-}
+
 .ps{
   margin: 6% 17% 2% 30%;
   font-size: 229%;
@@ -59,12 +54,7 @@
     font-size: 385%;
   
     }
-    p .App-logo2 {
-      /* display: none; */
-      display: flex;
-      font-size: 100%;
-      margin: 0% 0% 0% 0%;
-  }
+    
   .ps{
     margin: 6% 17% 2% 30%;
     font-size: 229%;
@@ -91,12 +81,7 @@
       font-family: fantasy;
       font-size: 257%;  
     }
-    p .App-logo2 {
-      /* display: none; */
-      display: flex;
-      font-size: 100%;
-      margin: 0% 0% 0% 0%;
-  }
+
   .ps{
     margin: 6% 17% 2% 30%;
     font-size: 171%;
@@ -124,12 +109,7 @@
       font-family: fantasy;
   
     }
-    p .App-logo2 {
-      /* display: none; */
-      display: flex;
-      font-size: 100%;
-      margin: 0% 0% 0% 0%;
-  }
+  
   .ps{
     margin: 6% 17% 2% 21%;
     font-size: 100%;
@@ -157,12 +137,7 @@
   }
   
     }
-    p .App-logo2 {
-      /* display: none; */
-      display: flex;
-      font-size: 100%;
-      margin: 0% 0% 0% 0%;
-  }
+ 
   .ps{
     margin: 6% 17% 2% 21%;
     font-size: 100%;
@@ -194,12 +169,7 @@
       font-family: fantasy;
   
     }
-    p .App-logo2 {
-      /* display: none; */
-      display: flex;
-      font-size: 100%;
-      margin: 0% 0% 0% 0%;
-  }
+   
   .ps{
     margin: 6% 17% 2% 21%;
     font-size: 100%;
