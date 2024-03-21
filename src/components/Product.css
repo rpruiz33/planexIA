@@ -1,4 +1,213 @@
 * {
     margin: 0px;
     padding: 0px;
+  } .App-logo23{
+    width: 81%;
+  margin:0% 0% 0% 0%;
+  border-radius: 5% ;
+  }  .App-logo2{
+    width: 37%;
+  margin: 0% 0% 0% 31%;
+  font-style: oblique;
+  font-family: fantasy;
+  font-size: 286%;
+
   }
+  p .App-logo2 {
+    /* display: none; */
+    display: flex;
+    font-size: 100%;
+    margin: 0% 0% 0% 0%;
+}
+.ps{
+  margin: 6% 17% 2% 30%;
+  font-size: 229%;
+  display: flex;
+
+}
+.ps1{
+  margin: 6% 17% 2% 26%;
+  font-size: 268%;
+  display: flex;
+}
+
+  .HomeContainer12 {
+    background-image: url('../../public/product.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    font-size: 176%;
+    margin: 0% 3% -23% 0%;
+    padding: 1% 0% 40% 0%;
+
+  }
+ 
+ 
+  
+
+  @media  (max-width: 1024px) {
+    .App-logo23{
+      width: 81%;
+    margin:0% 0% 0% 0%;
+    border-radius: 5% ;
+    }  .App-logo2{
+      width: 37%;
+    margin: 0% 0% 0% 31%;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 385%;
+  
+    }
+    p .App-logo2 {
+      /* display: none; */
+      display: flex;
+      font-size: 100%;
+      margin: 0% 0% 0% 0%;
+  }
+  .ps{
+    margin: 6% 17% 2% 30%;
+    font-size: 229%;
+    display: flex;
+
+  }
+  .ps1{
+    margin: 6% 17% 2% 26%;
+    font-size: 268%;
+    display: flex;
+  }
+  
+  
+  
+  @media  (max-width: 768px) {
+    .App-logo23{
+      width: 81%;
+    margin:0% 0% 0% 0%;
+    border-radius: 5% ;
+    }  .App-logo2{
+      width: 81%;
+      margin: 0% 0% 0% 35%;
+      font-style: oblique;
+      font-family: fantasy;
+      font-size: 257%;  
+    }
+    p .App-logo2 {
+      /* display: none; */
+      display: flex;
+      font-size: 100%;
+      margin: 0% 0% 0% 0%;
+  }
+  .ps{
+    margin: 6% 17% 2% 30%;
+    font-size: 171%;
+    display: flex;
+  }
+  .ps1 {
+    margin: 8% 17% 2% 22%;
+    font-size: 144%;
+    display: flex;
+}
+  
+  
+  
+  
+  }
+  } @media  (max-width: 426px) {
+    .App-logo23{
+      width: 81%;
+    margin:0% 0% 0% 0%;
+    border-radius: 5% ;
+    }  .App-logo2{
+      width: 81%;
+      margin: 0% 0% 0% 17%;
+      font-style: oblique;
+      font-family: fantasy;
+  
+    }
+    p .App-logo2 {
+      /* display: none; */
+      display: flex;
+      font-size: 100%;
+      margin: 0% 0% 0% 0%;
+  }
+  .ps{
+    margin: 6% 17% 2% 21%;
+    font-size: 100%;
+    display: flex;
+  }
+  .ps1{
+  
+    margin: 10% 17% -24% 21%;
+    font-size: 118%;
+    display: flex;
+  }
+  
+  
+  @media  (max-width: 376px) {
+    .App-logo23{
+      width: 81%;
+    margin:0% 0% 0% 0%;
+    border-radius: 5% ;
+    }  .App-logo2{
+      width: 20%;
+      margin: 0% 0% 0% 13%;
+      font-style: oblique;
+      font-family: fantasy;
+  
+    }
+    p .App-logo2 {
+      /* display: none; */
+      display: flex;
+      font-size: 100%;
+      margin: 0% 0% 0% 0%;
+  }
+  .ps{
+    margin: 6% 17% 2% 21%;
+    font-size: 100%;
+    display: flex;
+  }
+  .ps1{
+  
+  margin: 6% 17% 2% 21%;
+      font-size: 100%;
+      display: flex;
+  }
+  
+  
+  
+  
+  }
+ 
+  
+  } @media  (max-width: 320px) {
+
+    .App-logo23{
+      width: 81%;
+    margin:0% 0% 0% 0%;
+    border-radius: 5% ;
+    }  .App-logo2{
+      width: 81%;
+      margin: 0% -3% 0% 8%;
+      font-style: oblique;
+      font-family: fantasy;
+  
+    }
+    p .App-logo2 {
+      /* display: none; */
+      display: flex;
+      font-size: 100%;
+      margin: 0% 0% 0% 0%;
+  }
+  .ps{
+    margin: 6% 17% 2% 21%;
+    font-size: 100%;
+    display: flex;
+  }
+  .ps1{
+  
+  margin: 6% 17% 2% 21%;
+      font-size: 100%;
+      display: flex;
+  }
+    }
+    
