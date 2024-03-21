@@ -99,7 +99,7 @@ h2 {
   }
   h3 {
     margin: -6% 0% 6% 0%;
-    font-size: 257%;
+    font-size: 195%;
   }
   .p1 {
     color: white;
@@ -113,8 +113,8 @@ h2 {
     width: -37%;
   }
   .perfil {
-    width: 150px;
-    margin: -4% -17% 48% -5%;
+    width: 251px;
+    margin: -4% -17% 48% 4%;
     border-radius: 20%;
     border: 4px solid #000000;
 }
@@ -123,8 +123,12 @@ h2 {
     width: 7%;
     border-radius: 10px;
     border: 3px solid #000000;
-    margin: 20% -11% 33% -14%;
-  }
+    margin: 20% -4% 33% -20%;
+
+}
+
+
+  
 }
 
 
@@ -214,13 +218,14 @@ h2 {
 .black {
   color: #000000;
   font-size: 412%;
-  margin: -2% 0% 0% 16%;
+  margin: -2% 0% -29% 16%;
 
   text-decoration: underline;
 }
   h3 {
+
     font-size: 154%;
-    margin: -2% 0% 7% 0%;
+    margin: 30% 0% 5% 0%;
   }
   h2 {
    
@@ -231,7 +236,7 @@ h2 {
   }
 
   .perfil {
-    margin: 18% 0% 13% -30%;
+    margin: 18% 0 13% -40%;
   }
   .footer {
     
