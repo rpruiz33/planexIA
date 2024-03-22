@@ -22,6 +22,7 @@ a {
   flex-direction: column;
   cursor: pointer;
   padding: 10px;
+  color :white;
 }
 
 .bar {
@@ -68,6 +69,13 @@ p {
   font-size: 195%;
 }
 @media (max-width: 768px) {
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    color :white;
+  }
   .nav2 {
     display: none;
     flex-direction: column;
@@ -78,8 +86,7 @@ p {
     background-color: #333;
   }
   .nav2 a {
-    color:black;
-    text-decoration: none;
+      text-decoration: none;
     transition: color 0.3s ease;
     margin: 0%;
   }
@@ -99,15 +106,40 @@ p{
   width: 50%;
 }
   .nav2.open {
-    height: 51%;
+    height: 48%;
     display: flex;
-    margin: -10% -1% 0% 3%;
-
+    margin: -23% -1% 0% 3%;
     width: 20%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #ffffff
+    background-color: black;
+
+      border-radius: 10px; /* Radio del borde */
+      border: 2px solid white; /* Color del borde */
+    
+    
+}
+}
+@media (max-width: 768px){
+.nav2.open {
+    height: 51%;
+    display: flex;
+    margin: -11% -1% 0% 3%;
+    width: 20%;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+
+      border-radius: 10px; /* Radio del borde */
+      border: 2px solid white; /* Color del borde */
+   
+    
+    
+
+
+
   }
 
   .menu-icon {
@@ -141,15 +173,18 @@ p{
 
   }
   .nav2.open {
-    height: 51%;
+    height: 48%;
     display: flex;
-    margin: -20% -1% 0% 3%;
+   
+    margin: -21% -1% 0% 3%;
 
     width: 20%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #ffffff
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
   }
 h1{
 
@@ -157,26 +192,13 @@ h1{
 }
   .navbar {
     width: 84%;
-    margin: 50px 6px 3px 25px;
+    margin: 26% 2% 0% 5%;
   }
 
   .menu-icon {
     display: flex;
     margin: 10% 0% 0% 0%;
     padding: 10px;
-  }
-
-  .nav2.open {
-    height: 42%;
-    display: flex;
-    margin: -21% -1% 0% -3%;
-    width: 66px;
-    border-radius: 10px 10px 0px 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 2px;
-    width: 17%;
-    background-color: #ffffff
   }
   .App-logo {
     box-shadow: 16px 14px 20px #6b6b6b;
@@ -186,7 +208,7 @@ h1{
   }
   .nav2 a {
     margin-right: -6px;
-    color: black;
+   
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 17px;
@@ -195,6 +217,14 @@ h1{
 
 }
 @media (max-width: 375px) {
+  .nav2 a {
+    margin-right: -6px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 17px;
+    
+    color: white;
+}
   h1 {
     color: rgb(255, 255, 255);
     width: 43%;
@@ -217,18 +247,21 @@ p{
     display: flex;
     margin: 0 auto; 
     padding: 10px;
+    color: white;
   }
 
   .nav2.open {
-    height: 39%;
+    height: 37%;
     display: flex;
-    margin: -20% -1% 0% 3%;
-    width: 19%;
+    margin: -24% -1% 0% 3%;
+    width: 21%;
     border-radius: 10px 10px 0px 10px;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: black;
     font-size: 63%;
+
   }
+
   .App-logo {
     
     object-fit: contain; 
@@ -237,7 +270,7 @@ p{
   }
   .nav2 a {
     margin-right: -6px;
-    color: black;
+    
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 17px;
@@ -283,7 +316,7 @@ p{
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff
+    background-color: black;
   }
   .App-logo {
     box-shadow: 16px 14px 20px #0000008c;
@@ -293,7 +326,7 @@ p{
   }
   .nav2 a {
     margin-right: 14%;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 13px;
@@ -318,10 +351,18 @@ p{
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
-    background: #333;
+    background-color: black;
   }
 }
 h1{
   font-size: large;
 }
-}
+.menu-icon {
+  display: flex;
+  margin: 0 auto; 
+  padding: 10px;
+  color:white; 
+
+
+
+}}

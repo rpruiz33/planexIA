@@ -5,12 +5,12 @@
 
 
   .icon-linkedin {
-    color: black;
+    color: white;
     margin: 0px -101px 0px -99px;
   }
   
   .icon-facebook {
-    color: black;
+    color: white;
     margin: 2px -97px 0px -14px;
   }
     @media (max-width: 1433px) 
@@ -41,7 +41,7 @@
 @media (max-width: 425px) {
 
   .icon-instagram {
-    color:  black;
+    color: white;
     margin: 7px -4px -12px 0px;
     border: double;
     border-radius: 10%;
@@ -58,7 +58,7 @@
       margin: 0px 0px 0px 0px;
     }
     .icon-instagram {
-      color:  black;
+      color:  white;
       margin: 7px -4px -12px 0px;
       border: double;
       border-radius: 10%;
@@ -70,7 +70,7 @@
     @media (max-width: 320px) {
 
     .icon-instagram {
-      color:  black;
+      color:  white;
       margin: 7px -4px -12px 0px;
       border: double;
       border-radius: 10%;
