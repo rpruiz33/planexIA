@@ -126,8 +126,9 @@ p {
     flex-wrap: nowrap;
     margin: 13% 7% 10% 10%;
 }
+}
 
-} @media screen and (min-width: 425px) and (max-width: 768px)
+ @media screen and (min-width: 425px) and (max-width: 768px)
 {
 .service-group nav {
   flex-grow: 0;
@@ -170,6 +171,14 @@ p {
   margin: 13% 11% 11% 4%;
 }
 }
+@media (max-width: 430px) {
+  .service-group {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 13% 7% 11% 4%;
+  }
+  
+  }
 
 @media screen and (min-width: 375px) and (max-width: 425px) 
   {
@@ -201,6 +210,14 @@ p {
     margin: 15% 5% 16% 3%;
     }
 }
+@media (max-width: 390px) {
+  .service-group {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 13% 3% 11% 6%;
+  }
+  
+  }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   h2 {

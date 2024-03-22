@@ -216,6 +216,70 @@ h1{
 
 
 }
+@media (max-width: 430px) {
+  .nav2.open {
+    height: 28%;
+    display: flex;
+    margin: -20% -1% 0% 3%;
+    width: 20%;
+    border-radius: 10px 10px 0px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+}
+@media (max-width: 390px) {
+  .nav2.open {
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 10px 10px 0 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 33%;
+    margin: -17% -1% 0% 3%;
+    width: 20%;
+}
+.menu-icon {
+  display: flex;
+  margin: 11% 0% -16% 0%;
+  padding: 10px;
+}
+.navbar {
+  margin: 25% 2% 20% 5%;
+  width: 84%;
+}
+.service-detail h2 {
+  color: #000;
+  font-size: 220%;
+  margin: 10% 32% -2% 66%;
+
+}
+.service-detail p {
+  color: #fffc;
+  color: #000;
+  display: block;
+  display: flex;
+  font-size: 112%;
+  font-size: 154%;
+  line-height: 1.5em;
+  margin: 36% 83% -7% -71%;
+  margin: 9% 11% 5% 60%;
+  text-decoration: underline;
+  width: 42%;
+}
+.service-link2 {
+  color: #000;
+  display: block;
+  font-size: 91%;
+  font-weight: 700;
+  margin: 9% -16% -32% 66%;
+  position: relative;
+}
+}
 @media (max-width: 375px) {
   .nav2 a {
     margin-right: -6px;
