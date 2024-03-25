@@ -3,7 +3,7 @@ import './ContactForm.css';
 
 const ContactForm = () => {
   const [response, setResponse] = useState(null);
-  const [messageSent, setMessageSent] = useState(false);
+  let [messageSent, setMessageSent] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,14 +19,17 @@ const ContactForm = () => {
       });
       const data = await response.json();
       console.log('Datos recibidos:', data);
+      console.log('Estado de messageSent:', messageSent); 
+    // Cambiar el estado a true cuando el formulario se envíe correctamente
+      console.log('11111'); 
       setResponse(data);
-      setMessageSent(true); // Cambiar el estado a true cuando el formulario se envíe correctamente
      
+
     } catch (error) {
       console.error('Error al enviar los datos:', error);
     }
   };
-  console.log('Estado de messageSent:', messageSent); 
+
   return (
     <div className="contact-form-container" style={{ fontFamily: 'Oswald, sans-serif' }}>
       <h2 className='con'>Contacto</h2>
