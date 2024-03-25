@@ -11,6 +11,21 @@ h2 {
 .con{
   margin: 4% 19% 6% 0%
 }
+.response-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}.message-sent{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
   .contact-form-container {
     display: flex;
     flex-direction: column;

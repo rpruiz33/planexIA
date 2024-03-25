@@ -10,7 +10,7 @@ const Footer = () => {
           <div className='left'>
             <img src="planexia.png" alt="" className='logo123' />
             <div className="title-footer">
-              <a className='contact'>Contactos y Redes Sociales</a>
+              <p className='contact'>Contactos y Redes Sociales</p>
             </div>
          
             <div className="address-icon">
@@ -20,7 +20,7 @@ const Footer = () => {
             <br></br>
             <div className="social-icons">
            
-              <a className="icon2"href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram"></i></a>
+              <a className="icon2"href="https://www.instagram.com/" target=""><i className="fa fa-instagram"></i></a>
               <br></br>
               <br></br>
               <a className="icon3"href="https://www.linkedin.com/in/planexia-s-a-3571b52b4/" target="_blank"><i className="fa fa-linkedin"></i></a>
