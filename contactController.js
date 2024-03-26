@@ -3,4 +3,5 @@ exports.submitForm = (req, res) => {
     console.log('Datos recibidos:', { name, email, message });
     const formData = { name, email, message };
     res.json(formData);
+    console.log('Datos recibidos:', { name, email, message });
   };

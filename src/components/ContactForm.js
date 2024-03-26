@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './ContactForm.css';
 
 const ContactForm = () => {
-  const [response, setResponse] = useState(null);
-  let [messageSent, setMessageSent] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,49 +16,53 @@ const ContactForm = () => {
         method: 'POST',
         body: formData
       });
-      const data = await response.json();
-      console.log('Datos recibidos:', data);
-      console.log('Estado de messageSent:', messageSent); 
-    // Cambiar el estado a true cuando el formulario se envíe correctamente
-      console.log('11111'); 
-      setResponse(data);
-     
-
+      
+      // Verificar si la respuesta fue exitosa
+      if (response.ok) {
+        setIsSuccess(false); // Establecer el estado de éxito a true
+      } else {
+        setIsSuccess(true); // Si hay algún error en la respuesta, establecer el estado de éxito a false
+      }
     } catch (error) {
       console.error('Error al enviar los datos:', error);
+      setIsSuccess(true); // Si hay un error al enviar los datos, establecer el estado de éxito a false
     }
   };
+
+  let content;
+  if (!isSuccess) {
+    content = (
+      <form onSubmit={handleSubmit} method="POST" action="http://localhost:5000/submit-form">
+        <div className="form-group">
+          <label htmlFor="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div className="form-group1">
+          <label htmlFor="message">Mensaje:</label>
+          <textarea className='box' id="message" name="message" required />
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    );
+  } else {
+    content = (
+      <div>
+        <p>¡Tu mensaje ha sido enviado correctamente!</p>
+      </div>
+    );
+  }
 
   return (
     <div className="contact-form-container" style={{ fontFamily: 'Oswald, sans-serif' }}>
       <h2 className='con'>Contacto</h2>
-      {!messageSent ? (
-        <form onSubmit={handleSubmit} method="POST" action="http://localhost:5000/submit-form">
-          <div className="form-group">
-            <label htmlFor="name">Nombre:</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-
-          <div className="form-group1">
-            <label htmlFor="message">Mensaje:</label>
-            <textarea className='box' id="message" name="message" required />
-          </div>
-
-          <button type="submit">Enviar</button>
-        </form>
-     
-      ) : (
-        <div >
-          <p>¡Tu mensaje ha sido enviado con éxito!</p>
-          {/* Puedes agregar aquí cualquier otra información o acción que desees */}
-        </div>
-      )}
-
+      {content}
     </div>
   );
 };
