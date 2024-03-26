@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
-
+import SuccessMessage from './SuccessMessage';
 const ContactForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
 
@@ -33,6 +33,7 @@ const ContactForm = () => {
   if (!isSuccess) {
     content = (
       <form onSubmit={handleSubmit} method="POST" action="http://localhost:5000/submit-form">
+          <h2 className='con'>Contacto</h2>
         <div className="form-group">
           <label htmlFor="name">Nombre:</label>
           <input type="text" id="name" name="name" required />
@@ -54,14 +55,14 @@ const ContactForm = () => {
   } else {
     content = (
       <div>
-        <p>¡Tu mensaje ha sido enviado correctamente!</p>
+        <SuccessMessage />
       </div>
     );
   }
 
   return (
     <div className="contact-form-container" style={{ fontFamily: 'Oswald, sans-serif' }}>
-      <h2 className='con'>Contacto</h2>
+    
       {content}
     </div>
   );
