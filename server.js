@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const bodyParser = require('body-parser');
-const contactController = require('./contactController');
+
 const app = express();
 const PORT = 5000; // Puedes cambiar este puerto si es necesario
 
@@ -14,10 +14,8 @@ app.use((req, res, next) => {
   next();
 });
 
-// Ruta para manejar la solicitud POST desde el formulario de contacto
-app.post('/submit-form', contactController.submitForm);
 
 // Iniciar el servidor
 app.listen(PORT, () => {
-  console.log(`Servidor en ejecución en http://localhost:${PORT}`);
+  console.log(`servidor en ejecución en http://localhost:${PORT}`);
 });

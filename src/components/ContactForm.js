@@ -41,7 +41,7 @@ const ContactForm = () => {
           </div>
           <div className="form-group1">
             <label htmlFor="message">Mensaje:</label>
-            <textarea className='box' id="message" name="message" required />
+            <input className='email2' id="message" name="message" required />
           </div>
           <button type="submit">Enviar</button>
         </form>
