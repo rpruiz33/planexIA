@@ -84,10 +84,10 @@ form {
   padding-bottom: 10%;
 }
 h2 {
-  margin: 15% 0% 8% -39%;
+  margin: 15% 0% 8% 0%;
   font-size: 203%;
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 @media  (max-width: 1440px) {
 
@@ -177,13 +177,10 @@ h2 {
 
   h2 {
     
-    font-size: 246%;
-    margin: 11% 0% -22% -11%;
-    
+    font-size: 271%;
+    margin: 13% 0% -22% 0%;
     color: black;
     display: flex;
-
-
   }
   form {
     width: 80%;

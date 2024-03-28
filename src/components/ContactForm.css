@@ -121,15 +121,27 @@ button:hover {
     height: 69%;
     margin: 0% 0% 18% 9%;
   }
+  .con {
+    margin: 4% 19% 6% 29%;
+    font-size: 389%;
+    font-style: oblique;
+    font-family: fantasy;
+}
+  input, textarea {
+    width: 48%;
+    padding: 5%;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 3% 13% 0% 13%;
+}
   
   label {
     font-size: 118%;
     margin: 16% 5% 0% 0%;
     color: white;
   }
-  .con{
-    margin: 13% 12% 6% 0%;
-  }
+
   .centrar{
     margin: 13% 7% -12% -1%;
     font-size: 194%;
@@ -168,6 +180,15 @@ button:hover {
   button {
     margin: auto;
   }
+  
+  input, textarea {
+    width: 42%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 3% 13% 0% 13%;
+}
   form {
     width: 80%;
     
