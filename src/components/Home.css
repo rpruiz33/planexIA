@@ -195,6 +195,24 @@ h2 {
   text-decoration: underline;
 }
 }
+@media (max-width: 430px) {
+  .service-detail h2 {
+    display: flex;
+    color: black;
+    margin: -207% -160% 211% -44%;
+    width: 26%;
+    font-size: 270%;
+
+}
+.service-detail p {
+  display: flex;
+  font-size: 284%;
+  margin: -191% 169% 209% -44%;
+  width: 37%;
+  color: black;
+  text-decoration: underline;
+}
+}
 @media (max-width: 426px) {
   .black {
     color: #000000;

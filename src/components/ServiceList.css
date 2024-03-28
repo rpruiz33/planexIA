@@ -209,7 +209,13 @@ p {
     flex-wrap: nowrap;
     margin: 15% 5% 16% 3%;
     }
+    .service-group {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 10% 8% 10% 5%;
+
 }
+  }
 @media (max-width: 390px) {
   .service-group {
     display: flex;
@@ -235,7 +241,10 @@ p {
 .service-group {
   display: flex;
   flex-wrap: nowrap;
-  margin: 9% 1% 10% 2%;
+     margin: 9% 2% 10% -2%;
+
+
+
   }
 .description{
   
