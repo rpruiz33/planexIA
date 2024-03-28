@@ -199,16 +199,15 @@ h2 {
   .service-detail h2 {
     display: flex;
     color: black;
-    margin: -207% -160% 211% -44%;
+    margin: 3% 0% 0% -5%;
     width: 26%;
-    font-size: 270%;
+    font-size: 242%;
 
 }
 .service-detail p {
   display: flex;
-  font-size: 284%;
-  margin: -191% 169% 209% -44%;
-  width: 37%;
+  font-size: 192%;
+  margin: 19% 169% 16% -11%;
   color: black;
   text-decoration: underline;
 }
@@ -356,4 +355,18 @@ h2 {
   width: 29px;
 
 }
+p.empre{
+display: flex;
+    font-size: 192%;
+    margin: 19% 169% 16% -14%;
+    color: black;
+    text-decoration: underline;
+}
+p.empre1{
+  display: flex;
+      font-size: 192%;
+      margin: 20% 169% 16% -11%;
+      color: black;
+      text-decoration: underline;
+  }
 }

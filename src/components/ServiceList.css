@@ -241,7 +241,7 @@ p {
 .service-group {
   display: flex;
   flex-wrap: nowrap;
-     margin: 9% 2% 10% -2%;
+  margin: 9% 2% 10% 1%;
 
 
 

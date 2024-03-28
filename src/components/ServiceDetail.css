@@ -542,7 +542,7 @@ a {
 .service-detail h2.empre3 {
   color: black;
   font-size: 278%;
-  margin: -2% 0% 2% 20%;
+  margin: -199% 0% 0% 0%;
 
 }
 .service-detail p.empre{
@@ -568,6 +568,23 @@ a {
 a {
   color: black;
   margin: -11% -4% 0% 0%;
+}
+.service-detail p.empre{
+  display: block;
+  font-size: 204%;
+  margin: -150% 0% 0% -24%;
+  width: 37%;
+  color: black;
+  text-decoration: underline;
+}
+
+.service-detail p.empre1{
+display: block;
+font-size: 204%;
+margin:0%;
+width: 37%;
+color: black;
+text-decoration: underline;
 }
 }@media screen and (min-width: 425px) and (max-width: 768px) {
 
@@ -646,8 +663,8 @@ a {
   }
   .service-detail p.empre{
     display: block;
-    font-size: 168%;
-    margin: -190% 169% -23% -30%;
+    font-size: 204%;
+    margin: -150% 0% 0% -24%;
     width: 37%;
     color: black;
     text-decoration: underline;
@@ -655,8 +672,8 @@ a {
 
 .service-detail p.empre1{
   display: block;
-  font-size: 168%;
-  margin: 28% 169% 74% -30%;
+  font-size: 204%;
+  margin: -26% 169% 155% -40%;
   width: 37%;
   color: black;
   text-decoration: underline;
@@ -890,7 +907,12 @@ p {
  
   
 }
+.service-detail h2.empre3 {
+  color: black;
+  font-size: 245%;
+  margin: -1% 0% 2% -14%;
 
+}
 .service-detail p {
   display: flex;
   font-size: 177%;
@@ -917,7 +939,7 @@ a {
   position: absolute;
   /* font-weight: bold; */
   margin: 6% -56% 0% 89%;
-  font-size: 40%;
+  font-size: 54%;
   display: block;
 }
   
